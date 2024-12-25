@@ -1,12 +1,7 @@
 const { Router } = require('express');
 const crypto = require('crypto');
+const Util = require('../../../../../AppAssets/Util');
 const app = Router();
-
-function makeISODate(addYear = 0) {
-    const date = new Date();
-    date.setFullYear(date.getFullYear() + addYear);
-    return date.toISOString().replace('Z', '000+00:00');
-}
 
 app.get('/', (req, res) => {
     const randomData = crypto.randomBytes(16);
@@ -14,11 +9,11 @@ app.get('/', (req, res) => {
 		request_id: crypto.createHash('md5').update(randomData).digest('hex'),
 		entries: [],
 		entries_hash: 0,
-		expired_at: makeISODate(10),
+		expired_at: Util.makeISODate(10),
 		refresh_stale_inbox_after_ms: 3_000_000,
 		refresh_token: Buffer.from(
 			JSON.stringify({
-				created_at: makeISODate(),
+				created_at: Util.makeISODate(),
 				content_hash: crypto
 					.createHash('sha256')
 					.update(randomData)

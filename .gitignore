@@ -92,7 +92,7 @@ out
 # Dont escape Vencord ...
 /dist
 /VencordDBC
-/DiscordCore
+test.js
 
 # Gatsby files
 .cache/

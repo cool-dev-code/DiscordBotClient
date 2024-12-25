@@ -1,13 +1,13 @@
 const { Router } = require('express');
-const request = require('request');
 const fs = require('fs');
 const path = require('path');
-const fetch = require('node-fetch');
-const package = require('../../../../package.json');
+const { fetch } = require('undici');
+const request = require('request');
+const Constants = require('../../../Constants');
 
 const staticFolder = path.resolve('.', 'AppAssets', 'assets');
 
-if (package.cacheAssets && !fs.existsSync(staticFolder)) {
+if (Constants.CacheAssetsMode && !fs.existsSync(staticFolder)) {
 	fs.mkdirSync(staticFolder);
 }
 
@@ -18,7 +18,7 @@ app.get('/', async (req, res) => {
 	if (fileName.endsWith('.map')) {
 		return res.status(404).send();
 	}
-	else if (fileName.endsWith('.js') && package.cacheAssets) {
+	else if (fileName.endsWith('.js') && Constants.CacheAssetsMode) {
 		// Readdir
 		if (fs.readdirSync(staticFolder).includes(fileName)) {
 			res.type('.js');
@@ -32,7 +32,7 @@ app.get('/', async (req, res) => {
 			res.type('.js');
 			res.send(content);
 		}
-	} else if (fileName.endsWith('.css') && package.cacheAssets) {
+	} else if (fileName.endsWith('.css') && Constants.CacheAssetsMode) {
 		// Readdir
 		if (fs.readdirSync(staticFolder).includes(fileName)) {
 			res.type('.css');
@@ -46,8 +46,7 @@ app.get('/', async (req, res) => {
 			res.type('.css');
 			res.send(content);
 		}
-	}
-	else {
+	} else {
 		return req
 			.pipe(request('https://discord.com/assets/' + fileName))
 			.pipe(res);

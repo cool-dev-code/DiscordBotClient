@@ -1,8 +1,8 @@
 const { Router } = require('express');
-const SystemMessages = require('../../../../AppAssets/SystemMessages');
+const GetSystemMessages = require('../../../../AppAssets/SystemMessages');
 const app = Router();
 
-app.all('/', (req, res) => {
+app.all('/', async (req, res) => {
 	switch (req.method.toLowerCase()) {
 		case 'delete':
 		case 'patch':
@@ -10,6 +10,7 @@ app.all('/', (req, res) => {
 			return res.status(403).send('Forbidden');
 		}
 		default: {
+			const SystemMessages = await GetSystemMessages();
 			return res.send(SystemMessages);
 		}
 	}

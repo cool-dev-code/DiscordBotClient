@@ -56,7 +56,7 @@ This is the readme file for the repo [VencordDBC](https://github.com/aiko-chan-a
 - **Changes:**
     ```ts
     get botClientVersion() {
-        return window.electron?.getBotClientVersion();
+        return window.BotClientNative?.getBotClientVersion() || "^3.6.0";
     },
     getInfoRows() {
         const { electronVersion, chromiumVersion, additionalInfo, botClientVersion } = this;
@@ -70,6 +70,16 @@ This is the readme file for the repo [VencordDBC](https://github.com/aiko-chan-a
         return rows;
     },
     ```
+
+### `src/plugins/_core/noTrack.ts`
+- **Summary:** Disable Sentry
+- **Changes:**
+```ts
+                const { stack } = new Error();
+                if (!(stack?.includes("discord.com") || stack?.includes("discordapp.com") || stack?.includes("localhost")) || !String(this).includes("exports:{}") || this.c != null) {
+                    return;
+                }
+```
 
 ### `src/plugins/botClient/**/*`
 - **Summary:** Contains botClient plugin and necessary components.

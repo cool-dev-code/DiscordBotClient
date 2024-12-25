@@ -1,5 +1,5 @@
 const { Router } = require('express');
-const fetch = require('node-fetch');
+const { fetch } = require('undici');
 
 const app = Router();
 

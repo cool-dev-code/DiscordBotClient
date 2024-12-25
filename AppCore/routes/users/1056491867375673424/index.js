@@ -1,9 +1,9 @@
 const { Router } = require('express');
-const UserPatch = require('../../../../AppAssets/UserPatch');
+const Constants = require('../../../Constants');
 const app = Router();
 
 app.get('/', (req, res) => {
-	res.send(UserPatch[1056491867375673424]);
+	res.send(Constants.UserDefaultPatch);
 });
 
 app.all('/*', (req, res) => {

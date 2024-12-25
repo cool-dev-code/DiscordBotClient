@@ -1,5 +1,15359 @@
 module.exports = [
 	{
+		sku_id: '1314020997204283476',
+		name: 'Winter Wonderland',
+		summary: 'Tis the season.',
+		store_listing_id: '1314020997195763753',
+		banner: '1314020997225123841',
+		unpublished_at: null,
+		styles: {
+			background_colors: [4620287, 1396431],
+			button_colors: [5793266, 5793266],
+			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
+		},
+		logo: '1314020997212668005',
+		hero_ranking: [
+			'1314020996201713685',
+			'1174460780842856588',
+			'1314020996864413717',
+			'1314020996361093171',
+			'1314020996570812506',
+			'1314020997137043578',
+			'1314020996252176444',
+			'1314020996273016863',
+			'1314020996776329279',
+			'1314020996327542894',
+			'1314020996227006484',
+			'1314020996432400404',
+			'1314020996461760542',
+			'1314020996491116575',
+			'1314020996516286485',
+			'1314020996600172554',
+			'1314020996629532686',
+			'1314020996663087154',
+			'1174459546748600481',
+			'1314020997166403624',
+			'1314020997107683411',
+			'1314020997078323200',
+			'1146328961417224193',
+			'1146328960951668776',
+			'1314020997019602984',
+			'1314020996960882789',
+			'1314020996990242816',
+			'1314020996310896672',
+			'1314020996289921154',
+			'1174459480348565554',
+			'1314020996721803306',
+			'1314020996692447234',
+		],
+		mobile_bg: '1314020997254484018',
+		pdp_bg: '1314020997242028104',
+		success_modal_bg: '1314020997263003660',
+		mobile_banner: '1314020997233643530',
+		featured_block: '1314020997271388202',
+		hero_banner: null,
+		hero_logo: '1314020997292363807',
+		products: [
+			{
+				sku_id: '1314020996201713685',
+				name: 'Aurora Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1314020996214427648',
+				banner: '1314020997225123841',
+				unpublished_at: null,
+				styles: {
+					background_colors: [4620287, 1396431],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1314020996348641370',
+						sku_id: '1314020996327542894',
+						asset: 'a_386445551be850bb16b73a225d0d0602',
+						label: 'Colorful polar lights in hues of pink, orange, cyan, and fuschia and twinkling stars shimmer over your avatar.',
+					},
+					{
+						type: 1,
+						id: '1314020996856152104',
+						sku_id: '1314020996776329279',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1314020997204283476',
+				bundled_products: [
+					{
+						sku_id: '1314020996327542894',
+						name: 'Aurora',
+						summary:
+							"Even the stars can't help but admire the view.",
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1314020996776329279',
+						name: 'Aurora Dreams',
+						summary: 'The perfect sky to dream under.',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {},
+			},
+			{
+				sku_id: '1314020996227006484',
+				name: 'String Lights Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1314020996239462463',
+				banner: '1314020997225123841',
+				unpublished_at: null,
+				styles: {
+					background_colors: [4620287, 1396431],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1174460802946834503',
+						sku_id: '1174460780842856588',
+						asset: 'a_88f42fb7360d8224a670a50c3496f315',
+						label: 'Festive string lights wrap around the profile photo, twinkling into the night.',
+					},
+					{
+						type: 1,
+						id: '1146328960481886318',
+						sku_id: '1146328960951668776',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1314020997204283476',
+				bundled_products: [
+					{
+						sku_id: '1174460780842856588',
+						name: 'String Lights',
+						summary: 'String up some holiday cheer.',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1146328960951668776',
+						name: 'Deck the halls',
+						summary: 'Keep out of reach from cats.',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {
+					5: '1314020996227006484_1318400283537051688',
+					7: '1314020996227006484_1318400315367882842',
+				},
+			},
+			{
+				sku_id: '1314020996252176444',
+				name: 'Aurora String Lights Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1314020996264755210',
+				banner: '1314020997225123841',
+				unpublished_at: null,
+				styles: {
+					background_colors: [4620287, 1396431],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1314020996453236806',
+						sku_id: '1314020996432400404',
+						asset: 'a_47136c333dc989a0f0f9852e878d3844',
+						label: 'Festive green and blue string lights wrap around the profile photo, twinkling into the night.',
+					},
+					{
+						type: 1,
+						id: '1314020996952621138',
+						sku_id: '1314020996927328276',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1314020997204283476',
+				bundled_products: [
+					{
+						sku_id: '1314020996432400404',
+						name: 'String Lights (Aurora)',
+						summary: 'String up some holiday cheer.',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1314020996927328276',
+						name: 'Deck the Halls (Aurora)',
+						summary: 'Keep out of reach from cats.',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {
+					5: '1314020996252176444_1318399582295691316',
+					7: '1314020996252176444_1318399604445806632',
+				},
+			},
+			{
+				sku_id: '1314020996273016863',
+				name: 'Ember String Lights Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1314020996281536574',
+				banner: '1314020997225123841',
+				unpublished_at: null,
+				styles: {
+					background_colors: [4620287, 1396431],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1314020996478664774',
+						sku_id: '1314020996461760542',
+						asset: 'a_63d17f42ee46a843d99a58655910bc6a',
+						label: 'Festive red and orange string lights wrap around the profile photo, twinkling into the night.',
+					},
+					{
+						type: 1,
+						id: '1314020997011341372',
+						sku_id: '1314020996990242816',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1314020997204283476',
+				bundled_products: [
+					{
+						sku_id: '1314020996461760542',
+						name: 'String Lights (Ember)',
+						summary: 'String up some holiday cheer.',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1314020996990242816',
+						name: 'Deck the Halls (Ember)',
+						summary: 'Keep out of reach from cats.',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {
+					5: '1314020996273016863_1318400370363338773',
+					7: '1314020996273016863_1318400397961990194',
+				},
+			},
+			{
+				sku_id: '1314020996289921154',
+				name: 'Dusk String Lights Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1314020996302376960',
+				banner: '1314020997225123841',
+				unpublished_at: null,
+				styles: {
+					background_colors: [4620287, 1396431],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1314020996508024832',
+						sku_id: '1314020996491116575',
+						asset: 'a_28e531da18a80b8287837332154c5f58',
+						label: 'Festive blue and yellow string lights wrap around the profile photo, twinkling into the night.',
+					},
+					{
+						type: 1,
+						id: '1314020996981981185',
+						sku_id: '1314020996960882789',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1314020997204283476',
+				bundled_products: [
+					{
+						sku_id: '1314020996491116575',
+						name: 'String Lights (Dusk)',
+						summary: 'String up some holiday cheer.',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1314020996960882789',
+						name: 'Deck the Halls (Dusk)',
+						summary: 'Keep out of reach from cats.',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {
+					5: '1314020996289921154_1318399853973209170',
+					7: '1314020996289921154_1318399879634092132',
+				},
+			},
+			{
+				sku_id: '1314020996310896672',
+				name: 'Mix String Lights Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1314020996319281292',
+				banner: '1314020997225123841',
+				unpublished_at: null,
+				styles: {
+					background_colors: [4620287, 1396431],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1314020996533190808',
+						sku_id: '1314020996516286485',
+						asset: 'a_dff769a0f922bb56ab0d4ba2bcbacfae',
+						label: 'Festive red, blue, and yellow string lights wrap around the profile photo, twinkling into the night.',
+					},
+					{
+						type: 1,
+						id: '1314020997036507268',
+						sku_id: '1314020997019602984',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1314020997204283476',
+				bundled_products: [
+					{
+						sku_id: '1314020996516286485',
+						name: 'String Lights (Mix)',
+						summary: 'String up some holiday cheer.',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1314020997019602984',
+						name: 'Deck the Halls (Mix)',
+						summary: 'Keep out of reach from cats.',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {
+					5: '1314020996310896672_1318399186034495488',
+					7: '1314020996310896672_1318399211460362240',
+				},
+			},
+			{
+				sku_id: '1314020996327542894',
+				name: 'Aurora',
+				summary: "Even the stars can't help but admire the view.",
+				store_listing_id: '1314020996340256808',
+				banner: '1314020997225123841',
+				unpublished_at: null,
+				styles: {
+					background_colors: [4620287, 1396431],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1314020996348641370',
+						sku_id: '1314020996327542894',
+						asset: 'a_386445551be850bb16b73a225d0d0602',
+						label: 'Colorful polar lights in hues of pink, orange, cyan, and fuschia and twinkling stars shimmer over your avatar.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1314020997204283476',
+				google_sku_ids: {
+					5: '1314020996327542894_1315915903887474729',
+					7: '1314020996327542894_1315915917938397227',
+				},
+			},
+			{
+				sku_id: '1314020996361093171',
+				name: 'Polar Bear Hat',
+				summary: 'Soft, cuddly, and a little bit snuffly.',
+				store_listing_id: '1314020996369616896',
+				banner: '1314020997225123841',
+				unpublished_at: null,
+				styles: {
+					background_colors: [4620287, 1396431],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1314020996378001438',
+						sku_id: '1314020996361093171',
+						asset: 'a_a7e6467b5332ab7a2b725aa225e6c752',
+						label: "Your avatar wears a cute polar bear hat that has a sniffly nose. A droplet dribbles from the polar bear's nose but it sniffs it back up just in time - whew.",
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1314020997204283476',
+				google_sku_ids: {
+					5: '1314020996361093171_1315916963951677450',
+					7: '1314020996361093171_1315916978128556072',
+				},
+			},
+			{
+				sku_id: '1174460780842856588',
+				name: 'String Lights',
+				summary: 'String up some holiday cheer.',
+				store_listing_id: '1314036495266611200',
+				banner: '1314020997225123841',
+				unpublished_at: null,
+				styles: {
+					background_colors: [4620287, 1396431],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1314020997204283476',
+				variants: [
+					{
+						sku_id: '1174460780842856588',
+						name: 'String Lights',
+						name_localizations: null,
+						summary: 'String up some holiday cheer.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1174460755660247182',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1174460802946834503',
+								sku_id: '1174460780842856588',
+								asset: 'a_88f42fb7360d8224a670a50c3496f315',
+								label: 'Festive string lights wrap around the profile photo, twinkling into the night.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#FF0FEB',
+						base_variant_sku_id: '1174460780842856588',
+						base_variant_name: 'String Lights',
+					},
+					{
+						sku_id: '1314020996432400404',
+						name: 'String Lights (Aurora)',
+						name_localizations: null,
+						summary: 'String up some holiday cheer.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1314020996440920114',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1314020996453236806',
+								sku_id: '1314020996432400404',
+								asset: 'a_47136c333dc989a0f0f9852e878d3844',
+								label: 'Festive green and blue string lights wrap around the profile photo, twinkling into the night.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Aurora',
+						variant_value: '#00C100',
+						base_variant_sku_id: '1174460780842856588',
+						base_variant_name: 'String Lights',
+					},
+					{
+						sku_id: '1314020996461760542',
+						name: 'String Lights (Ember)',
+						name_localizations: null,
+						summary: 'String up some holiday cheer.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1314020996470280202',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1314020996478664774',
+								sku_id: '1314020996461760542',
+								asset: 'a_63d17f42ee46a843d99a58655910bc6a',
+								label: 'Festive red and orange string lights wrap around the profile photo, twinkling into the night.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Ember',
+						variant_value: '#F97F38',
+						base_variant_sku_id: '1174460780842856588',
+						base_variant_name: 'String Lights',
+					},
+					{
+						sku_id: '1314020996491116575',
+						name: 'String Lights (Dusk)',
+						name_localizations: null,
+						summary: 'String up some holiday cheer.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1314020996495446157',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1314020996508024832',
+								sku_id: '1314020996491116575',
+								asset: 'a_28e531da18a80b8287837332154c5f58',
+								label: 'Festive blue and yellow string lights wrap around the profile photo, twinkling into the night.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Dusk',
+						variant_value: '#0834FF',
+						base_variant_sku_id: '1174460780842856588',
+						base_variant_name: 'String Lights',
+					},
+					{
+						sku_id: '1314020996516286485',
+						name: 'String Lights (Mix)',
+						name_localizations: null,
+						summary: 'String up some holiday cheer.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1314020996524806185',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1314020996533190808',
+								sku_id: '1314020996516286485',
+								asset: 'a_dff769a0f922bb56ab0d4ba2bcbacfae',
+								label: 'Festive red, blue, and yellow string lights wrap around the profile photo, twinkling into the night.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Mix',
+						variant_value: '#E7BE42',
+						base_variant_sku_id: '1174460780842856588',
+						base_variant_name: 'String Lights',
+					},
+				],
+			},
+			{
+				sku_id: '1174459546748600481',
+				name: 'Snowglobe',
+				summary: 'Try not to shake too hard.',
+				store_listing_id: '1314036495266611201',
+				banner: '1314020997225123841',
+				unpublished_at: null,
+				styles: {
+					background_colors: [4620287, 1396431],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1314020997204283476',
+				variants: [
+					{
+						sku_id: '1174459546748600481',
+						name: 'Snowglobe',
+						name_localizations: null,
+						summary: 'Try not to shake too hard.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1174459523092713642',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1184292714846621768',
+								sku_id: '1174459546748600481',
+								asset: 'a_2ca5fb1ecf0dac410b38d76cb4aae7f9',
+								label: "The avatar is trapped in a snowglobe. Don't ask me how to get it out.",
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#FEC371',
+						base_variant_sku_id: '1174459546748600481',
+						base_variant_name: 'Snowglobe',
+					},
+					{
+						sku_id: '1314020996570812506',
+						name: 'Snowglobe (Wood)',
+						name_localizations: null,
+						summary: 'Try not to shake too hard.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1314020996579332166',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1314020996591910912',
+								sku_id: '1314020996570812506',
+								asset: 'a_14088d7f62a47bf87196b56848751709',
+								label: "The avatar is trapped in a snowglobe with a wooden base. Don't ask me how to get it out.",
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Wood',
+						variant_value: '#875717',
+						base_variant_sku_id: '1174459546748600481',
+						base_variant_name: 'Snowglobe',
+					},
+					{
+						sku_id: '1314020996600172554',
+						name: 'Snowglobe (Pink)',
+						name_localizations: null,
+						summary: 'Try not to shake too hard.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1314020996608692284',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1314020996617076848',
+								sku_id: '1314020996600172554',
+								asset: 'a_62d47313767748fd144bf4088d559006',
+								label: "The avatar is trapped in a pink snowglobe. Don't ask me how to get it out.",
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Pink',
+						variant_value: '#EA7AAD',
+						base_variant_sku_id: '1174459546748600481',
+						base_variant_name: 'Snowglobe',
+					},
+					{
+						sku_id: '1314020996629532686',
+						name: 'Snowglobe (Blue)',
+						name_localizations: null,
+						summary: 'Try not to shake too hard.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1314020996638052392',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1314020996650369025',
+								sku_id: '1314020996629532686',
+								asset: 'a_b8fc6acd71909d7bed54090bde4ad2b1',
+								label: "The avatar is trapped in a blue snowglobe. Don't ask me how to get it out.",
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Blue',
+						variant_value: '#7EAFCB',
+						base_variant_sku_id: '1174459546748600481',
+						base_variant_name: 'Snowglobe',
+					},
+					{
+						sku_id: '1314020996663087154',
+						name: 'Snowglobe (Green)',
+						name_localizations: null,
+						summary: 'Try not to shake too hard.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1314020996671606895',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1314020996684185611',
+								sku_id: '1314020996663087154',
+								asset: 'a_3303df00e97bdda9d3f38045f6b407bd',
+								label: "The avatar is trapped in a green snowglobe. Don't ask me how to get it out.",
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Green',
+						variant_value: '#23E360',
+						base_variant_sku_id: '1174459546748600481',
+						base_variant_name: 'Snowglobe',
+					},
+				],
+			},
+			{
+				sku_id: '1174459480348565554',
+				name: 'Fresh Pine',
+				summary: 'Ah...the smell of Winter.',
+				store_listing_id: '1314036495266611202',
+				banner: '1314020997225123841',
+				unpublished_at: null,
+				styles: {
+					background_colors: [4620287, 1396431],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1314020997204283476',
+				variants: [
+					{
+						sku_id: '1174459480348565554',
+						name: 'Fresh Pine',
+						name_localizations: null,
+						summary: 'Ah...the smell of Winter.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1174459459339288617',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1174459501873745940',
+								sku_id: '1174459480348565554',
+								asset: 'a_a0fafb7c7ee7f1e5b1442f44f3aa14b7',
+								label: "A pine branch crown made of acorns, cones, and pine branches sprinkled with snow decorates this user's profile. Winter is here",
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#B47E67',
+						base_variant_sku_id: '1174459480348565554',
+						base_variant_name: 'Fresh Pine',
+					},
+					{
+						sku_id: '1314020996692447234',
+						name: 'Fresh Pine (Cinnamon)',
+						name_localizations: null,
+						summary: 'Ah...the smell of Winter.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1314020996700966922',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1314020996709351464',
+								sku_id: '1314020996692447234',
+								asset: 'a_242be8213824988ad65abc94df4032fa',
+								label: "A pine branch crown made of cinnamon, cones, and pine branches sprinkled with snow decorates this user's profile. Winter is here.",
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Cinnamon',
+						variant_value: '#91563B',
+						base_variant_sku_id: '1174459480348565554',
+						base_variant_name: 'Fresh Pine',
+					},
+					{
+						sku_id: '1314020996721803306',
+						name: 'Fresh Pine (Ribbon)',
+						name_localizations: null,
+						summary: 'Ah...the smell of Winter.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1314020996730327050',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1314020996738711583',
+								sku_id: '1314020996721803306',
+								asset: 'a_4dc921596e511e93d7a9be971ae9d18d',
+								label: "A pine branch crown made of a decorative ribbon, cones, and pine branches sprinkled with snow decorates this user's profile. Winter is here.",
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Ribbon',
+						variant_value: '#549699',
+						base_variant_sku_id: '1174459480348565554',
+						base_variant_name: 'Fresh Pine',
+					},
+				],
+			},
+			{
+				sku_id: '1314020996776329279',
+				name: 'Aurora Dreams',
+				summary: 'The perfect sky to dream under.',
+				store_listing_id: '1314020996822601798',
+				banner: '1314020997225123841',
+				unpublished_at: null,
+				styles: {
+					background_colors: [4620287, 1396431],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1314020996856152104',
+						sku_id: '1314020996776329279',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1314020997204283476',
+				google_sku_ids: {
+					5: '1314020996776329279_1315916174801899623',
+					7: '1314020996776329279_1315916189540683798',
+				},
+			},
+			{
+				sku_id: '1314020996864413717',
+				name: 'Penguins on Ice',
+				summary: 'Living life on thin ice and loving every moment.',
+				store_listing_id: '1314020996872933437',
+				banner: '1314020997225123841',
+				unpublished_at: null,
+				styles: {
+					background_colors: [4620287, 1396431],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1314020996881318009',
+						sku_id: '1314020996864413717',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1314020997204283476',
+				google_sku_ids: {
+					5: '1314020996864413717_1315916118417866836',
+					7: '1314020996864413717_1315916133454581760',
+				},
+			},
+			{
+				sku_id: '1146328960951668776',
+				name: 'Deck the halls',
+				summary: 'Keep out of reach from cats.',
+				store_listing_id: '1314036495266611203',
+				banner: '1314020997225123841',
+				unpublished_at: null,
+				styles: {
+					background_colors: [4620287, 1396431],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1314020997204283476',
+				variants: [
+					{
+						sku_id: '1146328960951668776',
+						name: 'Deck the halls',
+						name_localizations: null,
+						summary: 'Keep out of reach from cats.',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1146328960481886319',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1146328960481886318',
+								sku_id: '1146328960951668776',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#FF0FEB',
+						base_variant_sku_id: '1146328960951668776',
+						base_variant_name: 'Deck the halls',
+					},
+					{
+						sku_id: '1314020996927328276',
+						name: 'Deck the Halls (Aurora)',
+						name_localizations: null,
+						summary: 'Keep out of reach from cats.',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1314020996940042290',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1314020996952621138',
+								sku_id: '1314020996927328276',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Aurora',
+						variant_value: '#00C100',
+						base_variant_sku_id: '1146328960951668776',
+						base_variant_name: 'Deck the halls',
+					},
+					{
+						sku_id: '1314020996960882789',
+						name: 'Deck the Halls (Dusk)',
+						name_localizations: null,
+						summary: 'Keep out of reach from cats.',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1314020996973334600',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1314020996981981185',
+								sku_id: '1314020996960882789',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Dusk',
+						variant_value: '#0834FF',
+						base_variant_sku_id: '1146328960951668776',
+						base_variant_name: 'Deck the halls',
+					},
+					{
+						sku_id: '1314020996990242816',
+						name: 'Deck the Halls (Ember)',
+						name_localizations: null,
+						summary: 'Keep out of reach from cats.',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1314020997002956810',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1314020997011341372',
+								sku_id: '1314020996990242816',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Ember',
+						variant_value: '#F97F38',
+						base_variant_sku_id: '1146328960951668776',
+						base_variant_name: 'Deck the halls',
+					},
+					{
+						sku_id: '1314020997019602984',
+						name: 'Deck the Halls (Mix)',
+						name_localizations: null,
+						summary: 'Keep out of reach from cats.',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1314020997028122706',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1314020997036507268',
+								sku_id: '1314020997019602984',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Mix',
+						variant_value: '#E7BE42',
+						base_variant_sku_id: '1146328960951668776',
+						base_variant_name: 'Deck the halls',
+					},
+				],
+			},
+			{
+				sku_id: '1146328961417224193',
+				name: 'Snowy Shenanigans',
+				summary: 'Gone in a flurry.',
+				store_listing_id: '1314036495266611204',
+				banner: '1314020997225123841',
+				unpublished_at: null,
+				styles: {
+					background_colors: [4620287, 1396431],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1314020997204283476',
+				variants: [
+					{
+						sku_id: '1146328961417224193',
+						name: 'Snowy Shenanigans',
+						name_localizations: null,
+						summary: 'Gone in a flurry.',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1146328961417224192',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1146328960951668777',
+								sku_id: '1146328961417224193',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#EA6355',
+						base_variant_sku_id: '1146328961417224193',
+						base_variant_name: 'Snowy Shenanigans',
+					},
+					{
+						sku_id: '1314020997078323200',
+						name: 'Snowy Shenanigans (Giddy)',
+						name_localizations: null,
+						summary: 'Gone in a flurry.',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1314020997091037254',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1314020997099421796',
+								sku_id: '1314020997078323200',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Giddy',
+						variant_value: '#3D78D6',
+						base_variant_sku_id: '1146328961417224193',
+						base_variant_name: 'Snowy Shenanigans',
+					},
+					{
+						sku_id: '1314020997107683411',
+						name: 'Snowy Shenanigans (Jolly)',
+						name_localizations: null,
+						summary: 'Gone in a flurry.',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1314020997120397344',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1314020997132714015',
+								sku_id: '1314020997107683411',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Jolly',
+						variant_value: '#83CD41',
+						base_variant_sku_id: '1146328961417224193',
+						base_variant_name: 'Snowy Shenanigans',
+					},
+					{
+						sku_id: '1314020997137043578',
+						name: 'Snowy Shenanigans (Smooch)',
+						name_localizations: null,
+						summary: 'Gone in a flurry.',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1314020997145563197',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1314020997158141996',
+								sku_id: '1314020997137043578',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Smooch',
+						variant_value: '#DFB942',
+						base_variant_sku_id: '1146328961417224193',
+						base_variant_name: 'Snowy Shenanigans',
+					},
+					{
+						sku_id: '1314020997166403624',
+						name: 'Snowy Shenanigans (Suave)',
+						name_localizations: null,
+						summary: 'Gone in a flurry.',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1314020997174923326',
+						category_sku_id: '1314020997204283476',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1314020997187239996',
+								sku_id: '1314020997166403624',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Suave',
+						variant_value: '#5EBB83',
+						base_variant_sku_id: '1146328961417224193',
+						base_variant_name: 'Snowy Shenanigans',
+					},
+				],
+			},
+		],
+		banner_asset: {
+			animated: null,
+			static: 'https://cdn.discordapp.com/assets/content/322bd904b3ebad3dba42a7e94d9feaba059627f5959818c074dde96d2d43f1b3.jpg',
+		},
+		hero_banner_asset: {
+			animated: null,
+			static: 'https://cdn.discordapp.com/assets/content/ffbe56d6ea72a9c33909a2477aef44ccae93385cdb845de0b673de9dd1b21f27.jpg',
+		},
+	},
+	{
+		sku_id: '1309668861943218229',
+		name: 'Lofi Girl',
+		summary: 'Cozy vibes with Lofi Girl.',
+		store_listing_id: '1309668861934833704',
+		banner: '1309668861964193803',
+		unpublished_at: null,
+		styles: {
+			background_colors: [2431770, 6761267],
+			button_colors: [5793266, 5793266],
+			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
+		},
+		logo: '1309668861951479888',
+		hero_ranking: [
+			'1309668861548957738',
+			'1309668861578186803',
+			'1309668861674786877',
+			'1309668861758672997',
+			'1309668861645426729',
+			'1309668861599285249',
+		],
+		mobile_bg: '1309668861989359757',
+		pdp_bg: '1309668861980839999',
+		success_modal_bg: '1309668861997744231',
+		mobile_banner: '1309668861972578345',
+		featured_block: '1309668862010200146',
+		hero_banner: null,
+		hero_logo: '1309668862031036487',
+		products: [
+			{
+				sku_id: '1309668861548957738',
+				name: 'Lofi Girl Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1309668861565730866',
+				banner: '1309668861964193803',
+				unpublished_at: null,
+				styles: {
+					background_colors: [2431770, 6761267],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 220000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 155000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 220000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 155000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1313682954589044736',
+						sku_id: '1309668861620260874',
+						asset: 'a_60cb281fac6d8f558efaf6dd9fe4dbe4',
+						label: "The avatar wears Lofi Girl's signature red scarf while listening to lofi music playing from lofi-branded headphones, mastering the 'chill and cozy' look.",
+					},
+					{
+						type: 1,
+						id: '1309668861838233681',
+						sku_id: '1309668861817393263',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1309668861943218229',
+				bundled_products: [
+					{
+						sku_id: '1309668861620260874',
+						name: 'Lofi Girl Outfit',
+						summary: 'Embrace your inner Lofi Girl.',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1309668861817393263',
+						name: 'Lofi Girl Snow Angel',
+						summary: 'Childhood memories...',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {
+					5: '1309668861548957738_1318348371483955271',
+					7: '1309668861548957738_1318348385639600180',
+				},
+			},
+			{
+				sku_id: '1309668861578186803',
+				name: 'Lofi Cat Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1309668861586706482',
+				banner: '1309668861964193803',
+				unpublished_at: null,
+				styles: {
+					background_colors: [2431770, 6761267],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 220000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 155000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 220000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 155000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1313683034377031680',
+						sku_id: '1309668861645426729',
+						asset: 'a_96f65d0aacc4a94b50ef7fb656d5826d',
+						label: "Lofi Girl's friendly orange cat companion lies happily on its back, hugging your avatar on its belly, eyes closed as it playfully gnaws on your avatar like a chew toy.",
+					},
+					{
+						type: 1,
+						id: '1309668861922119762',
+						sku_id: '1309668861901279422',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1309668861943218229',
+				bundled_products: [
+					{
+						sku_id: '1309668861645426729',
+						name: 'Playful Lofi Cat',
+						summary: 'Goofy, fluffy, chunky...',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1309668861901279422',
+						name: 'Lofi Cat Zoomies',
+						summary: 'Let the zoomies begin!',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {
+					5: '1309668861578186803_1318347912476098620',
+					7: '1309668861578186803_1318347937872478299',
+				},
+			},
+			{
+				sku_id: '1309668861599285249',
+				name: 'Study Session Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1309668861607546902',
+				banner: '1309668861964193803',
+				unpublished_at: null,
+				styles: {
+					background_colors: [2431770, 6761267],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 220000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 155000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 220000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 155000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1313683086050988114',
+						sku_id: '1309668861704146984',
+						asset: 'a_28fbe43ba1ee217576dee69712bbb628',
+						label: "Lofi Girl's iconic study desk lamp shines its light on a pen scribbling notes onto a notebook. Her red-striped cup filled with pencils sits nearby, all guarded by her loyal moose plushie.",
+					},
+					{
+						type: 1,
+						id: '1309668861863399565',
+						sku_id: '1309668861846753372',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1309668861943218229',
+				bundled_products: [
+					{
+						sku_id: '1309668861704146984',
+						name: 'Study Session',
+						summary: 'The student starter pack.',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1309668861846753372',
+						name: 'Lofi Girl Study Break',
+						summary: 'Everyone deserves a break, right?',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {
+					5: '1309668861599285249_1318347136810876928',
+					7: '1309668861599285249_1318347171342454874',
+				},
+			},
+			{
+				sku_id: '1309668861620260874',
+				name: 'Lofi Girl Outfit',
+				summary: 'Embrace your inner Lofi Girl.',
+				store_listing_id: '1309668861624451162',
+				banner: '1309668861964193803',
+				unpublished_at: null,
+				styles: {
+					background_colors: [2431770, 6761267],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 105000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 105000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1313682954589044736',
+						sku_id: '1309668861620260874',
+						asset: 'a_60cb281fac6d8f558efaf6dd9fe4dbe4',
+						label: "The avatar wears Lofi Girl's signature red scarf while listening to lofi music playing from lofi-branded headphones, mastering the 'chill and cozy' look.",
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1309668861943218229',
+				google_sku_ids: {
+					5: '1309668861620260874_1313330950511394848',
+					7: '1309668861620260874_1313330977858392175',
+				},
+			},
+			{
+				sku_id: '1309668861645426729',
+				name: 'Playful Lofi Cat',
+				summary: 'Goofy, fluffy, chunky...',
+				store_listing_id: '1309668861653811294',
+				banner: '1309668861964193803',
+				unpublished_at: null,
+				styles: {
+					background_colors: [2431770, 6761267],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 105000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 105000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1313683034377031680',
+						sku_id: '1309668861645426729',
+						asset: 'a_96f65d0aacc4a94b50ef7fb656d5826d',
+						label: "Lofi Girl's friendly orange cat companion lies happily on its back, hugging your avatar on its belly, eyes closed as it playfully gnaws on your avatar like a chew toy.",
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1309668861943218229',
+				google_sku_ids: {
+					5: '1309668861645426729_1313332692351320074',
+					7: '1309668861645426729_1313332716640534588',
+				},
+			},
+			{
+				sku_id: '1309668861674786877',
+				name: 'Sleepy ChilledCow',
+				summary: 'Zzzzzzzzzzzzzzzzzzzz',
+				store_listing_id: '1309668861687103528',
+				banner: '1309668861964193803',
+				unpublished_at: null,
+				styles: {
+					background_colors: [2431770, 6761267],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 105000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 105000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1309668861691433070',
+						sku_id: '1309668861674786877',
+						asset: 'a_6649e251a23f24935471ee02c212675b',
+						label: "Lofi Girl's sleepy cow companion dozes on top of your avatar, orange headphones fitted snugly on its head while snoozing out Zzz's, probably dreaming of mellow beats.",
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1309668861943218229',
+				google_sku_ids: {
+					5: '1309668861674786877_1313331269957976155',
+					7: '1309668861674786877_1313331283455377489',
+				},
+			},
+			{
+				sku_id: '1309668861704146984',
+				name: 'Study Session',
+				summary: 'The student starter pack.',
+				store_listing_id: '1309668861712531508',
+				banner: '1309668861964193803',
+				unpublished_at: null,
+				styles: {
+					background_colors: [2431770, 6761267],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 105000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 105000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1313683086050988114',
+						sku_id: '1309668861704146984',
+						asset: 'a_28fbe43ba1ee217576dee69712bbb628',
+						label: "Lofi Girl's iconic study desk lamp shines its light on a pen scribbling notes onto a notebook. Her red-striped cup filled with pencils sits nearby, all guarded by her loyal moose plushie.",
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1309668861943218229',
+				google_sku_ids: {
+					5: '1309668861704146984_1313328911941111861',
+					7: '1309668861704146984_1313328938755428352',
+				},
+			},
+			{
+				sku_id: '1309668861729312898',
+				name: 'Group Hug',
+				summary: 'Warm hugs from Mochi, Froggy and Birdie!',
+				store_listing_id: '1309668861741891624',
+				banner: '1309668861964193803',
+				unpublished_at: null,
+				styles: {
+					background_colors: [2431770, 6761267],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 105000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 105000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1313683136986484747',
+						sku_id: '1309668861729312898',
+						asset: 'a_8ad98d25ee4e4512704f759476eeb294',
+						label: "Mochi, Froggy, and Birdie - Lofi Girl's friendly plushie study companions - hang out excitedly around your avatar while giving big hugs.",
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1309668861943218229',
+				google_sku_ids: {
+					5: '1309668861729312898_1313329960999719014',
+					7: '1309668861729312898_1313329983120478208',
+				},
+			},
+			{
+				sku_id: '1309668861788033074',
+				name: 'Cozy Post-It',
+				summary: 'Light up your day.',
+				store_listing_id: '1313615645484515328',
+				banner: '1309668861964193803',
+				unpublished_at: null,
+				styles: {
+					background_colors: [2431770, 6761267],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 105000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 105000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1309668861943218229',
+				variants: [
+					{
+						sku_id: '1309668861788033074',
+						name: 'Cozy Post-It',
+						name_localizations: null,
+						summary: 'Light up your day.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1309668861800349767',
+						category_sku_id: '1309668861943218229',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1309668861808869447',
+								sku_id: '1309668861788033074',
+								asset: 'a_e671277ab6d18c0de00871347eed94a7',
+								label: "Decorative warm white stringlights and a collection of post-it notes and cute stickers of Mochi and Lofi Girl's orange cat frame your avatar for a studious, cute and cozy look.",
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#9DC8DF',
+						base_variant_sku_id: '1309668861788033074',
+						base_variant_name: 'Cozy Post-It',
+					},
+					{
+						sku_id: '1309668861758672997',
+						name: 'Cozy Post-It (Festive)',
+						name_localizations: null,
+						summary: 'Light up your day.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1309668861771251722',
+						category_sku_id: '1309668861943218229',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1309668861779513414',
+								sku_id: '1309668861758672997',
+								asset: 'a_eeedc607577a90be18c61e27dbe0008e',
+								label: "Decorative stringlights in greens and yellows and a collection of post-it notes and cute stickers of Mochi and Lofi Girl's orange cat frame your avatar for a studious, cute and cozy look.",
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Festive',
+						variant_value: '#CC0C0B',
+						base_variant_sku_id: '1309668861788033074',
+						base_variant_name: 'Cozy Post-It',
+					},
+				],
+			},
+			{
+				sku_id: '1309668861817393263',
+				name: 'Lofi Girl Snow Angel',
+				summary: 'Childhood memories...',
+				store_listing_id: '1309668861829971968',
+				banner: '1309668861964193803',
+				unpublished_at: null,
+				styles: {
+					background_colors: [2431770, 6761267],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 105000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 105000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1309668861838233681',
+						sku_id: '1309668861817393263',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1309668861943218229',
+				google_sku_ids: {
+					5: '1309668861817393263_1313328940605116497',
+					7: '1309668861817393263_1313328967142473789',
+				},
+			},
+			{
+				sku_id: '1309668861846753372',
+				name: 'Lofi Girl Study Break',
+				summary: 'Everyone deserves a break, right?',
+				store_listing_id: '1309668861859069983',
+				banner: '1309668861964193803',
+				unpublished_at: null,
+				styles: {
+					background_colors: [2431770, 6761267],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 105000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 105000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1309668861863399565',
+						sku_id: '1309668861846753372',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1309668861943218229',
+				google_sku_ids: {
+					5: '1309668861846753372_1313332010659479733',
+					7: '1309668861846753372_1313332024920117318',
+				},
+			},
+			{
+				sku_id: '1309668861901279422',
+				name: 'Lofi Cat Zoomies',
+				summary: 'Let the zoomies begin!',
+				store_listing_id: '1313614969903775744',
+				banner: '1309668861964193803',
+				unpublished_at: null,
+				styles: {
+					background_colors: [2431770, 6761267],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 105000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 105000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1309668861943218229',
+				variants: [
+					{
+						sku_id: '1309668861901279422',
+						name: 'Lofi Cat Zoomies',
+						name_localizations: null,
+						summary: 'Let the zoomies begin!',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1309668861909663925',
+						category_sku_id: '1309668861943218229',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1309668861922119762',
+								sku_id: '1309668861901279422',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#FEE578',
+						base_variant_sku_id: '1309668861901279422',
+						base_variant_name: 'Lofi Cat Zoomies',
+					},
+					{
+						sku_id: '1309668861871919316',
+						name: 'Lofi Cat Zoomies (Festive)',
+						name_localizations: null,
+						summary: 'Let the zoomies begin!',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1309668861884497930',
+						category_sku_id: '1309668861943218229',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1309668861892759642',
+								sku_id: '1309668861871919316',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 105000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Festive',
+						variant_value: '#CC0C0B',
+						base_variant_sku_id: '1309668861901279422',
+						base_variant_name: 'Lofi Cat Zoomies',
+					},
+				],
+			},
+		],
+		banner_asset: {
+			animated:
+				'https://cdn.discordapp.com/assets/content/c9418e682254ba6e0b02ed0368c0cdfd87c237932a70f318d4ac2996e09522da.webm',
+			static: 'https://cdn.discordapp.com/assets/content/362340065b48f91b7008c6f0fb082b7b971ae775da48bf159539ac8384093ed9.jpg',
+		},
+		hero_banner_asset: {
+			animated:
+				'https://cdn.discordapp.com/assets/content/781968526c01228e7f75a671189720801a825d21e3815c013aff401d13058d3b.webm',
+			static: 'https://cdn.discordapp.com/assets/content/550df6ef54259a4c6790e35b42f043c0236ecfa266fad2dc63a57e0405054197.jpg',
+		},
+	},
+	{
+		sku_id: '1262491137386614805',
+		name: 'SpongeBob',
+		summary: 'Celebrate 25 years of nautical nonsense!',
+		store_listing_id: '1262491137386614804',
+		banner: '1317303462786109480',
+		unpublished_at: '2025-01-15T23:59:00+00:00',
+		styles: {
+			background_colors: [1118740, 1118740],
+			button_colors: [5793266, 5793266],
+			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
+		},
+		logo: '1265056547986341950',
+		hero_ranking: null,
+		mobile_bg: '1317303462786109483',
+		pdp_bg: '1317303462786109482',
+		success_modal_bg: '1317303462786109484',
+		mobile_banner: '1317303462786109481',
+		featured_block: '1316515217014001665',
+		hero_banner: null,
+		hero_logo: null,
+		products: [
+			{
+				sku_id: '1316087100260483174',
+				name: 'Flower Clouds Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1316087100260483173',
+				banner: '1317303462786109480',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1118740, 1118740],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 205000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 205000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1262491137394868312',
+						sku_id: '1262491137394868311',
+						asset: 'a_d9ff5ff133ed9176895a4a2b5e58f1b8',
+						label: 'Flower clouds gently sway around the avatar, adding a lovely Bikini Bottom ambiance.',
+					},
+					{
+						type: 1,
+						id: '1262492035558932611',
+						sku_id: '1262492035558932610',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1262491137386614805',
+				bundled_products: [
+					{
+						sku_id: '1262491137394868311',
+						name: 'Flower Clouds',
+						summary: 'Immerse yourself in Bikini Bottom.',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1262492035558932610',
+						name: 'Ocean Flowers',
+						summary: 'Bikini Bottom flower clouds.',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {},
+			},
+			{
+				sku_id: '1316087100260483176',
+				name: 'SpongeBob Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1316087100260483175',
+				banner: '1317303462786109480',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1118740, 1118740],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 205000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 205000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1262491137386614813',
+						sku_id: '1262491137386614812',
+						asset: 'a_914f20f4984a11b5255f0e42c661fa5b',
+						label: "The avatar wears SpongeBob's signature outfit while twirling a spatula with ease, ready to cook up some Krabby Pattys.",
+					},
+					{
+						type: 1,
+						id: '1262492035558932611',
+						sku_id: '1262492035558932610',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1262491137386614805',
+				bundled_products: [
+					{
+						sku_id: '1262491137386614812',
+						name: 'SpongeBob',
+						summary: 'Order up!',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1262492035558932610',
+						name: 'Ocean Flowers',
+						summary: 'Bikini Bottom flower clouds.',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {},
+			},
+			{
+				sku_id: '1316087100260483178',
+				name: 'Patrick Star Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1316087100260483177',
+				banner: '1317303462786109480',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1118740, 1118740],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 205000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 205000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1262491137394868309',
+						sku_id: '1262491137394868308',
+						asset: 'a_0f7fa66bc185c858f92a7918ea4dd47a',
+						label: "Patrick clumsily hammers down a nail into a plank taped to his forehead. No one knows what he's trying to accomplish but he's trying his best.",
+					},
+					{
+						type: 1,
+						id: '1262492035558932611',
+						sku_id: '1262492035558932610',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1262491137386614805',
+				bundled_products: [
+					{
+						sku_id: '1262491137394868308',
+						name: 'Patrick Star',
+						summary: 'He, she, me wumbo.',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1262492035558932610',
+						name: 'Ocean Flowers',
+						summary: 'Bikini Bottom flower clouds.',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {},
+			},
+			{
+				sku_id: '1316087100260483180',
+				name: 'Sandy Cheeks Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1316087100260483179',
+				banner: '1317303462786109480',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1118740, 1118740],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 205000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 205000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1262491690900656262',
+						sku_id: '1262491690900656261',
+						asset: 'a_96e669a80b3a3e3d57035293750291ed',
+						label: "The avatar dons Sandy Cheek's stylish underwater helmet, with air bubbles rising around it. Don't forget to refill the oxygen tank.",
+					},
+					{
+						type: 1,
+						id: '1262492035558932611',
+						sku_id: '1262492035558932610',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1262491137386614805',
+				bundled_products: [
+					{
+						sku_id: '1262491690900656261',
+						name: 'Sandy Cheeks',
+						summary: 'Underwater breathing apparatus.',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1262492035558932610',
+						name: 'Ocean Flowers',
+						summary: 'Bikini Bottom flower clouds.',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {},
+			},
+			{
+				sku_id: '1316087100260483182',
+				name: 'Gary the Snail Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1316087100260483181',
+				banner: '1317303462786109480',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1118740, 1118740],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 205000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 205000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1262491690900656259',
+						sku_id: '1262491690900656258',
+						asset: 'a_4db5b8518672197225c69fe72f07a945',
+						label: "Gary the Snail stretches his long eyes to take a quick peek outside from SpongeBob's window.",
+					},
+					{
+						type: 1,
+						id: '1262492035558932611',
+						sku_id: '1262492035558932610',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1262491137386614805',
+				bundled_products: [
+					{
+						sku_id: '1262491690900656258',
+						name: 'Gary The Snail',
+						summary: 'Meow.',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1262492035558932610',
+						name: 'Ocean Flowers',
+						summary: 'Bikini Bottom flower clouds.',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {},
+			},
+			{
+				sku_id: '1316087100277395607',
+				name: 'DoodleBob Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1316087100277395606',
+				banner: '1317303462786109480',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1118740, 1118740],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 205000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 205000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1262491137394868306',
+						sku_id: '1262491137394868305',
+						asset: 'a_bba669bfb28f492b64852e00fde4989d',
+						label: 'SpongeBob spreads his hands wide, revealing a glorious rainbow above the avatar. You can practically hear him say "Imagination."',
+					},
+					{
+						type: 1,
+						id: '1262492035558932605',
+						sku_id: '1262492035558932604',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1262491137386614805',
+				bundled_products: [
+					{
+						sku_id: '1262491137394868305',
+						name: 'Imagination',
+						summary: 'With imagination, I can be anything I want.',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1262492035558932604',
+						name: 'DoodleBob Takeover',
+						summary: 'Me Hoy Minoy.',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 136000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 111000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {},
+			},
+			{
+				sku_id: '1262491137386614812',
+				name: 'SpongeBob',
+				summary: 'Order up!',
+				store_listing_id: '1262491137386614811',
+				banner: '1317303462786109480',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1118740, 1118740],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1262491137386614813',
+						sku_id: '1262491137386614812',
+						asset: 'a_914f20f4984a11b5255f0e42c661fa5b',
+						label: "The avatar wears SpongeBob's signature outfit while twirling a spatula with ease, ready to cook up some Krabby Pattys.",
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1262491137386614805',
+				google_sku_ids: {
+					5: '1262491137386614812_1262866087179976804',
+					7: '1262491137386614812_1262866117538611384',
+				},
+			},
+			{
+				sku_id: '1262491137394868305',
+				name: 'Imagination',
+				summary: 'With imagination, I can be anything I want.',
+				store_listing_id: '1262491137394868304',
+				banner: '1317303462786109480',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1118740, 1118740],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1262491137394868306',
+						sku_id: '1262491137394868305',
+						asset: 'a_bba669bfb28f492b64852e00fde4989d',
+						label: 'SpongeBob spreads his hands wide, revealing a glorious rainbow above the avatar. You can practically hear him say "Imagination."',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1262491137386614805',
+				google_sku_ids: {
+					5: '1262491137394868305_1262866106306265139',
+					7: '1262491137394868305_1262866133762179243',
+				},
+			},
+			{
+				sku_id: '1262491137394868308',
+				name: 'Patrick Star',
+				summary: 'He, she, me wumbo.',
+				store_listing_id: '1262491137394868307',
+				banner: '1317303462786109480',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1118740, 1118740],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1262491137394868309',
+						sku_id: '1262491137394868308',
+						asset: 'a_0f7fa66bc185c858f92a7918ea4dd47a',
+						label: "Patrick clumsily hammers down a nail into a plank taped to his forehead. No one knows what he's trying to accomplish but he's trying his best.",
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1262491137386614805',
+				google_sku_ids: {
+					5: '1262491137394868308_1262866087179976805',
+					7: '1262491137394868308_1262866115491659836',
+				},
+			},
+			{
+				sku_id: '1262491137394868311',
+				name: 'Flower Clouds',
+				summary: 'Immerse yourself in Bikini Bottom.',
+				store_listing_id: '1262491137394868310',
+				banner: '1317303462786109480',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1118740, 1118740],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1262491137394868312',
+						sku_id: '1262491137394868311',
+						asset: 'a_d9ff5ff133ed9176895a4a2b5e58f1b8',
+						label: 'Flower clouds gently sway around the avatar, adding a lovely Bikini Bottom ambiance.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1262491137386614805',
+				google_sku_ids: {
+					5: '1262491137394868311_1262866101428031641',
+					7: '1262491137394868311_1262866132981780540',
+				},
+			},
+			{
+				sku_id: '1262491690900656258',
+				name: 'Gary The Snail',
+				summary: 'Meow.',
+				store_listing_id: '1262491137394868313',
+				banner: '1317303462786109480',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1118740, 1118740],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1262491690900656259',
+						sku_id: '1262491690900656258',
+						asset: 'a_4db5b8518672197225c69fe72f07a945',
+						label: "Gary the Snail stretches his long eyes to take a quick peek outside from SpongeBob's window.",
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1262491137386614805',
+				google_sku_ids: {
+					5: '1262491690900656258_1262866101373632594',
+					7: '1262491690900656258_1262866140820934756',
+				},
+			},
+			{
+				sku_id: '1262491690900656261',
+				name: 'Sandy Cheeks',
+				summary: 'Underwater breathing apparatus.',
+				store_listing_id: '1262491690900656260',
+				banner: '1317303462786109480',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1118740, 1118740],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1262491690900656262',
+						sku_id: '1262491690900656261',
+						asset: 'a_96e669a80b3a3e3d57035293750291ed',
+						label: "The avatar dons Sandy Cheek's stylish underwater helmet, with air bubbles rising around it. Don't forget to refill the oxygen tank.",
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1262491137386614805',
+				google_sku_ids: {
+					5: '1262491690900656261_1262866111074930720',
+					7: '1262491690900656261_1262866147078832210',
+				},
+			},
+			{
+				sku_id: '1262491690900656264',
+				name: 'MuscleBob',
+				summary: 'How tough are ya?',
+				store_listing_id: '1262491690900656263',
+				banner: '1317303462786109480',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1118740, 1118740],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1262491690900656265',
+						sku_id: '1262491690900656264',
+						asset: 'a_2249f064370a3d5e9f0e7189099d521e',
+						label: 'The avatar, now blessed with the remarkable arms of MuscleBob BuffPants, flexes off its muscles and hard-earned gains.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1262491137386614805',
+				google_sku_ids: {
+					5: '1262491690900656264_1262866118066835486',
+					7: '1262491690900656264_1262866152980217898',
+				},
+			},
+			{
+				sku_id: '1262491690900656267',
+				name: 'NiCe pRoFiLE',
+				summary: 'uSE tHis EFfeCt.',
+				store_listing_id: '1262491690900656266',
+				banner: '1317303462786109480',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1118740, 1118740],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1262491690971955282',
+						sku_id: '1262491690900656267',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1262491137386614805',
+				google_sku_ids: {
+					5: '1262491690900656267_1262866100488765461',
+					7: '1262491690900656267_1262873252213293200',
+				},
+			},
+			{
+				sku_id: '1262491690971955284',
+				name: 'Handsome Squidward',
+				summary: 'You’re a HUNK!!!',
+				store_listing_id: '1262491690971955283',
+				banner: '1317303462786109480',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1118740, 1118740],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1262491690971955285',
+						sku_id: '1262491690971955284',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1262491137386614805',
+				google_sku_ids: {
+					5: '1262491690971955284_1262866099649777774',
+					7: '1262491690971955284_1262866116502491296',
+				},
+			},
+			{
+				sku_id: '1262492035558932604',
+				name: 'DoodleBob Takeover',
+				summary: 'Me Hoy Minoy.',
+				store_listing_id: '1262492035558932603',
+				banner: '1317303462786109480',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1118740, 1118740],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1262492035558932605',
+						sku_id: '1262492035558932604',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1262491137386614805',
+				google_sku_ids: {
+					5: '1262492035558932604_1262866108080324618',
+					7: '1262492035558932604_1262866132533121085',
+				},
+			},
+			{
+				sku_id: '1262492035558932607',
+				name: 'Plankton Splat',
+				summary: 'Stealing the Krabby Patty secret formula.',
+				store_listing_id: '1262492035558932606',
+				banner: '1317303462786109480',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1118740, 1118740],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1262492035558932608',
+						sku_id: '1262492035558932607',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1262491137386614805',
+				google_sku_ids: {
+					5: '1262492035558932607_1262866101373632592',
+					7: '1262492035558932607_1262866141613654337',
+				},
+			},
+			{
+				sku_id: '1262492035558932610',
+				name: 'Ocean Flowers',
+				summary: 'Bikini Bottom flower clouds.',
+				store_listing_id: '1262492035558932609',
+				banner: '1317303462786109480',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1118740, 1118740],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 111000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1262492035558932611',
+						sku_id: '1262492035558932610',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1262491137386614805',
+				google_sku_ids: {
+					5: '1262492035558932610_1262866115931930705',
+					7: '1262492035558932610_1262866171850526801',
+				},
+			},
+		],
+	},
+	{
+		sku_id: '1306330663213072494',
+		name: 'Kawaii Mode',
+		summary: 'When :3 is your game face.',
+		store_listing_id: '1306330663208747008',
+		banner: '1306330663229718579',
+		unpublished_at: null,
+		styles: {
+			background_colors: [15910626, 16355804],
+			button_colors: [5793266, 5793266],
+			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
+		},
+		logo: '1306330663225397249',
+		hero_ranking: [
+			'1306330662898372639',
+			'1306330662927859723',
+			'1306330663015809024',
+			'1306330662940311726',
+			'1306330663137443991',
+			'1306330662990643252',
+			'1306330663183581247',
+			'1306330663036780695',
+			'1306330662965477478',
+			'1306330663162609685',
+			'1306330663070334996',
+			'1306330663116472371',
+			'1306330663091306608',
+		],
+		mobile_bg: '1306330663254884372',
+		pdp_bg: '1306330663242305656',
+		success_modal_bg: '1306330663263404102',
+		mobile_banner: '1313681337064095825',
+		featured_block: '1306330663271665694',
+		hero_banner: null,
+		hero_logo: '1306330663284375663',
+		products: [
+			{
+				sku_id: '1306330662898372639',
+				name: 'Cuddly Squad Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1306330662910951536',
+				banner: '1306330663229718579',
+				unpublished_at: null,
+				styles: {
+					background_colors: [15910626, 16355804],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1306330663007424512',
+						sku_id: '1306330662990643252',
+						asset: 'a_f081c6b2c85c5ebe5df42f1c24d45bb5',
+						label: 'A cuddly pink bunny plopped comfortably atop the avatar is awoken by sounds coming from a nearby matching pink bunny microphone. The bunny frets not and resumes slumber.',
+					},
+					{
+						type: 1,
+						id: '1306330663154225194',
+						sku_id: '1306330663137443991',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1306330663213072494',
+				bundled_products: [
+					{
+						sku_id: '1306330662990643252',
+						name: 'Bunny Zzzs',
+						summary: 'Can the snoozers hop in voice already?!',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1306330663137443991',
+						name: 'Plushie Party',
+						summary:
+							'If the party never ends... the plushie limit does not exist!!',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {},
+			},
+			{
+				sku_id: '1306330662927859723',
+				name: 'Bubble Tea Fanatic Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1306330662931927192',
+				banner: '1306330663229718579',
+				unpublished_at: null,
+				styles: {
+					background_colors: [15910626, 16355804],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1306330662982258758',
+						sku_id: '1306330662965477478',
+						asset: 'a_5b1319abfc9f928479b68a73635f591d',
+						label: 'The avatar looks as sweet as ever as it sits inside a plastic cup of delicious pink bubble tea filled with vibrant, purple pearls. A brightly colored straw is poked into the top of the lid.',
+					},
+					{
+						type: 1,
+						id: '1306330663175196753',
+						sku_id: '1306330663162609685',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1306330663213072494',
+				bundled_products: [
+					{
+						sku_id: '1306330662965477478',
+						name: 'Bubble Tea',
+						summary:
+							"Of course I need bubble tea every day. It's called self-care.",
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1306330663162609685',
+						name: 'Bubble Tea Bliss',
+						summary: 'Straws in, pearls out.',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {},
+			},
+			{
+				sku_id: '1306330662940311726',
+				name: 'Cat Ear Headset',
+				summary: '(O)≽^ ᴖ ω ᴖ ^≼ (O)',
+				store_listing_id: '1306330662948831365',
+				banner: '1306330663229718579',
+				unpublished_at: null,
+				styles: {
+					background_colors: [15910626, 16355804],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1306330662957092976',
+						sku_id: '1306330662940311726',
+						asset: 'a_fa39ba4d9eff38d2eeb47ebcb623e4ca',
+						label: 'The avatar wears a snug pink headset with cat ears, perfect for those cozy gaming vibes.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1306330663213072494',
+				google_sku_ids: {
+					5: '1306330662940311726_1307050912342216785',
+					7: '1306330662940311726_1308165888154931292',
+				},
+			},
+			{
+				sku_id: '1306330662965477478',
+				name: 'Bubble Tea',
+				summary:
+					"Of course I need bubble tea every day. It's called self-care.",
+				store_listing_id: '1306330662973997119',
+				banner: '1306330663229718579',
+				unpublished_at: null,
+				styles: {
+					background_colors: [15910626, 16355804],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1306330662982258758',
+						sku_id: '1306330662965477478',
+						asset: 'a_5b1319abfc9f928479b68a73635f591d',
+						label: 'The avatar looks as sweet as ever as it sits inside a plastic cup of delicious pink bubble tea filled with vibrant, purple pearls. A brightly colored straw is poked into the top of the lid.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1306330663213072494',
+				google_sku_ids: {
+					5: '1306330662965477478_1307052370198270004',
+					7: '1306330662965477478_1308165916848029767',
+				},
+			},
+			{
+				sku_id: '1306330662990643252',
+				name: 'Bunny Zzzs',
+				summary: 'Can the snoozers hop in voice already?!',
+				store_listing_id: '1306330662999162911',
+				banner: '1306330663229718579',
+				unpublished_at: null,
+				styles: {
+					background_colors: [15910626, 16355804],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1306330663007424512',
+						sku_id: '1306330662990643252',
+						asset: 'a_f081c6b2c85c5ebe5df42f1c24d45bb5',
+						label: 'A cuddly pink bunny plopped comfortably atop the avatar is awoken by sounds coming from a nearby matching pink bunny microphone. The bunny frets not and resumes slumber.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1306330663213072494',
+				google_sku_ids: {
+					5: '1306330662990643252_1307049861329326190',
+					7: '1306330662990643252_1308165946275270656',
+				},
+			},
+			{
+				sku_id: '1306330663015809024',
+				name: 'Sproutling',
+				summary: "Your very own bud who'll always root for you!",
+				store_listing_id: '1306330663020134492',
+				banner: '1306330663229718579',
+				unpublished_at: null,
+				styles: {
+					background_colors: [15910626, 16355804],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1306330663028396144',
+						sku_id: '1306330663015809024',
+						asset: 'a_3012fad396abbf24e325431800b51510',
+						label: 'Atop the avatar sits an adorably tiny green sprout that dances and wiggles happily from side to side, emitting sparkles of joy.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1306330663213072494',
+				google_sku_ids: {
+					5: '1306330663015809024_1307049713325047878',
+					7: '1306330663015809024_1307049741342871653',
+				},
+			},
+			{
+				sku_id: '1306330663036780695',
+				name: 'Bloomling',
+				summary: 'Your very own bloom who wants to see you flourish!',
+				store_listing_id: '1306330663045300295',
+				banner: '1306330663229718579',
+				unpublished_at: null,
+				styles: {
+					background_colors: [15910626, 16355804],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1306330663053561909',
+						sku_id: '1306330663036780695',
+						asset: 'a_306a56249fe3c3d2bc7a30041cb63e0e',
+						label: 'Atop the avatar sits an adorably tiny purple flower that dances and wiggles happily from side to side, emitting sparkles of joy.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1306330663213072494',
+				google_sku_ids: {
+					5: '1306330663036780695_1307052737002864801',
+					7: '1306330663036780695_1308166005746438194',
+				},
+			},
+			{
+				sku_id: '1306330663070334996',
+				name: 'Neon Nibbles',
+				summary: 'One does not simply turn off munchie mode.',
+				store_listing_id: '1306330663074660544',
+				banner: '1306330663229718579',
+				unpublished_at: null,
+				styles: {
+					background_colors: [15910626, 16355804],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1306330663082922085',
+						sku_id: '1306330663070334996',
+						asset: 'a_126219d37fa9422dab6a075064453750',
+						label: "Peach, carrot, cherry, and bunny-shared wall lights decorate the avatar's frame, illuminating it with a cute, neon charm.",
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1306330663213072494',
+				google_sku_ids: {
+					5: '1306330663070334996_1307052553091158117',
+					7: '1306330663070334996_1308166034007523338',
+				},
+			},
+			{
+				sku_id: '1306330663091306608',
+				name: 'UwU XP',
+				summary: "Being pixel perfect isn't a phase, it's a lifestyle.",
+				store_listing_id: '1306330663099826287',
+				banner: '1306330663229718579',
+				unpublished_at: null,
+				styles: {
+					background_colors: [15910626, 16355804],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1306330663108087878',
+						sku_id: '1306330663091306608',
+						asset: 'a_e257ca83b5b164968fd036f69dbb2ad9',
+						label: 'A cute blue arcade screen encases the avatar, complete with bright pink controls and an adorable retro gaming vibe.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1306330663213072494',
+				google_sku_ids: {
+					5: '1306330663091306608_1307052978514952312',
+					7: '1306330663091306608_1308166062818459698',
+				},
+			},
+			{
+				sku_id: '1306330663116472371',
+				name: 'Hex Lights',
+				summary:
+					'When you want glow up the room but the parents say "NoOo, they\'re too expensive!!" so you buy these to glow up anyway.',
+				store_listing_id: '1306330663124992031',
+				banner: '1306330663229718579',
+				unpublished_at: null,
+				styles: {
+					background_colors: [15910626, 16355804],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1306330663133122661',
+						sku_id: '1306330663116472371',
+						asset: 'a_09bb4197c743ea31b7eb052eddd3e892',
+						label: 'Hexagon-shaped lights in red, green, blue, and white colors decorate the outer frame of the avatar, creating a sleek, high-tech gaming look.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1306330663213072494',
+				google_sku_ids: {
+					5: '1306330663116472371_1307049578759192656',
+					7: '1306330663116472371_1308166090056142858',
+				},
+			},
+			{
+				sku_id: '1306330663137443991',
+				name: 'Plushie Party',
+				summary:
+					'If the party never ends... the plushie limit does not exist!!',
+				store_listing_id: '1306330663145963571',
+				banner: '1306330663229718579',
+				unpublished_at: null,
+				styles: {
+					background_colors: [15910626, 16355804],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1306330663154225194',
+						sku_id: '1306330663137443991',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1306330663213072494',
+				google_sku_ids: {
+					5: '1306330663137443991_1307052172562665502',
+					7: '1306330663137443991_1308166118682132520',
+				},
+			},
+			{
+				sku_id: '1306330663162609685',
+				name: 'Bubble Tea Bliss',
+				summary: 'Straws in, pearls out.',
+				store_listing_id: '1306330663166935162',
+				banner: '1306330663229718579',
+				unpublished_at: null,
+				styles: {
+					background_colors: [15910626, 16355804],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1306330663175196753',
+						sku_id: '1306330663162609685',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1306330663213072494',
+				google_sku_ids: {
+					5: '1306330663162609685_1307052036029677678',
+					7: '1306330663162609685_1308166145034948799',
+				},
+			},
+			{
+				sku_id: '1306330663183581247',
+				name: 'Kawaii Mode',
+				summary: 'When :3 is your game face.',
+				store_listing_id: '1306330663192100874',
+				banner: '1306330663229718579',
+				unpublished_at: null,
+				styles: {
+					background_colors: [15910626, 16355804],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1306330663200362527',
+						sku_id: '1306330663183581247',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1306330663213072494',
+				google_sku_ids: {
+					5: '1306330663183581247_1307050901323780096',
+					7: '1306330663183581247_1308166174802055260',
+				},
+			},
+		],
+		banner_asset: {
+			animated:
+				'https://cdn.discordapp.com/assets/content/7a496dad23ec14aedf77b708d6824211c9eb6a19808dd6d50dc08abd3290c5f6.webm',
+			static: 'https://cdn.discordapp.com/assets/content/6866ff41f51bce49fba9d8a40b8eacd8989d0ad6c070e01fcbdac0d1f7dac7fc.jpg',
+		},
+		hero_banner_asset: {
+			animated:
+				'https://cdn.discordapp.com/assets/content/6d65dc8e86ffdeed50ea47de3770044e6e65ee9b87eb89486cb6af8a55c7caf0.webm',
+			static: 'https://cdn.discordapp.com/assets/content/246196c07a8ea8ea0a0e4d77e9e3a87e617776cd4611078c5b02e64b73e19da5.jpg',
+		},
+	},
+	{
+		sku_id: '1303490165284802580',
+		name: 'Arcane',
+		summary: 'The hunt is on.',
+		store_listing_id: '1303490165276151869',
+		banner: '1303490165297123358',
+		unpublished_at: null,
+		styles: {
+			background_colors: [724282, 18],
+			button_colors: [5793266, 5793266],
+			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
+		},
+		logo: '1303490165288730724',
+		hero_ranking: [
+			'1306752744228524052',
+			'1306752744278982737',
+			'1306752744258011166',
+			'1306752744299954306',
+			'1303490165045727317',
+			'1303490165099991143',
+			'1303490165213237338',
+			'1303490165171294268',
+			'1303490165074825296',
+			'1303490165234208810',
+			'1303490165150322698',
+			'1303490165192265799',
+			'1303490165120962651',
+			'1303490165255180298',
+		],
+		mobile_bg: '1303490165318094958',
+		pdp_bg: '1303490165314158692',
+		success_modal_bg: '1303490165326745641',
+		mobile_banner: '1303490165301579908',
+		featured_block: '1303490165335130182',
+		hero_banner: '1303490165339066469',
+		hero_logo: '1303890398137290793',
+		products: [
+			{
+				sku_id: '1306752744228524052',
+				name: 'Anomaly Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1306752744249626734',
+				banner: '1303490165297123358',
+				unpublished_at: null,
+				styles: {
+					background_colors: [724282, 18],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 399000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 285000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 285000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1306752744274792448',
+						sku_id: '1306752744258011166',
+						asset: 'a_af5ee420e5f860ff2cdbb5fa4633f2cf',
+						label: 'The mysterious Anomaly has taken over your avatar, its weblike surface stretching and wrapping around it endlessly.',
+					},
+					{
+						type: 1,
+						id: '1306752744312541315',
+						sku_id: '1306752744299954306',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1303490165284802580',
+				bundled_products: [
+					{
+						sku_id: '1306752744258011166',
+						name: 'The Anomaly',
+						summary: 'Beautiful. Impossible. Inevitable.',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 189000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 141000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 189000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 141000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1306752744299954306',
+						name: 'Arcane Epiphany',
+						summary: '“What have we done…?”',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 189000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 141000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 189000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 141000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {},
+			},
+			{
+				sku_id: '1306752744258011166',
+				name: 'The Anomaly',
+				summary: 'Beautiful. Impossible. Inevitable.',
+				store_listing_id: '1306752744266268823',
+				banner: '1303490165297123358',
+				unpublished_at: null,
+				styles: {
+					background_colors: [724282, 18],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1306752744274792448',
+						sku_id: '1306752744258011166',
+						asset: 'a_af5ee420e5f860ff2cdbb5fa4633f2cf',
+						label: 'The mysterious Anomaly has taken over your avatar, its weblike surface stretching and wrapping around it endlessly.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1303490165284802580',
+				google_sku_ids: {
+					5: '1306752744258011166_1307056209727066123',
+					7: '1306752744258011166_1308129027093041162',
+				},
+			},
+			{
+				sku_id: '1306752744278982737',
+				name: 'The Mark',
+				summary: 'An act of desperation. This changes nothing.',
+				store_listing_id: '1306752744287244378',
+				banner: '1303490165297123358',
+				unpublished_at: null,
+				styles: {
+					background_colors: [724282, 18],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1306752744295497789',
+						sku_id: '1306752744278982737',
+						asset: 'a_27f77b8147892bc271658ba19e4ecc06',
+						label: 'A circle of black rose petals bloom over the avatar, then smolder away in flames. The Black Rose sends their regards.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1303490165284802580',
+				google_sku_ids: {
+					5: '1306752744278982737_1307053300881035295',
+					7: '1306752744278982737_1308129056595644427',
+				},
+			},
+			{
+				sku_id: '1306752744299954306',
+				name: 'Arcane Epiphany',
+				summary: '“What have we done…?”',
+				store_listing_id: '1306752744308215808',
+				banner: '1303490165297123358',
+				unpublished_at: null,
+				styles: {
+					background_colors: [724282, 18],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1306752744312541315',
+						sku_id: '1306752744299954306',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1303490165284802580',
+				google_sku_ids: {
+					5: '1306752744299954306_1307053440534315068',
+					7: '1306752744299954306_1308129087147081728',
+				},
+			},
+			{
+				sku_id: '1303490165045727317',
+				name: 'Arcane Jinx Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1303490165062238318',
+				banner: '1303490165297123358',
+				unpublished_at: null,
+				styles: {
+					background_colors: [724282, 18],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 399000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 285000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1303490165091598386',
+						sku_id: '1303490165074825296',
+						asset: 'a_9bc421cef4bdcfffeb2344b44ad91b44',
+						label: "The avatar dons Jinx's signature hairstyle. Flashing grafiti create the illusion as if Jinx was making mischievous faces over your likeness.",
+					},
+					{
+						type: 1,
+						id: '1303490165225816125',
+						sku_id: '1303490165213237338',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1303490165284802580',
+				bundled_products: [
+					{
+						sku_id: '1303490165074825296',
+						name: 'The Monster You Created',
+						summary: '“Powder fell down a well.”',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 189000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 141000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 189000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 141000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1303490165213237338',
+						name: 'Jinx and Pow-Pow',
+						summary: 'Come on, shoot faster…',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 189000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 141000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 189000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 141000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {},
+			},
+			{
+				sku_id: '1303490165074825296',
+				name: 'The Monster You Created',
+				summary: '“Powder fell down a well.”',
+				store_listing_id: '1303490165083476008',
+				banner: '1303490165297123358',
+				unpublished_at: null,
+				styles: {
+					background_colors: [724282, 18],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1303490165091598386',
+						sku_id: '1303490165074825296',
+						asset: 'a_9bc421cef4bdcfffeb2344b44ad91b44',
+						label: "The avatar dons Jinx's signature hairstyle. Flashing grafiti create the illusion as if Jinx was making mischievous faces over your likeness.",
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1303490165284802580',
+				google_sku_ids: {
+					5: '1303490165074825296_1305972543290871879',
+					7: '1303490165074825296_1306334597860167700',
+				},
+			},
+			{
+				sku_id: '1303490165099991143',
+				name: 'The Atlas Gauntlets',
+				summary: 'Meant for mining, better for punching.',
+				store_listing_id: '1303490165108641832',
+				banner: '1303490165297123358',
+				unpublished_at: null,
+				styles: {
+					background_colors: [724282, 18],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1303490165116764170',
+						sku_id: '1303490165099991143',
+						asset: 'a_cc1aab519baf2ab8cfa0151bed5263df',
+						label: "Vi's gauntlets flex their fingers before charging up and throwing out a punch with tremendous force.",
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1303490165284802580',
+				google_sku_ids: {
+					5: '1303490165099991143_1305970362890063912',
+					7: '1303490165099991143_1305970377372991538',
+				},
+			},
+			{
+				sku_id: '1303490165120962651',
+				name: 'Flame Chompers',
+				summary: 'Jinx names each and every one.',
+				store_listing_id: '1303490165133807626',
+				banner: '1303490165297123358',
+				unpublished_at: null,
+				styles: {
+					background_colors: [724282, 18],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1303490165141929994',
+						sku_id: '1303490165120962651',
+						asset: 'a_8396e9830e3e288cd3aaa6daf18b605a',
+						label: "Three of Jinx's flame chompers jitter with anticipation around the avatar, ready to snap and blast anyone who dares to step close by.",
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1303490165284802580',
+				google_sku_ids: {
+					5: '1303490165120962651_1305972096094175252',
+					7: '1303490165120962651_1306333318224150598',
+				},
+			},
+			{
+				sku_id: '1303490165150322698',
+				name: 'FISHBONES!',
+				summary: 'And now: the grand finale.',
+				store_listing_id: '1303490165158973460',
+				banner: '1303490165297123358',
+				unpublished_at: null,
+				styles: {
+					background_colors: [724282, 18],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1303490165162901605',
+						sku_id: '1303490165150322698',
+						asset: 'a_84a67b33ef5b75e17f858a95648c973f',
+						label: "Fishbones' metallic jaws clamp down around the avatar as it charges up and unleashes an explosive blast of powerful energy.",
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1303490165284802580',
+				google_sku_ids: {
+					5: '1303490165150322698_1305970692545577011',
+					7: '1303490165150322698_1305970706831380602',
+				},
+			},
+			{
+				sku_id: '1303490165171294268',
+				name: 'The Hexcore',
+				summary: 'It’s changing, adapting… but to what end?',
+				store_listing_id: '1303490165179944970',
+				banner: '1303490165297123358',
+				unpublished_at: null,
+				styles: {
+					background_colors: [724282, 18],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1303490165183873075',
+						sku_id: '1303490165171294268',
+						asset: 'a_dbb1abd90367c1a31a94f7e162f3a3c3',
+						label: 'The avatar finds itself encased inside the Hexcore, its runic fragments twisting and swirling about, crackling with hextech energy.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1303490165284802580',
+				google_sku_ids: {
+					5: '1303490165171294268_1305969723300646994',
+					7: '1303490165171294268_1305969736525414535',
+				},
+			},
+			{
+				sku_id: '1303490165192265799',
+				name: 'Powered by Shimmer',
+				summary: 'Breathe it in. That’s power.',
+				store_listing_id: '1303490165200916520',
+				banner: '1303490165297123358',
+				unpublished_at: null,
+				styles: {
+					background_colors: [724282, 18],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1303490165209301013',
+						sku_id: '1303490165192265799',
+						asset: 'a_609fb5c17a4d5ff2e2bec1a1931a9caa',
+						label: 'A shimmer-infused mechanical device is encased over the avatar, injecting two vials of shimmer into the avatar for a charged-up transformation.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1303490165284802580',
+				google_sku_ids: {
+					5: '1303490165192265799_1305969458153783357',
+					7: '1303490165192265799_1305969472066289724',
+				},
+			},
+			{
+				sku_id: '1303490165213237338',
+				name: 'Jinx and Pow-Pow',
+				summary: 'Come on, shoot faster…',
+				store_listing_id: '1303490165217693767',
+				banner: '1303490165297123358',
+				unpublished_at: null,
+				styles: {
+					background_colors: [724282, 18],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1303490165225816125',
+						sku_id: '1303490165213237338',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1303490165284802580',
+				google_sku_ids: {
+					5: '1303490165213237338_1305972844227989504',
+					7: '1303490165213237338_1306331776498532352',
+				},
+			},
+			{
+				sku_id: '1303490165234208810',
+				name: "Ekko's Aeroglider Stunts",
+				summary: 'Ekko makes that look easier than it is.',
+				store_listing_id: '1303490165242724402',
+				banner: '1303490165297123358',
+				unpublished_at: null,
+				styles: {
+					background_colors: [724282, 18],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1303490165246787706',
+						sku_id: '1303490165234208810',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1303490165284802580',
+				google_sku_ids: {
+					5: '1303490165234208810_1305969946030772365',
+					7: '1303490165234208810_1305969959687426078',
+				},
+			},
+			{
+				sku_id: '1303490165255180298',
+				name: 'Paint the Town Blue',
+				summary: 'And red, and green, and orange, and…',
+				store_listing_id: '1303490165259636867',
+				banner: '1303490165297123358',
+				unpublished_at: null,
+				styles: {
+					background_colors: [724282, 18],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 189000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 141000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1303490165267759214',
+						sku_id: '1303490165255180298',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1303490165284802580',
+				google_sku_ids: {
+					5: '1303490165255180298_1305969797405868063',
+					7: '1303490165255180298_1305969810848350229',
+				},
+			},
+		],
+	},
+	{
+		sku_id: '1298033986811068497',
+		name: 'Mythical Creatures',
+		summary: 'Wonders lost to time, found again.',
+		store_listing_id: '1298033986802552913',
+		banner: '1298033986831912961',
+		unpublished_at: null,
+		styles: {
+			background_colors: [1270372, 2828415],
+			button_colors: [5793266, 5793266],
+			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
+		},
+		logo: '1298033986823520337',
+		hero_ranking: [
+			'1298033986508951685',
+			'1298033986592837754',
+			'1298033986622328842',
+			'1298033986752221204',
+			'1298033986668335135',
+			'1298033986693500960',
+			'1298033986538569781',
+			'1298033986555351132',
+			'1298033986571866112',
+			'1298033986643169360',
+			'1298033986727055370',
+			'1298033986777387059',
+		],
+		mobile_bg: '1298033986852884633',
+		pdp_bg: '1298033986848948224',
+		success_modal_bg: '1298033986861400145',
+		mobile_banner: '1298033986840428614',
+		featured_block: '1304576648477409311',
+		hero_banner: '1298033986886569984',
+		hero_logo: null,
+		products: [
+			{
+				sku_id: '1298033986508951685',
+				name: 'Kitsune Dream Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1298033986525855755',
+				banner: '1298033986831912961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1270372, 2828415],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1298033986588639306',
+						sku_id: '1298033986571866112',
+						asset: 'a_be111e4303d634c55500202a61656e0b',
+						label: 'The avatar wears the ears and fluffy tails of a mystical kitsune. Its vibrant furs are splashed in fiery fuchsia pinks, whites, and purples.',
+					},
+					{
+						type: 1,
+						id: '1298033986743828531',
+						sku_id: '1298033986727055370',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1298033986811068497',
+				bundled_products: [
+					{
+						sku_id: '1298033986571866112',
+						name: 'Kitsune',
+						summary:
+							'Legends say playful chaos is their specialty.',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1298033986727055370',
+						name: 'Spirit of the Kitsune',
+						summary:
+							'Like the moon, kitsune are just full of secrets.',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {},
+			},
+			{
+				sku_id: '1298033986538569781',
+				name: 'Magical Fairies Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1298033986546831481',
+				banner: '1298033986831912961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1270372, 2828415],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1298033986660204585',
+						sku_id: '1298033986643169360',
+						asset: 'a_535aa3354b1a7395c271bb2f53be4275',
+						label: 'Two magical, glowing fairies flutter around the avatar, dancing playfully with each other in the air.',
+					},
+					{
+						type: 1,
+						id: '1298033986769256479',
+						sku_id: '1298033986752221204',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1298033986811068497',
+				bundled_products: [
+					{
+						sku_id: '1298033986643169360',
+						name: 'Dancing Fairies',
+						summary: 'Catch us if you can!',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1298033986752221204',
+						name: 'Flutter and Frolic',
+						summary: "Don't blink - you'll miss the magic.",
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {},
+			},
+			{
+				sku_id: '1298033986555351132',
+				name: 'Mermaid Whisperer Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1298033986563735552',
+				banner: '1298033986831912961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1270372, 2828415],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 136000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 118000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1298033986710536242',
+						sku_id: '1298033986693500960',
+						asset: 'a_efe3081ee3359a77b515575b5f7bc8c0',
+						label: 'Two elegant mermaids swim gracefully around the avatar in a mesmerizing dance.',
+					},
+					{
+						type: 1,
+						id: '1298033986794422313',
+						sku_id: '1298033986777387059',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1298033986811068497',
+				bundled_products: [
+					{
+						sku_id: '1298033986693500960',
+						name: 'Mermaid Serenade',
+						summary:
+							'They seem to like you... but is that a good thing?',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1298033986777387059',
+						name: 'Mermaid Whisperer',
+						summary: 'Got no troubles when life is bubbles!',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {},
+			},
+			{
+				sku_id: '1298033986571866112',
+				name: 'Kitsune',
+				summary: 'Legends say playful chaos is their specialty.',
+				store_listing_id: '1298033986580381696',
+				banner: '1298033986831912961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1270372, 2828415],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1298033986588639306',
+						sku_id: '1298033986571866112',
+						asset: 'a_be111e4303d634c55500202a61656e0b',
+						label: 'The avatar wears the ears and fluffy tails of a mystical kitsune. Its vibrant furs are splashed in fiery fuchsia pinks, whites, and purples.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1298033986811068497',
+				google_sku_ids: {
+					5: '1298033986571866112_1299174683551465623',
+					7: '1298033986571866112_1299174697308782592',
+				},
+			},
+			{
+				sku_id: '1298033986592837754',
+				name: 'Unicorn',
+				summary: 'Unicorns love two things: magic and your vibe.',
+				store_listing_id: '1298033986601353298',
+				banner: '1298033986831912961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1270372, 2828415],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1298033986609872989',
+						sku_id: '1298033986592837754',
+						asset: 'a_47c0f4b4a837894998d5a316acf74f87',
+						label: 'The avatar wears the horn, ears, and mane of an enchanted unicorn. Ripples of magic flow and shimmer across its mane.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1298033986811068497',
+				google_sku_ids: {
+					5: '1298033986592837754_1299172496570056714',
+					7: '1298033986592837754_1299172520595034112',
+				},
+			},
+			{
+				sku_id: '1298033986622328842',
+				name: 'Phoenix',
+				summary: 'The symbol of running it back.',
+				store_listing_id: '1298033986626519112',
+				banner: '1298033986831912961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1270372, 2828415],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1298033986635038770',
+						sku_id: '1298033986622328842',
+						asset: 'a_0e839cd79500e7b68e2bbbed54790c28',
+						label: 'Fiery phoenix wings conjoin at the bottom of the avatar. Bursts of flame surge across the wings as they gently ruffle around.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1298033986811068497',
+				google_sku_ids: {
+					5: '1298033986622328842_1299176181299548203',
+					7: '1298033986622328842_1299519677172809768',
+				},
+			},
+			{
+				sku_id: '1298033986643169360',
+				name: 'Dancing Fairies',
+				summary: 'Catch us if you can!',
+				store_listing_id: '1298033986651684916',
+				banner: '1298033986831912961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1270372, 2828415],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1298033986660204585',
+						sku_id: '1298033986643169360',
+						asset: 'a_535aa3354b1a7395c271bb2f53be4275',
+						label: 'Two magical, glowing fairies flutter around the avatar, dancing playfully with each other in the air.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1298033986811068497',
+				google_sku_ids: {
+					5: '1298033986643169360_1299172526965915739',
+					7: '1298033986643169360_1299172539154829373',
+				},
+			},
+			{
+				sku_id: '1298033986668335135',
+				name: 'Crystal Elk',
+				summary:
+					'Its antlers shimmer with the magic of ancient snowstorms.',
+				store_listing_id: '1298033986676850710',
+				banner: '1298033986831912961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1270372, 2828415],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1298033986685108358',
+						sku_id: '1298033986668335135',
+						asset: 'a_98c7600d304b86ca3b18272e1da05559',
+						label: 'Antlers from a mystical crystal elk crown the avatar. The antlers shimmer with the magic of ancient snowstorms from winters past.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1298033986811068497',
+				google_sku_ids: {
+					5: '1298033986668335135_1299174685426188359',
+					7: '1298033986668335135_1299174713914032219',
+				},
+			},
+			{
+				sku_id: '1298033986693500960',
+				name: 'Mermaid Serenade',
+				summary: 'They seem to like you... but is that a good thing?',
+				store_listing_id: '1298033986702016622',
+				banner: '1298033986831912961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1270372, 2828415],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1298033986710536242',
+						sku_id: '1298033986693500960',
+						asset: 'a_efe3081ee3359a77b515575b5f7bc8c0',
+						label: 'Two elegant mermaids swim gracefully around the avatar in a mesmerizing dance.',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1298033986811068497',
+				google_sku_ids: {
+					5: '1298033986693500960_1299173963859230750',
+					7: '1298033986693500960_1299173976744132680',
+				},
+			},
+			{
+				sku_id: '1298033986727055370',
+				name: 'Spirit of the Kitsune',
+				summary: 'Like the moon, kitsune are just full of secrets.',
+				store_listing_id: '1298033986735570964',
+				banner: '1298033986831912961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1270372, 2828415],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1298033986743828531',
+						sku_id: '1298033986727055370',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1298033986811068497',
+				google_sku_ids: {
+					5: '1298033986727055370_1299176270512263209',
+					7: '1298033986727055370_1299520319047991388',
+				},
+			},
+			{
+				sku_id: '1298033986752221204',
+				name: 'Flutter and Frolic',
+				summary: "Don't blink - you'll miss the magic.",
+				store_listing_id: '1298033986760736788',
+				banner: '1298033986831912961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1270372, 2828415],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1298033986769256479',
+						sku_id: '1298033986752221204',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1298033986811068497',
+				google_sku_ids: {
+					5: '1298033986752221204_1299175179238379531',
+					7: '1298033986752221204_1299175192228139039',
+				},
+			},
+			{
+				sku_id: '1298033986777387059',
+				name: 'Mermaid Whisperer',
+				summary: 'Got no troubles when life is bubbles!',
+				store_listing_id: '1298033986786037932',
+				banner: '1298033986831912961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [1270372, 2828415],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1298033986794422313',
+						sku_id: '1298033986777387059',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1298033986811068497',
+				google_sku_ids: {
+					5: '1298033986777387059_1299176134822592563',
+					7: '1298033986777387059_1299518636251152394',
+				},
+			},
+		],
+	},
+	{
+		sku_id: '1293373563494993952',
+		name: 'Dungeons & Dragons',
+		summary: "The ultimate adventurer's pack.",
+		store_listing_id: '1293373563486867486',
+		banner: '1295972927975587840',
+		unpublished_at: null,
+		styles: {
+			background_colors: [13843636, 5519536],
+			button_colors: [5793266, 5793266],
+			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
+		},
+		logo: '1293373563507703829',
+		hero_ranking: [
+			'1293373563407175680',
+			'1293373563302318110',
+			'1293373563352649961',
+			'1293373563121696891',
+			'1293373563432341574',
+			'1293373563159449653',
+			'1293373563184877618',
+			'1293373563210043442',
+			'1293373563239272458',
+			'1293373563264569416',
+			'1293373563327483984',
+			'1293373563381878836',
+			'1293373563457507463',
+		],
+		mobile_bg: '1293373563545587712',
+		pdp_bg: '1293373563532738684',
+		success_modal_bg: '1293373563553714186',
+		mobile_banner: '1293373563528548352',
+		featured_block: '1304604056781852753',
+		hero_banner: '1295900849083781161',
+		hero_logo: null,
+		products: [
+			{
+				sku_id: '1293373563121696891',
+				name: 'Violet Dice Roll Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1293373563134414969',
+				banner: '1295972927975587840',
+				unpublished_at: null,
+				styles: {
+					background_colors: [13843636, 5519536],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 319000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 220000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 220000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1293373563201388544',
+						sku_id: '1293373563184877618',
+						asset: 'a_94191be95bb9c471ff17644f3639eb6d',
+						label: 'Six glowing purple dice orbit the avatar. A beam of light strikes through all of them, causing them to spin and shimmer with sparkles of magic.',
+					},
+					{
+						type: 1,
+						id: '1293373563398520832',
+						sku_id: '1293373563381878836',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1293373563494993952',
+				bundled_products: [
+					{
+						sku_id: '1293373563184877618',
+						name: 'Violet Dice',
+						summary: 'Let’s roll!',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1293373563381878836',
+						name: 'D20 Roll',
+						summary:
+							'You win some, you lose some. This effect can show your profile admirers one of two random outcomes.',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {},
+			},
+			{
+				sku_id: '1293373563159449653',
+				name: 'Azure Dice Roll Bundle',
+				summary: 'A bundle of collectibles.',
+				store_listing_id: '1293373563176353863',
+				banner: '1295972927975587840',
+				unpublished_at: null,
+				styles: {
+					background_colors: [13843636, 5519536],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 319000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 220000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 220000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1293373563226554419',
+						sku_id: '1293373563210043442',
+						asset: 'a_f8ffeba6f389d1475c8794ca88b59785',
+						label: 'Six glowing azure dice orbit the avatar. A beam of light strikes through all of them, causing them to spin and shimmer with sparkles of magic.',
+					},
+					{
+						type: 1,
+						id: '1293373563398520832',
+						sku_id: '1293373563381878836',
+					},
+				],
+				type: 1000,
+				premium_type: 0,
+				category_sku_id: '1293373563494993952',
+				bundled_products: [
+					{
+						sku_id: '1293373563210043442',
+						name: 'Azure Dice',
+						summary: 'Let’s roll!',
+						type: 0,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+					{
+						sku_id: '1293373563381878836',
+						name: 'D20 Roll',
+						summary:
+							'You win some, you lose some. This effect can show your profile admirers one of two random outcomes.',
+						type: 1,
+						premium_type: 0,
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+					},
+				],
+				google_sku_ids: {},
+			},
+			{
+				sku_id: '1293373563184877618',
+				name: 'Violet Dice',
+				summary: 'Let’s roll!',
+				store_listing_id: '1304483427906621550',
+				banner: '1295972927975587840',
+				unpublished_at: null,
+				styles: {
+					background_colors: [13843636, 5519536],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1293373563494993952',
+				variants: [
+					{
+						sku_id: '1293373563184877618',
+						name: 'Violet Dice',
+						name_localizations: null,
+						summary: 'Let’s roll!',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1293373563193004062',
+						category_sku_id: '1293373563494993952',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1293373563201388544',
+								sku_id: '1293373563184877618',
+								asset: 'a_94191be95bb9c471ff17644f3639eb6d',
+								label: 'Six glowing purple dice orbit the avatar. A beam of light strikes through all of them, causing them to spin and shimmer with sparkles of magic.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Violet',
+						variant_value: '#843ACF',
+						base_variant_sku_id: '1293373563184877618',
+						base_variant_name: 'Dice',
+					},
+					{
+						sku_id: '1293373563210043442',
+						name: 'Azure Dice',
+						name_localizations: null,
+						summary: 'Let’s roll!',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1293373563218169916',
+						category_sku_id: '1293373563494993952',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1293373563226554419',
+								sku_id: '1293373563210043442',
+								asset: 'a_f8ffeba6f389d1475c8794ca88b59785',
+								label: 'Six glowing azure dice orbit the avatar. A beam of light strikes through all of them, causing them to spin and shimmer with sparkles of magic.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Azure',
+						variant_value: '#2572E7',
+						base_variant_sku_id: '1293373563184877618',
+						base_variant_name: 'Dice',
+					},
+				],
+			},
+			{
+				sku_id: '1293373563239272458',
+				name: 'Green Gelatinous Cube',
+				summary: 'It’s not edible, but YOU are.',
+				store_listing_id: '1304485468141781004',
+				banner: '1295972927975587840',
+				unpublished_at: null,
+				styles: {
+					background_colors: [13843636, 5519536],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1293373563494993952',
+				variants: [
+					{
+						sku_id: '1293373563239272458',
+						name: 'Green Gelatinous Cube',
+						name_localizations: null,
+						summary: 'It’s not edible, but YOU are.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1293373563247788106',
+						category_sku_id: '1293373563494993952',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1293373563255914588',
+								sku_id: '1293373563239272458',
+								asset: 'a_66604bb5c9351541f30c20a4e78c239c',
+								label: "Engulfed in a gooey, green Gelatinous Cube, the avatar is surrounded by coins, potions, and arrows also stuck inside its slimy walls. How'd you even end up here?",
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Green',
+						variant_value: '#4D9B63',
+						base_variant_sku_id: '1293373563239272458',
+						base_variant_name: 'Gelatinous Cube',
+					},
+					{
+						sku_id: '1293373563264569416',
+						name: 'Blue Gelatinous Cube',
+						name_localizations: null,
+						summary: 'It’s not edible, but YOU are.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1293373563272695828',
+						category_sku_id: '1293373563494993952',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1293373563281080372',
+								sku_id: '1293373563264569416',
+								asset: 'a_b6b12e8efc35001b4b50593dca937332',
+								label: "Engulfed in a gooey, blue Gelatinous Cube, the avatar is surrounded by coins, potions, and arrows also stuck inside its slimy walls. How'd you even end up here?",
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Blue',
+						variant_value: '#1E7AB3',
+						base_variant_sku_id: '1293373563239272458',
+						base_variant_name: 'Gelatinous Cube',
+					},
+				],
+			},
+			{
+				sku_id: '1293373563302318110',
+				name: 'Owlbear Cub',
+				summary: 'Your very own feathery friend!',
+				store_listing_id: '1304486104921145375',
+				banner: '1295972927975587840',
+				unpublished_at: null,
+				styles: {
+					background_colors: [13843636, 5519536],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1293373563494993952',
+				variants: [
+					{
+						sku_id: '1293373563302318110',
+						name: 'Owlbear Cub',
+						name_localizations: null,
+						summary: 'Your very own feathery friend!',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1293373563310444614',
+						category_sku_id: '1293373563494993952',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1293373563318829157',
+								sku_id: '1293373563302318110',
+								asset: 'a_3c5743cedcb72131c58278278a97c143',
+								label: 'A cute feathery owlbear club snuggles the avatar with a warm, full-body hug, making the avatar glow from its affection.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#AEA3D8',
+						base_variant_sku_id: '1293373563302318110',
+						base_variant_name: 'Owlbear Cub',
+					},
+					{
+						sku_id: '1293373563327483984',
+						name: 'Snowy Owlbear Cub',
+						name_localizations: null,
+						summary: 'Your very own feathery friend!',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1293373563335610448',
+						category_sku_id: '1293373563494993952',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1293373563343995040',
+								sku_id: '1293373563327483984',
+								asset: 'a_54e28505a2ec1052857e15fa9d07ca4f',
+								label: 'A cute feathery, snowy owlbear club snuggles the avatar with a warm, full-body hug, making the avatar glow from its affection.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 146000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 131000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Snowy',
+						variant_value: '#EDF1F7',
+						base_variant_sku_id: '1293373563302318110',
+						base_variant_name: 'Owlbear Cub',
+					},
+				],
+			},
+			{
+				sku_id: '1293373563352649961',
+				name: 'Baby Displacer Beast',
+				summary: 'Here, kitty, kitty…',
+				store_listing_id: '1293373563364970496',
+				banner: '1295972927975587840',
+				unpublished_at: null,
+				styles: {
+					background_colors: [13843636, 5519536],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 0,
+						id: '1293373563373355008',
+						sku_id: '1293373563352649961',
+						asset: 'a_a842a9cf76fdaf91a6354937b31ecdef',
+						label: 'On its back, an adorable, playful baby displacer beast swings and plays with its tentacle barbs. Be careful when it grows up!',
+					},
+				],
+				type: 0,
+				premium_type: 0,
+				category_sku_id: '1293373563494993952',
+				google_sku_ids: {
+					5: '1293373563352649961_1295841615239315547',
+					7: '1293373563352649961_1295841639704821781',
+				},
+			},
+			{
+				sku_id: '1293373563381878836',
+				name: 'D20 Roll',
+				summary:
+					'You win some, you lose some. This effect can show your profile admirers one of two random outcomes.',
+				store_listing_id: '1293373563390136340',
+				banner: '1295972927975587840',
+				unpublished_at: null,
+				styles: {
+					background_colors: [13843636, 5519536],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1293373563398520832',
+						sku_id: '1293373563381878836',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1293373563494993952',
+				google_sku_ids: {
+					5: '1293373563381878836_1295839131108245555',
+					7: '1293373563381878836_1295839146786685021',
+				},
+			},
+			{
+				sku_id: '1293373563407175680',
+				name: 'Red Dragon',
+				summary: 'Let’s play with fire.',
+				store_listing_id: '1293373563415302164',
+				banner: '1295972927975587840',
+				unpublished_at: null,
+				styles: {
+					background_colors: [13843636, 5519536],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1293373563423686676',
+						sku_id: '1293373563407175680',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1293373563494993952',
+				google_sku_ids: {
+					5: '1293373563407175680_1295840120993353738',
+					7: '1293373563407175680_1295840149812412436',
+				},
+			},
+			{
+				sku_id: '1293373563432341574',
+				name: 'Beholder',
+				summary: 'Aren’t you a sight to behold!',
+				store_listing_id: '1293373563440468061',
+				banner: '1295972927975587840',
+				unpublished_at: null,
+				styles: {
+					background_colors: [13843636, 5519536],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1293373563448852613',
+						sku_id: '1293373563432341574',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1293373563494993952',
+				google_sku_ids: {
+					5: '1293373563432341574_1295841369792970762',
+					7: '1293373563432341574_1295841384586285140',
+				},
+			},
+			{
+				sku_id: '1293373563457507463',
+				name: 'Mimic',
+				summary: 'Surprise!',
+				store_listing_id: '1293373563465633905',
+				banner: '1295972927975587840',
+				unpublished_at: null,
+				styles: {
+					background_colors: [13843636, 5519536],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 146000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 131000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [
+					{
+						type: 1,
+						id: '1293373563478212608',
+						sku_id: '1293373563457507463',
+					},
+				],
+				type: 1,
+				premium_type: 0,
+				category_sku_id: '1293373563494993952',
+				google_sku_ids: {
+					5: '1293373563457507463_1295841232441970690',
+					7: '1293373563457507463_1295841246643748904',
+				},
+			},
+		],
+	},
+	{
+		sku_id: '1287835634089594972',
+		name: 'Spooky Night',
+		summary: 'Beware what lurks in the dark...',
+		store_listing_id: '1287835634085662780',
+		banner: '1287835634115022961',
+		unpublished_at: null,
+		styles: {
+			background_colors: [796573, 265556],
+			button_colors: [5793266, 5793266],
+			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
+		},
+		logo: '1290863905551155200',
+		hero_ranking: [
+			'1287835633485877369',
+			'1287835633787732070',
+			'1287835633674620949',
+			'1287835633867559022',
+			'1287835633536209079',
+			'1158572275507937342',
+			'1287835633615765524',
+			'1287835633703845888',
+			'1287835633733341224',
+			'1287835633762701382',
+			'1287835633515102228',
+			'1287835633561239683',
+			'1287835633590734848',
+			'1287835633645125653',
+			'1287835633817227297',
+			'1287835633842258022',
+		],
+		mobile_bg: '1287835634140053524',
+		pdp_bg: '1287835634131796020',
+		success_modal_bg: '1287835634144121005',
+		mobile_banner: '1287835634123149343',
+		featured_block: '1293423539159961731',
+		hero_banner: '1293345334847606824',
+		hero_logo: null,
+		products: [
+			{
+				sku_id: '1287835633485877369',
+				name: 'Spooky Cat Ears',
+				summary: '≽ ^ ʘ⩊ʘ ^ ≼',
+				store_listing_id: '1303067552619958292',
+				banner: '1287835634115022961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [796573, 265556],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1287835634089594972',
+				variants: [
+					{
+						sku_id: '1287835633485877369',
+						name: 'Spooky Cat Ears',
+						name_localizations: null,
+						summary: '≽ ^ ʘ⩊ʘ ^ ≼',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1287835633493999727',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1287835633506844713',
+								sku_id: '1287835633485877369',
+								asset: 'a_33656b7ed12cde00c1826b654cf65590',
+								label: 'The avatar wears frighteningly cute black cat ears and whiskers. The ears and whiskers twitch and shriek as if startled.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#C9856B',
+						base_variant_sku_id: '1287835633485877369',
+						base_variant_name: 'Spooky Cat Ears',
+					},
+					{
+						sku_id: '1287835633515102228',
+						name: 'Spooky Cat Ears (Midnight)',
+						name_localizations: null,
+						summary: '≽ ^ ʘ⩊ʘ ^ ≼',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1287835633519169657',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1287835633532010508',
+								sku_id: '1287835633515102228',
+								asset: 'a_c4395b178205217ad09cae605ef11b1a',
+								label: 'The avatar wears frighteningly cute blue cat ears and whiskers. The ears and whiskers twitch and shriek as if startled.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Midnight',
+						variant_value: '#0F13C8',
+						base_variant_sku_id: '1287835633485877369',
+						base_variant_name: 'Spooky Cat Ears',
+					},
+				],
+			},
+			{
+				sku_id: '1287835633536209079',
+				name: 'Candlelight',
+				summary: 'Now you can see in the dark. But so can they...',
+				store_listing_id: '1303068522821189662',
+				banner: '1287835634115022961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [796573, 265556],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1287835634089594972',
+				variants: [
+					{
+						sku_id: '1287835633536209079',
+						name: 'Candlelight',
+						name_localizations: null,
+						summary:
+							'Now you can see in the dark. But so can they...',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1287835633544331379',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1287835633552982089',
+								sku_id: '1287835633536209079',
+								asset: 'a_3f29e6edfe1cff43736f644cf1d01278',
+								label: 'Three lit candles surround the avatar, flickering softly as wax slowly drips down their sides.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#E0BC80',
+						base_variant_sku_id: '1287835633536209079',
+						base_variant_name: 'Candlelight',
+					},
+					{
+						sku_id: '1287835633561239683',
+						name: 'Crimson Candlelight',
+						name_localizations: null,
+						summary:
+							'Now you can see in the dark. But so can they...',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1287835633569501294',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1287835633578020924',
+								sku_id: '1287835633561239683',
+								asset: 'a_215876f6df5d2ca8502c54512d341c41',
+								label: 'Three lit crimson candles surround the avatar, flickering softly as wax slowly drips down their sides.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Crimson',
+						variant_value: '#6E0000',
+						base_variant_sku_id: '1287835633536209079',
+						base_variant_name: 'Candlelight',
+					},
+					{
+						sku_id: '1287835633590734848',
+						name: 'Dark Candlelight',
+						name_localizations: null,
+						summary:
+							'Now you can see in the dark. But so can they...',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1287835633594663084',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1287835633607507978',
+								sku_id: '1287835633590734848',
+								asset: 'a_2c992af67565b20350b7e2934415929d',
+								label: 'Three lit black candles with blueish flames surround the avatar, flickering softly as wax slowly drips down their sides.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Dark',
+						variant_value: '#494949',
+						base_variant_sku_id: '1287835633536209079',
+						base_variant_name: 'Candlelight',
+					},
+				],
+			},
+			{
+				sku_id: '1287835633615765524',
+				name: 'Dark Hood',
+				summary: "You definitely don't look suspicious at all.",
+				store_listing_id: '1303071313245765703',
+				banner: '1287835634115022961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [796573, 265556],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1287835634089594972',
+				variants: [
+					{
+						sku_id: '1287835633615765524',
+						name: 'Dark Hood',
+						name_localizations: null,
+						summary: "You definitely don't look suspicious at all.",
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1287835633624027147',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1287835633636868117',
+								sku_id: '1287835633615765524',
+								asset: 'a_41445f736db3525135b6b9e1122f2254',
+								label: 'The avatar wears a mysterious black hood that flutters as if in strong winds, while streaks of lightning crackle around it.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#6A6C76',
+						base_variant_sku_id: '1287835633615765524',
+						base_variant_name: 'Dark Hood',
+					},
+					{
+						sku_id: '1287835633645125653',
+						name: 'Crimson Hood',
+						name_localizations: null,
+						summary: "You definitely don't look suspicious at all.",
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1287835633653387414',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1287835633661907076',
+								sku_id: '1287835633645125653',
+								asset: 'a_a78819f4d41900aa7698a1bafaf6af41',
+								label: 'The avatar wears a mysterious crimson hood that flutters as if in strong winds, while streaks of lightning crackle around it.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Crimson',
+						variant_value: '#AC1317',
+						base_variant_sku_id: '1287835633615765524',
+						base_variant_name: 'Dark Hood',
+					},
+				],
+			},
+			{
+				sku_id: '1287835633674620949',
+				name: 'Plum Witch Hat',
+				summary: 'Mischief looks good on you.',
+				store_listing_id: '1303071478149021828',
+				banner: '1287835634115022961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [796573, 265556],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1287835634089594972',
+				variants: [
+					{
+						sku_id: '1287835633674620949',
+						name: 'Plum Witch Hat',
+						name_localizations: null,
+						summary: 'Mischief looks good on you.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1287835633682743307',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1287835633695588352',
+								sku_id: '1287835633674620949',
+								asset: 'a_5e8abacc7a7454d6b08b5cc84cac1d80',
+								label: 'The avatar wears a violet witch hat and casts a glowing purple spell that shimmers with magical energy.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Plum',
+						variant_value: '#5C3B63',
+						base_variant_sku_id: '1287835633674620949',
+						base_variant_name: 'Witch Hat',
+					},
+					{
+						sku_id: '1287835633703845888',
+						name: 'Midnight Witch Hat',
+						name_localizations: null,
+						summary: 'Mischief looks good on you.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1287835633712107603',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1287835633720627231',
+								sku_id: '1287835633703845888',
+								asset: 'a_a8c5af1848e53cc221d149442c03828f',
+								label: 'The avatar wears a midnight blue witch hat and casts a glowing green spell that shimmers with magical energy.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Midnight',
+						variant_value: '#264AA3',
+						base_variant_sku_id: '1287835633674620949',
+						base_variant_name: 'Witch Hat',
+					},
+				],
+			},
+			{
+				sku_id: '1287835633733341224',
+				name: 'Zombie Food',
+				summary: "Looks like you weren't fast enough. Unlucky.",
+				store_listing_id: '1303072627061166090',
+				banner: '1287835634115022961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [796573, 265556],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1287835634089594972',
+				variants: [
+					{
+						sku_id: '1287835633733341224',
+						name: 'Zombie Food',
+						name_localizations: null,
+						summary: "Looks like you weren't fast enough. Unlucky.",
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1287835633741467648',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1287835633749987360',
+								sku_id: '1287835633733341224',
+								asset: 'a_4f2b75e5adff09709702613ea0e2cb70',
+								label: "Rotting green zombie hands grasp the avatar's head, dragging their nails across and leaving scratch marks. This is what happens when you can't outrun a zombie.",
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#799D8D',
+						base_variant_sku_id: '1287835633733341224',
+						base_variant_name: 'Zombie Food',
+					},
+					{
+						sku_id: '1287835633762701382',
+						name: 'Zombie Food (Purple)',
+						name_localizations: null,
+						summary: "Looks like you weren't fast enough. Unlucky.",
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1287835633770823772',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1287835633779474564',
+								sku_id: '1287835633762701382',
+								asset: 'a_604d1f0f336d41089acc3f82f458a99e',
+								label: "Rotting purple zombie hands grasp the avatar's head, dragging their nails across and leaving scratch marks. This is what happens when you can't outrun a zombie.",
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Purple',
+						variant_value: '#B55EB8',
+						base_variant_sku_id: '1287835633733341224',
+						base_variant_name: 'Zombie Food',
+					},
+				],
+			},
+			{
+				sku_id: '1287835633787732070',
+				name: 'Bloodthirsty',
+				summary: 'Just a bite...',
+				store_listing_id: '1303073882709823508',
+				banner: '1287835634115022961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [796573, 265556],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1287835634089594972',
+				variants: [
+					{
+						sku_id: '1287835633787732070',
+						name: 'Bloodthirsty',
+						name_localizations: null,
+						summary: 'Just a bite...',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1287835633800187946',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1287835633808707614',
+								sku_id: '1287835633787732070',
+								asset: 'a_5cc3476f582a5649e64ab0a95504c4e9',
+								label: 'Sharp vampire vangs close in around the avatar, while fresh blood slowly trickles down the teeth and drips off the tips.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#F1E4E3',
+						base_variant_sku_id: '1287835633787732070',
+						base_variant_name: 'Bloodthirsty',
+					},
+					{
+						sku_id: '1287835633817227297',
+						name: 'Bloodthirsty (Green)',
+						name_localizations: null,
+						summary: 'Just a bite...',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1287835633825349682',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1287835633834000506',
+								sku_id: '1287835633817227297',
+								asset: 'a_eb790a48942b9159224655aca8f4cd51',
+								label: 'Sharp, ghostly green vampire vangs close in around the avatar, while fresh blood slowly trickles down the teeth and drips off the tips.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Green',
+						variant_value: '#02B302',
+						base_variant_sku_id: '1287835633787732070',
+						base_variant_name: 'Bloodthirsty',
+					},
+					{
+						sku_id: '1287835633842258022',
+						name: 'Bloodthirsty (Gold)',
+						name_localizations: null,
+						summary: 'Just a bite...',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1287835633850519624',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1287835633859039285',
+								sku_id: '1287835633842258022',
+								asset: 'a_306d1140ca183b25e3970ee266a8dcfa',
+								label: 'Sharp, golden vampire vangs close in around the avatar, while fresh blood slowly trickles down the teeth and drips off the tips.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Gold',
+						variant_value: '#FEB624',
+						base_variant_sku_id: '1287835633787732070',
+						base_variant_name: 'Bloodthirsty',
+					},
+				],
+			},
+			{
+				sku_id: '1158572178179108968',
+				name: 'Ghoulish Graffiti',
+				summary: 'Did I scare you?',
+				store_listing_id: '1303074291713314816',
+				banner: '1287835634115022961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [796573, 265556],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1287835634089594972',
+				variants: [
+					{
+						sku_id: '1158572178179108968',
+						name: 'Ghoulish Graffiti',
+						name_localizations: null,
+						summary: 'Did I scare you?',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1158572178179108967',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1139323101881061467',
+								sku_id: '1158572178179108968',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#E813D5',
+						base_variant_sku_id: '1158572178179108968',
+						base_variant_name: 'Ghoulish Graffiti',
+					},
+					{
+						sku_id: '1287835633867559022',
+						name: 'Blazing Ghoulish Graffiti',
+						name_localizations: null,
+						summary: 'Did I scare you?',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1287835633879875606',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1287835633888526448',
+								sku_id: '1287835633867559022',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Blazing',
+						variant_value: '#F62112',
+						base_variant_sku_id: '1158572178179108968',
+						base_variant_name: 'Ghoulish Graffiti',
+					},
+					{
+						sku_id: '1287835633896783952',
+						name: 'Neon Ghoulish Graffiti',
+						name_localizations: null,
+						summary: 'Did I scare you?',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1287835633930211338',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1287835633938858065',
+								sku_id: '1287835633896783952',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Neon',
+						variant_value: '#F06383',
+						base_variant_sku_id: '1158572178179108968',
+						base_variant_name: 'Ghoulish Graffiti',
+					},
+				],
+			},
+			{
+				sku_id: '1158572275507937342',
+				name: 'Dark Omens',
+				summary: 'Who keeps summoning these things?',
+				store_listing_id: '1290456274357456917',
+				banner: '1287835634115022961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [796573, 265556],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1287835634089594972',
+				variants: [
+					{
+						sku_id: '1158572275507937342',
+						name: 'Dark Omens',
+						name_localizations: null,
+						summary: 'Who keeps summoning these things?',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1158572275507937341',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1139323102753468546',
+								sku_id: '1158572275507937342',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#940FFC',
+						base_variant_sku_id: '1158572275507937342',
+						base_variant_name: 'Dark Omens',
+					},
+					{
+						sku_id: '1287835633947115570',
+						name: 'Infernal Dark Omens',
+						name_localizations: null,
+						summary: 'Who keeps summoning these things?',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1287835633959567421',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1287835633964023910',
+								sku_id: '1287835633947115570',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Infernal',
+						variant_value: '#E6630A',
+						base_variant_sku_id: '1158572275507937342',
+						base_variant_name: 'Dark Omens',
+					},
+					{
+						sku_id: '1287835633980669972',
+						name: 'Midnight Dark Omens',
+						name_localizations: null,
+						summary: 'Who keeps summoning these things?',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1287835633984737382',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1287835633997451387',
+								sku_id: '1287835633980669972',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Midnight',
+						variant_value: '#143FA6',
+						base_variant_sku_id: '1158572275507937342',
+						base_variant_name: 'Dark Omens',
+					},
+				],
+			},
+			{
+				sku_id: '1158572263411556373',
+				name: 'Zombie Slime',
+				summary: "I don't think you should touch that.",
+				store_listing_id: '1303075044687220797',
+				banner: '1287835634115022961',
+				unpublished_at: null,
+				styles: {
+					background_colors: [796573, 265556],
+					button_colors: [5793266, 5793266],
+					confetti_colors: [
+						43772, 15774258, 16414587, 3000177, 9739511,
+					],
+				},
+				prices: {
+					0: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					4: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					5: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 79000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+					7: {
+						country_prices: {
+							country_code: 'VN',
+							prices: [
+								{
+									amount: 66000,
+									currency: 'vnd',
+									exponent: 0,
+								},
+							],
+						},
+					},
+				},
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1287835634089594972',
+				variants: [
+					{
+						sku_id: '1158572263411556373',
+						name: 'Zombie Slime',
+						name_localizations: null,
+						summary: "I don't think you should touch that.",
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1158572263411556372',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1139323094431973427',
+								sku_id: '1158572263411556373',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#21EA0B',
+						base_variant_sku_id: '1158572263411556373',
+						base_variant_name: 'Zombie Slime',
+					},
+					{
+						sku_id: '1287835634005970994',
+						name: 'Bubblegum Zombie Slime',
+						name_localizations: null,
+						summary: "I don't think you should touch that.",
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1287835634018291766',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1287835634026811414',
+								sku_id: '1287835634005970994',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Crimson',
+						variant_value: '#CE0074',
+						base_variant_sku_id: '1158572263411556373',
+						base_variant_name: 'Zombie Slime',
+					},
+					{
+						sku_id: '1287835634035331072',
+						name: 'Midnight Zombie Slime',
+						name_localizations: null,
+						summary: "I don't think you should touch that.",
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1287835634047647754',
+						category_sku_id: '1287835634089594972',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1287835634073075726',
+								sku_id: '1287835634035331072',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Midnight',
+						variant_value: '#00239E',
+						base_variant_sku_id: '1158572263411556373',
+						base_variant_name: 'Zombie Slime',
+					},
+				],
+			},
+		],
+	},
+	{
 		sku_id: '1285465421339693076',
 		name: 'Street Fighter 6',
 		summary: 'Hit the streets with Street Fighter.',
@@ -12,10 +15366,14 @@ module.exports = [
 			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
 		},
 		logo: '1289009898176118885',
+		hero_ranking: null,
 		mobile_bg: '1285465421377703967',
 		pdp_bg: '1286854013354250260',
 		success_modal_bg: '1286854045914366054',
 		mobile_banner: '1285465421364858880',
+		featured_block: '1293681072642457660',
+		hero_banner: null,
+		hero_logo: null,
 		products: [
 			{
 				sku_id: '1285465420979245087',
@@ -1568,10 +16926,14 @@ module.exports = [
 			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
 		},
 		logo: '1282816432060633161',
+		hero_ranking: null,
 		mobile_bg: '1285647084158189668',
 		pdp_bg: '1282816432081604660',
 		success_modal_bg: '1282816432098512907',
 		mobile_banner: '1282816432077541386',
+		featured_block: null,
+		hero_banner: null,
+		hero_logo: null,
 		products: [
 			{
 				sku_id: '1282816431813169272',
@@ -1978,7 +17340,7 @@ module.exports = [
 				name: 'Twilight Chrysanthemums',
 				summary:
 					'Transformation is a dance where your inner beauty finds its rhythm.',
-				store_listing_id: '1282816431855243395',
+				store_listing_id: '1304490610450894950',
 				banner: '1282816432068886560',
 				unpublished_at: null,
 				styles: {
@@ -2038,104 +17400,162 @@ module.exports = [
 						},
 					},
 				},
-				items: [
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1282816432056569866',
+				variants: [
 					{
-						type: 0,
-						id: '1282816431863500920',
 						sku_id: '1282816431850782730',
-						asset: 'a_eb003dc2b5c6d85c8e18cc9336fcdad3',
-						label: 'The avatar is decorated with sprouted and blooming chrysanthemums that continuously change from pink to blue as a pair of glowing butterflies - one blue and the other pink as well - encircle the avatar.',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1282816432056569866',
-				google_sku_ids: {
-					5: '1282816431850782730_1285707094334640140',
-					7: '1282816431850782730_1285707106414104687',
-				},
-			},
-			{
-				sku_id: '1286504131325853739',
-				name: 'Morning Chrysanthemums',
-				summary:
-					'Transformation is a dance where your inner beauty finds its rhythm.',
-				store_listing_id: '1286504131334246582',
-				banner: '1282816432068886560',
-				unpublished_at: null,
-				styles: {
-					background_colors: [16382457, 1184274],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
+						name: 'Twilight Chrysanthemums',
+						name_localizations: null,
+						summary:
+							'Transformation is a dance where your inner beauty finds its rhythm.',
+						summary_localizations: null,
 						type: 0,
-						id: '1286504131342766130',
+						store_listing_id: '1282816431855243395',
+						category_sku_id: '1282816432056569866',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1282816431863500920',
+								sku_id: '1282816431850782730',
+								asset: 'a_eb003dc2b5c6d85c8e18cc9336fcdad3',
+								label: 'The avatar is decorated with sprouted and blooming chrysanthemums that continuously change from pink to blue as a pair of glowing butterflies - one blue and the other pink as well - encircle the avatar.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Twilight',
+						variant_value: '#2E53C4',
+						base_variant_sku_id: '1282816431850782730',
+						base_variant_name: 'Chrysanthemums',
+					},
+					{
 						sku_id: '1286504131325853739',
-						asset: 'a_a02f615e00ef516c98adf7e93ebe881f',
-						label: 'The avatar is decorated with sprouted and blooming peach-colored chrysanthemums as a pair of monarch butterflies encircle the avatar.',
+						name: 'Morning Chrysanthemums',
+						name_localizations: null,
+						summary:
+							'Transformation is a dance where your inner beauty finds its rhythm.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1286504131334246582',
+						category_sku_id: '1282816432056569866',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1286504131342766130',
+								sku_id: '1286504131325853739',
+								asset: 'a_a02f615e00ef516c98adf7e93ebe881f',
+								label: 'The avatar is decorated with sprouted and blooming peach-colored chrysanthemums as a pair of monarch butterflies encircle the avatar.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Morning',
+						variant_value: '#C69B8D',
+						base_variant_sku_id: '1282816431850782730',
+						base_variant_name: 'Chrysanthemums',
 					},
 				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1282816432056569866',
-				google_sku_ids: {
-					5: '1286504131325853739_1286815593902637160',
-					7: '1286504131325853739_1287867548100067428',
-				},
 			},
 			{
 				sku_id: '1282816431871754281',
@@ -2223,7 +17643,7 @@ module.exports = [
 				sku_id: '1282816431901118474',
 				name: 'Floral Harmony',
 				summary: 'A touch of day and night woven into every petal.',
-				store_listing_id: '1282816431905575045',
+				store_listing_id: '1304488358818480158',
 				banner: '1282816432068886560',
 				unpublished_at: null,
 				styles: {
@@ -2283,109 +17703,168 @@ module.exports = [
 						},
 					},
 				},
-				items: [
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1282816432056569866',
+				variants: [
 					{
-						type: 0,
-						id: '1282816431913832489',
 						sku_id: '1282816431901118474',
-						asset: 'a_b63917c64ad44020d2d5877a4f91907f',
-						label: "Soft pink and blue floral petals adorn the avatar, adding a touch of autumn's natural beauty during both day and night.",
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1282816432056569866',
-				google_sku_ids: {
-					5: '1282816431901118474_1285709465764499477',
-					7: '1282816431901118474_1285709476141465703',
-				},
-			},
-			{
-				sku_id: '1286504131392962641',
-				name: 'Floral Harmony (Sunburst)',
-				summary: 'A touch of day and night woven into every petal.',
-				store_listing_id: '1286504131401355315',
-				banner: '1282816432068886560',
-				unpublished_at: null,
-				styles: {
-					background_colors: [16382457, 1184274],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
+						name: 'Floral Harmony',
+						name_localizations: null,
+						summary:
+							'A touch of day and night woven into every petal.',
+						summary_localizations: null,
 						type: 0,
-						id: '1286504131409874984',
+						store_listing_id: '1282816431905575045',
+						category_sku_id: '1282816432056569866',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1282816431913832489',
+								sku_id: '1282816431901118474',
+								asset: 'a_b63917c64ad44020d2d5877a4f91907f',
+								label: "Soft pink and blue floral petals adorn the avatar, adding a touch of autumn's natural beauty during both day and night.",
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Sunburst',
+						variant_value: '#E54A51',
+						base_variant_sku_id: '1282816431901118474',
+						base_variant_name: 'Floral Harmony',
+					},
+					{
 						sku_id: '1286504131392962641',
-						asset: 'a_00c55c9ce142069c7675d25f4b34e487',
-						label: "Soft yellow and purple floral petals adorn the avatar, adding a touch of autumn's natural beauty during both day and night.",
+						name: 'Floral Harmony (Sunburst)',
+						name_localizations: null,
+						summary:
+							'A touch of day and night woven into every petal.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1286504131401355315',
+						category_sku_id: '1282816432056569866',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1286504131409874984',
+								sku_id: '1286504131392962641',
+								asset: 'a_00c55c9ce142069c7675d25f4b34e487',
+								label: "Soft yellow and purple floral petals adorn the avatar, adding a touch of autumn's natural beauty during both day and night.",
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Azure',
+						variant_value: '#FBD54A',
+						base_variant_sku_id: '1282816431901118474',
+						base_variant_name: 'Floral Harmony',
 					},
 				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1282816432056569866',
-				google_sku_ids: {
-					5: '1286504131392962641_1286816957529587816',
-					7: '1286504131392962641_1287865084978266165',
-				},
 			},
 			{
 				sku_id: '1282816431922085888',
 				name: "Autumn's Arbor",
 				summary: 'Where day and night share equal ground.',
-				store_listing_id: '1282816431926546494',
+				store_listing_id: '1304489068570087496',
 				banner: '1282816432068886560',
 				unpublished_at: null,
 				styles: {
@@ -2445,103 +17924,160 @@ module.exports = [
 						},
 					},
 				},
-				items: [
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1282816432056569866',
+				variants: [
 					{
-						type: 0,
-						id: '1282816431934803999',
 						sku_id: '1282816431922085888',
-						asset: 'a_fead934c894e95e070d8a0301f9f0b27',
-						label: 'Two autumn trees - one with brilliant blue leaves, and the other with vibrant red leaves - wrap around the avatar, connected by the same roots that are sprinkled with pink petals.',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1282816432056569866',
-				google_sku_ids: {
-					5: '1282816431922085888_1285707237347561483',
-					7: '1282816431922085888_1285707248718577744',
-				},
-			},
-			{
-				sku_id: '1286504131439366184',
-				name: "Autumn's Arbor (Aurora)",
-				summary: 'Where day and night share equal ground.',
-				store_listing_id: '1286504131443298325',
-				banner: '1282816432068886560',
-				unpublished_at: null,
-				styles: {
-					background_colors: [16382457, 1184274],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
+						name: "Autumn's Arbor",
+						name_localizations: null,
+						summary: 'Where day and night share equal ground.',
+						summary_localizations: null,
 						type: 0,
-						id: '1286504131447623713',
+						store_listing_id: '1282816431926546494',
+						category_sku_id: '1282816432056569866',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1282816431934803999',
+								sku_id: '1282816431922085888',
+								asset: 'a_fead934c894e95e070d8a0301f9f0b27',
+								label: 'Two autumn trees - one with brilliant blue leaves, and the other with vibrant red leaves - wrap around the avatar, connected by the same roots that are sprinkled with pink petals.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#ED4525',
+						base_variant_sku_id: '1282816431922085888',
+						base_variant_name: "Autumn's Arbor",
+					},
+					{
 						sku_id: '1286504131439366184',
-						asset: 'a_a34bfbc057df1d328d4bf687d6109af8',
-						label: 'Two autumn trees - one with vibrant purple leaves, and the other with green leaves - wrap around the avatar, connected by the same roots that are sprinkled with yellow petals.',
+						name: "Autumn's Arbor (Aurora)",
+						name_localizations: null,
+						summary: 'Where day and night share equal ground.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1286504131443298325',
+						category_sku_id: '1282816432056569866',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1286504131447623713',
+								sku_id: '1286504131439366184',
+								asset: 'a_a34bfbc057df1d328d4bf687d6109af8',
+								label: 'Two autumn trees - one with vibrant purple leaves, and the other with green leaves - wrap around the avatar, connected by the same roots that are sprinkled with yellow petals.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Aurora',
+						variant_value: '#73069C',
+						base_variant_sku_id: '1282816431922085888',
+						base_variant_name: "Autumn's Arbor",
 					},
 				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1282816432056569866',
-				google_sku_ids: {
-					5: '1286504131439366184_1286816577529843765',
-					7: '1286504131439366184_1287865811121344565',
-				},
 			},
 			{
 				sku_id: '1282816431943057460',
@@ -2711,7 +18247,7 @@ module.exports = [
 				sku_id: '1282816431985004594',
 				name: 'Twilight Grove',
 				summary: "Step inside and see autumn's beauty unfold.",
-				store_listing_id: '1282816431989461013',
+				store_listing_id: '1304489700731650088',
 				banner: '1282816432068886560',
 				unpublished_at: null,
 				styles: {
@@ -2771,99 +18307,156 @@ module.exports = [
 						},
 					},
 				},
-				items: [
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1282816432056569866',
+				variants: [
 					{
-						type: 1,
-						id: '1282816431997718528',
 						sku_id: '1282816431985004594',
-					},
-				],
-				type: 1,
-				premium_type: 0,
-				category_sku_id: '1282816432056569866',
-				google_sku_ids: {
-					5: '1282816431985004594_1285705770951774228',
-					7: '1282816431985004594_1285705781622079520',
-				},
-			},
-			{
-				sku_id: '1286504131518791816',
-				name: 'Sunrise Grove',
-				summary: "Step inside and see autumn's beauty unfold.",
-				store_listing_id: '1286504131527184425',
-				banner: '1282816432068886560',
-				unpublished_at: null,
-				styles: {
-					background_colors: [16382457, 1184274],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
+						name: 'Twilight Grove',
+						name_localizations: null,
+						summary: "Step inside and see autumn's beauty unfold.",
+						summary_localizations: null,
 						type: 1,
-						id: '1285636325059465216',
+						store_listing_id: '1282816431989461013',
+						category_sku_id: '1282816432056569866',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1282816431997718528',
+								sku_id: '1282816431985004594',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Twilight',
+						variant_value: '#372C72',
+						base_variant_sku_id: '1282816431985004594',
+						base_variant_name: 'Grove',
+					},
+					{
 						sku_id: '1286504131518791816',
+						name: 'Sunrise Grove',
+						name_localizations: null,
+						summary: "Step inside and see autumn's beauty unfold.",
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1286504131527184425',
+						category_sku_id: '1282816432056569866',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1285636325059465216',
+								sku_id: '1286504131518791816',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Sunrise',
+						variant_value: '#938A57',
+						base_variant_sku_id: '1282816431985004594',
+						base_variant_name: 'Grove',
 					},
 				],
-				type: 1,
-				premium_type: 0,
-				category_sku_id: '1282816432056569866',
-				google_sku_ids: {
-					5: '1286504131518791816_1286817765080039485',
-					7: '1286504131518791816_1287868727521448017',
-				},
 			},
 			{
 				sku_id: '1282816432001777794',
@@ -3039,10 +18632,14 @@ module.exports = [
 			confetti_colors: [16740664, 9582092, 16163636, 16762246, 16747008],
 		},
 		logo: '1285724287151636602',
+		hero_ranking: null,
 		mobile_bg: '1285724355606614118',
 		pdp_bg: '1285418924351029248',
 		success_modal_bg: '1285418949969969192',
 		mobile_banner: '1285418889605288079',
+		featured_block: null,
+		hero_banner: null,
+		hero_logo: null,
 		products: [
 			{
 				sku_id: '1283211414323990538',
@@ -3645,7 +19242,7 @@ module.exports = [
 				sku_id: '1157407831348228141',
 				name: 'Fox Hat',
 				summary: 'Charming, cozy, and a little bit nosy.',
-				store_listing_id: '1157407831348228140',
+				store_listing_id: '1304492274067050577',
 				banner: '1285418783653232642',
 				unpublished_at: null,
 				styles: {
@@ -3705,190 +19302,240 @@ module.exports = [
 						},
 					},
 				},
-				items: [
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1157406994873991284',
+				variants: [
 					{
-						type: 0,
-						id: '1157409074422481021',
 						sku_id: '1157407831348228141',
-						asset: 'a_7d305bca6cf371df98c059f9d2ef05e4',
-						label: 'The avatar wears a cute, orange fox hat! Wait... did the hat just blink?!',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1157406994873991284',
-				google_sku_ids: {
-					5: '1157407831348228141_1259923871948079124',
-					7: '1157407831348228141_1259923882169733120',
-				},
-			},
-			{
-				sku_id: '1282820582282629171',
-				name: 'Chestnut Fox Hat',
-				summary: 'Charming, cozy, and a little bit nosy.',
-				store_listing_id: '1282820582286692524',
-				banner: '1285418783653232642',
-				unpublished_at: null,
-				styles: {
-					background_colors: [16760655, 6362384],
-					button_colors: [16097602, 14972430],
-					confetti_colors: [
-						16740664, 9582092, 16163636, 16762246, 16747008,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
+						name: 'Fox Hat',
+						name_localizations: null,
+						summary: 'Charming, cozy, and a little bit nosy.',
+						summary_localizations: null,
 						type: 0,
-						id: '1282820582295208107',
+						store_listing_id: '1157407831348228140',
+						category_sku_id: '1157406994873991284',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1157409074422481021',
+								sku_id: '1157407831348228141',
+								asset: 'a_7d305bca6cf371df98c059f9d2ef05e4',
+								label: 'The avatar wears a cute, orange fox hat! Wait... did the hat just blink?!',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#AD5B22',
+						base_variant_sku_id: '1157407831348228141',
+						base_variant_name: 'Fox Hat',
+					},
+					{
 						sku_id: '1282820582282629171',
-						asset: 'a_141da6fb7f481b0cdf9dd88fc29514fa',
-						label: 'The avatar wears a cute, dark brown fox hat! Wait... did the hat just blink?!',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1157406994873991284',
-				google_sku_ids: {
-					5: '1282820582282629171_1285708511602413609',
-					7: '1282820582282629171_1285708522142564369',
-				},
-			},
-			{
-				sku_id: '1282820582303334482',
-				name: 'Snow Fox Hat',
-				summary: 'Charming, cozy, and a little bit nosy.',
-				store_listing_id: '1282820582311854142',
-				banner: '1285418783653232642',
-				unpublished_at: null,
-				styles: {
-					background_colors: [16760655, 6362384],
-					button_colors: [16097602, 14972430],
-					confetti_colors: [
-						16740664, 9582092, 16163636, 16762246, 16747008,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
+						name: 'Chestnut Fox Hat',
+						name_localizations: null,
+						summary: 'Charming, cozy, and a little bit nosy.',
+						summary_localizations: null,
 						type: 0,
-						id: '1282820582316183716',
+						store_listing_id: '1282820582286692524',
+						category_sku_id: '1157406994873991284',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1282820582295208107',
+								sku_id: '1282820582282629171',
+								asset: 'a_141da6fb7f481b0cdf9dd88fc29514fa',
+								label: 'The avatar wears a cute, dark brown fox hat! Wait... did the hat just blink?!',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Chestnut',
+						variant_value: '#573017',
+						base_variant_sku_id: '1157407831348228141',
+						base_variant_name: 'Fox Hat',
+					},
+					{
 						sku_id: '1282820582303334482',
-						asset: 'a_f8df108e52465c7c7c5e1841fabdda84',
-						label: 'The avatar wears a cute, silver white fox hat! Wait... did the hat just blink?!',
+						name: 'Snow Fox Hat',
+						name_localizations: null,
+						summary: 'Charming, cozy, and a little bit nosy.',
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1282820582311854142',
+						category_sku_id: '1157406994873991284',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1282820582316183716',
+								sku_id: '1282820582303334482',
+								asset: 'a_f8df108e52465c7c7c5e1841fabdda84',
+								label: 'The avatar wears a cute, silver white fox hat! Wait... did the hat just blink?!',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Snow',
+						variant_value: '#CFD3DB',
+						base_variant_sku_id: '1157407831348228141',
+						base_variant_name: 'Fox Hat',
 					},
 				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1157406994873991284',
-				google_sku_ids: {
-					5: '1282820582303334482_1285707791285358592',
-					7: '1282820582303334482_1285707802035228743',
-				},
 			},
 			{
 				sku_id: '1157409074422481023',
 				name: 'Fall Leaves',
 				summary: "Behold nature's dance.",
-				store_listing_id: '1157409074422481022',
+				store_listing_id: '1304493403748302858',
 				banner: '1285418783653232642',
 				unpublished_at: null,
 				styles: {
@@ -3948,190 +19595,240 @@ module.exports = [
 						},
 					},
 				},
-				items: [
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1157406994873991284',
+				variants: [
 					{
-						type: 0,
-						id: '1157409074422481024',
 						sku_id: '1157409074422481023',
-						asset: 'a_5087f7f988bd1b2819cac3e33d0150f5',
-						label: 'Chestnut autumn leaves and acorns decorate the avatar. You can practically smell the acorns dangling above. Fall is here.',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1157406994873991284',
-				google_sku_ids: {
-					5: '1157409074422481023_1259923799797927998',
-					7: '1157409074422481023_1259923817556480040',
-				},
-			},
-			{
-				sku_id: '1282820582345408595',
-				name: 'Scarlet Leaves',
-				summary: "Behold nature's dance.",
-				store_listing_id: '1282820582353932318',
-				banner: '1285418783653232642',
-				unpublished_at: null,
-				styles: {
-					background_colors: [16760655, 6362384],
-					button_colors: [16097602, 14972430],
-					confetti_colors: [
-						16740664, 9582092, 16163636, 16762246, 16747008,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
+						name: 'Fall Leaves',
+						name_localizations: null,
+						summary: "Behold nature's dance.",
+						summary_localizations: null,
 						type: 0,
-						id: '1282820582357995644',
+						store_listing_id: '1157409074422481022',
+						category_sku_id: '1157406994873991284',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1157409074422481024',
+								sku_id: '1157409074422481023',
+								asset: 'a_5087f7f988bd1b2819cac3e33d0150f5',
+								label: 'Chestnut autumn leaves and acorns decorate the avatar. You can practically smell the acorns dangling above. Fall is here.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#AB5E36',
+						base_variant_sku_id: '1157409074422481023',
+						base_variant_name: 'Fall Leaves',
+					},
+					{
 						sku_id: '1282820582345408595',
-						asset: 'a_bc63175fe462d8748b68ea5179249418',
-						label: 'Scarlet autumn leaves and acorns decorate the avatar. You can practically smell the acorns dangling above. Fall is here.',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1157406994873991284',
-				google_sku_ids: {
-					5: '1282820582345408595_1285707138118848664',
-					7: '1282820582345408595_1285707175196491787',
-				},
-			},
-			{
-				sku_id: '1282820582366511229',
-				name: 'Woodland Leaves',
-				summary: "Behold nature's dance.",
-				store_listing_id: '1282820582374637578',
-				banner: '1285418783653232642',
-				unpublished_at: null,
-				styles: {
-					background_colors: [16760655, 6362384],
-					button_colors: [16097602, 14972430],
-					confetti_colors: [
-						16740664, 9582092, 16163636, 16762246, 16747008,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
+						name: 'Scarlet Leaves',
+						name_localizations: null,
+						summary: "Behold nature's dance.",
+						summary_localizations: null,
 						type: 0,
-						id: '1282820582378963086',
+						store_listing_id: '1282820582353932318',
+						category_sku_id: '1157406994873991284',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1282820582357995644',
+								sku_id: '1282820582345408595',
+								asset: 'a_bc63175fe462d8748b68ea5179249418',
+								label: 'Scarlet autumn leaves and acorns decorate the avatar. You can practically smell the acorns dangling above. Fall is here.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Scarlet',
+						variant_value: '#AF2227',
+						base_variant_sku_id: '1157409074422481023',
+						base_variant_name: 'Fall Leaves',
+					},
+					{
 						sku_id: '1282820582366511229',
-						asset: 'a_720a2045510ec16f9878237d2ff9873f',
-						label: 'Green, yellow, and brown, autumn leaves and two acorns decorate the avatar. You can practically smell the acorns dangling above. Fall is here.',
+						name: 'Woodland Leaves',
+						name_localizations: null,
+						summary: "Behold nature's dance.",
+						summary_localizations: null,
+						type: 0,
+						store_listing_id: '1282820582374637578',
+						category_sku_id: '1157406994873991284',
+						premium_type: 0,
+						items: [
+							{
+								type: 0,
+								id: '1282820582378963086',
+								sku_id: '1282820582366511229',
+								asset: 'a_720a2045510ec16f9878237d2ff9873f',
+								label: 'Green, yellow, and brown, autumn leaves and two acorns decorate the avatar. You can practically smell the acorns dangling above. Fall is here.',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Woodland',
+						variant_value: '#7B7C26',
+						base_variant_sku_id: '1157409074422481023',
+						base_variant_name: 'Fall Leaves',
 					},
 				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1157406994873991284',
-				google_sku_ids: {
-					5: '1282820582366511229_1285708469952970873',
-					7: '1282820582366511229_1285708492220661804',
-				},
 			},
 			{
 				sku_id: '1159280677246742548',
 				name: 'Fall Foliage',
 				summary: 'Getting ready for sweater weather.',
-				store_listing_id: '1159280674004549682',
+				store_listing_id: '1304494262691565688',
 				banner: '1285418783653232642',
 				unpublished_at: null,
 				styles: {
@@ -4191,184 +19888,234 @@ module.exports = [
 						},
 					},
 				},
-				items: [
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1157406994873991284',
+				variants: [
 					{
-						type: 1,
-						id: '1159277016571449404',
 						sku_id: '1159280677246742548',
-					},
-				],
-				type: 1,
-				premium_type: 0,
-				category_sku_id: '1157406994873991284',
-				google_sku_ids: {
-					5: '1159280677246742548_1259923892668071936',
-					7: '1159280677246742548_1259923903028137984',
-				},
-			},
-			{
-				sku_id: '1282820582408192061',
-				name: 'Scarlet Fall Foliage',
-				summary: 'Getting ready for sweater weather.',
-				store_listing_id: '1282820582416711680',
-				banner: '1285418783653232642',
-				unpublished_at: null,
-				styles: {
-					background_colors: [16760655, 6362384],
-					button_colors: [16097602, 14972430],
-					confetti_colors: [
-						16740664, 9582092, 16163636, 16762246, 16747008,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
+						name: 'Fall Foliage',
+						name_localizations: null,
+						summary: 'Getting ready for sweater weather.',
+						summary_localizations: null,
 						type: 1,
-						id: '1282820582421041224',
+						store_listing_id: '1159280674004549682',
+						category_sku_id: '1157406994873991284',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1159277016571449404',
+								sku_id: '1159280677246742548',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#AD602C',
+						base_variant_sku_id: '1159280677246742548',
+						base_variant_name: 'Fall Foliage',
+					},
+					{
 						sku_id: '1282820582408192061',
-					},
-				],
-				type: 1,
-				premium_type: 0,
-				category_sku_id: '1157406994873991284',
-				google_sku_ids: {
-					5: '1282820582408192061_1285707558463471760',
-					7: '1282820582408192061_1285707568588652666',
-				},
-			},
-			{
-				sku_id: '1282820582429298748',
-				name: 'Woodland Fall Foliage',
-				summary: 'Getting ready for sweater weather.',
-				store_listing_id: '1282820582437814283',
-				banner: '1285418783653232642',
-				unpublished_at: null,
-				styles: {
-					background_colors: [16760655, 6362384],
-					button_colors: [16097602, 14972430],
-					confetti_colors: [
-						16740664, 9582092, 16163636, 16762246, 16747008,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
+						name: 'Scarlet Fall Foliage',
+						name_localizations: null,
+						summary: 'Getting ready for sweater weather.',
+						summary_localizations: null,
 						type: 1,
-						id: '1282820582441746544',
+						store_listing_id: '1282820582416711680',
+						category_sku_id: '1157406994873991284',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1282820582421041224',
+								sku_id: '1282820582408192061',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Scarlet',
+						variant_value: '#B02123',
+						base_variant_sku_id: '1159280677246742548',
+						base_variant_name: 'Fall Foliage',
+					},
+					{
 						sku_id: '1282820582429298748',
+						name: 'Woodland Fall Foliage',
+						name_localizations: null,
+						summary: 'Getting ready for sweater weather.',
+						summary_localizations: null,
+						type: 1,
+						store_listing_id: '1282820582437814283',
+						category_sku_id: '1157406994873991284',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1282820582441746544',
+								sku_id: '1282820582429298748',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Woodland',
+						variant_value: '#708234',
+						base_variant_sku_id: '1159280677246742548',
+						base_variant_name: 'Fall Foliage',
 					},
 				],
-				type: 1,
-				premium_type: 0,
-				category_sku_id: '1157406994873991284',
-				google_sku_ids: {
-					5: '1282820582429298748_1285709038905987144',
-					7: '1282820582429298748_1285709049144414318',
-				},
 			},
 			{
 				sku_id: '1159280847262859364',
 				name: 'Lilypad Life',
 				summary: 'Ribbit.',
-				store_listing_id: '1159280844796596335',
+				store_listing_id: '1304495129222189087',
 				banner: '1285418783653232642',
 				unpublished_at: null,
 				styles: {
@@ -4428,288 +20175,172 @@ module.exports = [
 						},
 					},
 				},
-				items: [
+				items: [],
+				type: 2000,
+				premium_type: 0,
+				category_sku_id: '1157406994873991284',
+				variants: [
 					{
-						type: 1,
-						id: '1159275733764550728',
 						sku_id: '1159280847262859364',
-					},
-				],
-				type: 1,
-				premium_type: 0,
-				category_sku_id: '1157406994873991284',
-				google_sku_ids: {
-					5: '1159280847262859364_1259923915308929104',
-					7: '1159280847262859364_1259923925069070456',
-				},
-			},
-			{
-				sku_id: '1285681070196396177',
-				name: 'Midnight Lilypad Life',
-				summary: 'Ribbit.',
-				store_listing_id: '1285681070196396180',
-				banner: '1285418783653232642',
-				unpublished_at: null,
-				styles: {
-					background_colors: [16760655, 6362384],
-					button_colors: [16097602, 14972430],
-					confetti_colors: [
-						16740664, 9582092, 16163636, 16762246, 16747008,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
+						name: 'Lilypad Life',
+						name_localizations: null,
+						summary: 'Ribbit.',
+						summary_localizations: null,
 						type: 1,
-						id: '1285681070196396176',
+						store_listing_id: '1159280844796596335',
+						category_sku_id: '1157406994873991284',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1159275733764550728',
+								sku_id: '1159280847262859364',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Original',
+						variant_value: '#8D8C4F',
+						base_variant_sku_id: '1159280847262859364',
+						base_variant_name: 'Lilypad Life',
+					},
+					{
 						sku_id: '1285681070196396177',
-					},
-				],
-				type: 1,
-				premium_type: 0,
-				category_sku_id: '1157406994873991284',
-				google_sku_ids: {
-					5: '1285681070196396177_1285793823443779605',
-					7: '1285681070196396177_1286400360185073785',
-				},
-			},
-			{
-				sku_id: '1285681070196396179',
-				name: 'Muddy Lilypad Life',
-				summary: 'Ribbit.',
-				store_listing_id: '1285681070196396181',
-				banner: '1285418783653232642',
-				unpublished_at: null,
-				styles: {
-					background_colors: [16760655, 6362384],
-					button_colors: [16097602, 14972430],
-					confetti_colors: [
-						16740664, 9582092, 16163636, 16762246, 16747008,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
+						name: 'Midnight Lilypad Life',
+						name_localizations: null,
+						summary: 'Ribbit.',
+						summary_localizations: null,
 						type: 1,
-						id: '1285681070196396178',
+						store_listing_id: '1285681070196396180',
+						category_sku_id: '1157406994873991284',
+						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1285681070196396176',
+								sku_id: '1285681070196396177',
+							},
+						],
+						prices: {
+							0: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							4: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							5: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 79000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+							7: {
+								country_prices: {
+									country_code: 'VN',
+									prices: [
+										{
+											amount: 66000,
+											currency: 'vnd',
+											exponent: 0,
+										},
+									],
+								},
+							},
+						},
+						variant_label: 'Midnight',
+						variant_value: '#744573',
+						base_variant_sku_id: '1159280847262859364',
+						base_variant_name: 'Lilypad Life',
+					},
+					{
 						sku_id: '1285681070196396179',
-					},
-				],
-				type: 1,
-				premium_type: 0,
-				category_sku_id: '1157406994873991284',
-				google_sku_ids: {
-					5: '1285681070196396179_1285796272477044746',
-					7: '1285681070196396179_1286400414224355451',
-				},
-			},
-		],
-	},
-	{
-		sku_id: '1277733175191277721',
-		name: 'The Vault',
-		summary:
-			'Long-awaited treasures from times past have made their return… what will you find?',
-		store_listing_id: '1277733175183020132',
-		banner: '1280605031003066378',
-		unpublished_at: '2024-09-30T03:59:00+00:00',
-		styles: {
-			background_colors: [1118740, 1118740],
-			button_colors: [5793266, 5793266],
-			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
-		},
-		logo: '1277733175224701010',
-		mobile_bg: '1277733175254323293',
-		pdp_bg: '1277733175245672540',
-		success_modal_bg: '1281280718068252824',
-		mobile_banner: '1277733175241609216',
-		products: [
-			{
-				sku_id: '1277733175132688446',
-				name: 'I Love Stinkums Bundle',
-				summary: 'A bundle of collectibles.',
-				store_listing_id: '1277733175140946022',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 118000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 92000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 118000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 92000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1179493515076579376',
-						sku_id: '1179493515076579375',
-						asset: 'a_ea8e2e628bacdddb1ef18cb382aa454c',
-						label: "A strange humanoid-looking creature farts, then smells its own stinky fumes. Guess that's why its earned the name Stinkums...",
-					},
-					{
+						name: 'Muddy Lilypad Life',
+						name_localizations: null,
+						summary: 'Ribbit.',
+						summary_localizations: null,
 						type: 1,
-						id: '1179493515126898812',
-						sku_id: '1179493515126898811',
-					},
-				],
-				type: 1000,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				bundled_products: [
-					{
-						sku_id: '1179493515076579375',
-						name: 'Stinkums',
-						summary: 'Questionably dealt. Definitely smelt.',
-						type: 0,
+						store_listing_id: '1285681070196396181',
+						category_sku_id: '1157406994873991284',
 						premium_type: 0,
+						items: [
+							{
+								type: 1,
+								id: '1285681070196396178',
+								sku_id: '1285681070196396179',
+							},
+						],
 						prices: {
 							0: {
 								country_prices: {
@@ -4760,1837 +20391,12 @@ module.exports = [
 								},
 							},
 						},
-					},
-					{
-						sku_id: '1179493515126898811',
-						name: 'Heartzilla',
-						summary:
-							'Is this what they mean when they say love hurts?',
-						type: 1,
-						premium_type: 0,
-						prices: {
-							0: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 79000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-							4: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 66000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-							5: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 79000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-							7: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 66000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-						},
+						variant_label: 'Muddy',
+						variant_value: '#866044',
+						base_variant_sku_id: '1159280847262859364',
+						base_variant_name: 'Lilypad Life',
 					},
 				],
-				google_sku_ids: {},
-			},
-			{
-				sku_id: '1277733175149199473',
-				name: 'Toast and Cereal Bundle',
-				summary: 'A bundle of collectibles.',
-				store_listing_id: '1277733175157854217',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 92000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 72000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 92000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 72000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1184292703937253386',
-						sku_id: '1144056139584127058',
-						asset: 'a_21c7a425b490017478a5558f33f33c63',
-						label: 'Toast Being Eaten, Animated',
-					},
-					{
-						type: 1,
-						id: '1139323095304392864',
-						sku_id: '1139323095744790568',
-					},
-				],
-				type: 1000,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				bundled_products: [
-					{
-						sku_id: '1144056139584127058',
-						name: 'Toast',
-						summary: 'It is toast.',
-						type: 0,
-						premium_type: 0,
-						prices: {
-							0: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 53000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-							4: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 40000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-							5: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 53000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-							7: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 40000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-						},
-					},
-					{
-						sku_id: '1139323095744790568',
-						name: 'Discord-Os',
-						summary: "Bet you can't have just one bowl.",
-						type: 1,
-						premium_type: 0,
-						prices: {
-							0: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 53000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-							4: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 40000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-							5: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 53000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-							7: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 40000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-						},
-					},
-				],
-				google_sku_ids: {},
-			},
-			{
-				sku_id: '1277733175166111949',
-				name: 'Brown Breakfast Bundle',
-				summary: 'A bundle of collectibles.',
-				store_listing_id: '1277733175178563584',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 92000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 72000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 92000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 72000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1277733174998208613',
-						sku_id: '1277733174985887754',
-						asset: 'a_280c991d6e124b13e4994941c02e00b4',
-						label: 'The avatar is framed with a piece of burnt toast. Despite its condition, the toast gets gobbled up in a few bites. Why would anyone re-toast their toast?',
-					},
-					{
-						type: 1,
-						id: '1277733175082094714',
-						sku_id: '1277733175069773864',
-					},
-				],
-				type: 1000,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				bundled_products: [
-					{
-						sku_id: '1277733174985887754',
-						name: 'Burnt Toast',
-						summary: 'Why did you burn the toast.',
-						type: 0,
-						premium_type: 0,
-						prices: {
-							0: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 53000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-							4: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 40000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-							5: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 53000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-							7: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 40000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-						},
-					},
-					{
-						sku_id: '1277733175069773864',
-						name: 'Chocolate Discord-Os',
-						summary:
-							"I know what you're thinking. But don't knock it till you try it.",
-						type: 1,
-						premium_type: 0,
-						prices: {
-							0: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 53000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-							4: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 40000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-							5: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 53000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-							7: {
-								country_prices: {
-									country_code: 'VN',
-									prices: [
-										{
-											amount: 40000,
-											currency: 'vnd',
-											exponent: 0,
-										},
-									],
-								},
-							},
-						},
-					},
-				],
-				google_sku_ids: {},
-			},
-			{
-				sku_id: '1277733174767783966',
-				name: 'Sakura',
-				summary: 'A beautiful cherry blossom.',
-				store_listing_id: '1277733174780235816',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 92000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 92000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1277733174788493373',
-						sku_id: '1277733174767783966',
-						asset: 'a_37dc2b53b273a457ff19ac2e3fda7e4c',
-						label: 'The petals of three lovely, light pink cherry blossoms drift softly across the avatar.',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				google_sku_ids: {
-					5: '1277733174767783966_1278936907799068754',
-					7: '1277733174767783966_1278936917697757184',
-				},
-			},
-			{
-				sku_id: '1277733174797008931',
-				name: 'Pink Sakura',
-				summary: 'A promise of new beginnings.',
-				store_listing_id: '1277733174801207410',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 92000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 92000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1277733174809464914',
-						sku_id: '1277733174797008931',
-						asset: 'a_9c70ff0db80d85ee6d9690a0eeded0c8',
-						label: 'The petals of three lovely, pink cherry blossoms drift softly across the avatar.',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				google_sku_ids: {
-					5: '1277733174797008931_1278938590109368333',
-					7: '1277733174797008931_1278938600867762216',
-				},
-			},
-			{
-				sku_id: '1277733174813921497',
-				name: 'Ukon Sakura',
-				summary: 'A symbol of standing out with quiet elegance.',
-				store_listing_id: '1277733174822178898',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 92000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 92000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1277733174830436365',
-						sku_id: '1277733174813921497',
-						asset: 'a_669e4e5337a7ebeffd87fe3f1008535f',
-						label: 'The petals of three lovely, yellow cherry blossoms drift softly across the avatar.',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				google_sku_ids: {
-					5: '1277733174813921497_1278936750840090695',
-					7: '1277733174813921497_1278936794351796234',
-				},
-			},
-			{
-				sku_id: '1277733174839087114',
-				name: 'Gyoiko Sakura',
-				summary: 'A rare blossom only seen by a fortunate few.',
-				store_listing_id: '1277733174843150496',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 92000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 92000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1277733174851407944',
-						sku_id: '1277733174839087114',
-						asset: 'a_d6760c807d460b45e06427c09ab61390',
-						label: 'The petals of three lovely, green cherry blossoms drift softly across the avatar.',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				google_sku_ids: {
-					5: '1277733174839087114_1278937819955597332',
-					7: '1277733174839087114_1278937830860783699',
-				},
-			},
-			{
-				sku_id: '1277733174860058634',
-				name: 'Angry Frog',
-				summary: '*ribbits angrily*',
-				store_listing_id: '1277733174868443186',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1277733174872379533',
-						sku_id: '1277733174860058634',
-						asset: 'a_c58a9fe37aa945ca41892f04fc61314b',
-						label: 'An upset frog with a scowling expression sits atop the avatar while a spring lilypad floats calmly beneath the avatar. Guess someone ate all the bugs around here...',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				google_sku_ids: {
-					5: '1277733174860058634_1278937106005229580',
-					7: '1277733174860058634_1278937117149364224',
-				},
-			},
-			{
-				sku_id: '1277733174881030155',
-				name: 'Derpy Frog',
-				summary: '*ribbits derpily*',
-				store_listing_id: '1277733174889287700',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1277733174893351075',
-						sku_id: '1277733174881030155',
-						asset: 'a_683904e98e8e7bca912125d360293cc6',
-						label: 'A blissfully happy frog sits atop the avatar with its tongue playfully poking out of its mouth for an adorably derpy expression, while a spring lilypad floats calmly beneath the avatar.',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				google_sku_ids: {
-					5: '1277733174881030155_1278940317554442274',
-					7: '1277733174881030155_1278940327931154483',
-				},
-			},
-			{
-				sku_id: '1144057023726628945',
-				name: 'Fried Egg',
-				summary: 'I like mine sunny side-up.',
-				store_listing_id: '1144057023726628944',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 53000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 40000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 53000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 40000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1144057023726628946',
-						sku_id: '1144057023726628945',
-						asset: 'a_9b7b74e72efe1bc5a6beddced3da3c0f',
-						label: 'Runny Egg Yolk, Animated',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				google_sku_ids: {
-					5: '1144057023726628945_1259924669612425317',
-					7: '1144057023726628945_1259924680274481222',
-				},
-			},
-			{
-				sku_id: '1277733174922973215',
-				name: 'Green Fried Egg',
-				summary: 'Wish there was some ham to go with this.',
-				store_listing_id: '1277733174927036519',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 53000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 40000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 53000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 40000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1277733174939484190',
-						sku_id: '1277733174922973215',
-						asset: 'a_9ca8e3ef11dfed7ac8b38f1c83abb782',
-						label: 'An arguably fresh, green fried egg with runny yolk sits and wiggles atop the avatar - if only there were some ham to go with it.',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				google_sku_ids: {
-					5: '1277733174922973215_1278940419215982679',
-					7: '1277733174922973215_1278940429567528990',
-				},
-			},
-			{
-				sku_id: '1144056631374647458',
-				name: 'Morning Coffee',
-				summary: "Don't talk to me until I finish this.",
-				store_listing_id: '1144056631374647457',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 53000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 40000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 53000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 40000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1144056631374647459',
-						sku_id: '1144056631374647458',
-						asset: 'a_aa2e1c2b3cf05b24f6ec7b8b4141f5fc',
-						label: 'Coffee with Milk Steaming from Blue Mug with Smiley Face, Animated',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				google_sku_ids: {
-					5: '1144056631374647458_1259924648674594857',
-					7: '1144056631374647458_1259924658136940644',
-				},
-			},
-			{
-				sku_id: '1144056139584127058',
-				name: 'Toast',
-				summary: 'It is toast.',
-				store_listing_id: '1144054000099012660',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 53000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 40000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 53000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 40000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1184292703937253386',
-						sku_id: '1144056139584127058',
-						asset: 'a_21c7a425b490017478a5558f33f33c63',
-						label: 'Toast Being Eaten, Animated',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				google_sku_ids: {
-					5: '1144056139584127058_1259924610200240251',
-					7: '1144056139584127058_1259924629036728380',
-				},
-			},
-			{
-				sku_id: '1277733174985887754',
-				name: 'Burnt Toast',
-				summary: 'Why did you burn the toast.',
-				store_listing_id: '1277733174989951137',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 53000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 40000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 53000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 40000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1277733174998208613',
-						sku_id: '1277733174985887754',
-						asset: 'a_280c991d6e124b13e4994941c02e00b4',
-						label: 'The avatar is framed with a piece of burnt toast. Despite its condition, the toast gets gobbled up in a few bites. Why would anyone re-toast their toast?',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				google_sku_ids: {
-					5: '1277733174985887754_1278937365183860787',
-					7: '1277733174985887754_1278937377594937375',
-				},
-			},
-			{
-				sku_id: '1179493515076579375',
-				name: 'Stinkums',
-				summary: 'Questionably dealt. Definitely smelt.',
-				store_listing_id: '1179493515076579374',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1179493515076579376',
-						sku_id: '1179493515076579375',
-						asset: 'a_ea8e2e628bacdddb1ef18cb382aa454c',
-						label: "A strange humanoid-looking creature farts, then smells its own stinky fumes. Guess that's why its earned the name Stinkums...",
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				google_sku_ids: {
-					5: '1179493515076579375_1259923014464831590',
-					7: '1179493515076579375_1259923024891875359',
-				},
-			},
-			{
-				sku_id: '1277733175027830814',
-				name: 'Goblin Stinkums',
-				summary:
-					'Green goblin mode unlocks many abilities... some consider to be unnaturally stinky.',
-				store_listing_id: '1277733175031894147',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1277733175040151613',
-						sku_id: '1277733175027830814',
-						asset: 'a_aae302f5cec90c98beab424443d0f04d',
-						label: 'A green goblin variation of Stinkums, an adorably hideous creature with a large round nose and an even bigger behind, lets out a gaseous fart before sniffing the fumes, disturbingly unbothered.',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				google_sku_ids: {
-					5: '1277733175027830814_1278936750890160170',
-					7: '1277733175027830814_1278936761841614889',
-				},
-			},
-			{
-				sku_id: '1139323095744790568',
-				name: 'Discord-Os',
-				summary: "Bet you can't have just one bowl.",
-				store_listing_id: '1139323095304392865',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 53000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 40000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 53000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 40000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 1,
-						id: '1139323095304392864',
-						sku_id: '1139323095744790568',
-					},
-				],
-				type: 1,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				google_sku_ids: {
-					5: '1139323095744790568_1259924756854079638',
-					7: '1139323095744790568_1259924767142842509',
-				},
-			},
-			{
-				sku_id: '1277733175069773864',
-				name: 'Chocolate Discord-Os',
-				summary:
-					"I know what you're thinking. But don't knock it till you try it.",
-				store_listing_id: '1277733175078031370',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 53000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 40000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 53000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 40000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 1,
-						id: '1277733175082094714',
-						sku_id: '1277733175069773864',
-					},
-				],
-				type: 1,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				google_sku_ids: {
-					5: '1277733175069773864_1278936525379469384',
-					7: '1277733175069773864_1278936543922229301',
-				},
-			},
-			{
-				sku_id: '1179493515126898811',
-				name: 'Heartzilla',
-				summary: 'Is this what they mean when they say love hurts?',
-				store_listing_id: '1179493515126898810',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 1,
-						id: '1179493515126898812',
-						sku_id: '1179493515126898811',
-					},
-				],
-				type: 1,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				google_sku_ids: {
-					5: '1179493515126898811_1259923185495969914',
-					7: '1179493515126898811_1259923195557974167',
-				},
-			},
-			{
-				sku_id: '1277733175111717006',
-				name: 'Heartzilla (Purple)',
-				summary: 'Is this what they mean when they say love hurts?',
-				store_listing_id: '1277733175119974463',
-				banner: '1280605031003066378',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 79000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 66000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 1,
-						id: '1277733175128231946',
-						sku_id: '1277733175111717006',
-					},
-				],
-				type: 1,
-				premium_type: 0,
-				category_sku_id: '1277733175191277721',
-				google_sku_ids: {
-					5: '1277733175111717006_1278936442743029820',
-					7: '1277733175111717006_1278936503392931901',
-				},
 			},
 		],
 	},
@@ -6607,10 +20413,14 @@ module.exports = [
 			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
 		},
 		logo: '1271173898846601349',
+		hero_ranking: null,
 		mobile_bg: '1271174042757369970',
 		pdp_bg: '1271174016761200700',
 		success_modal_bg: '1271174064471543878',
 		mobile_banner: '1271173993042411622',
+		featured_block: null,
+		hero_banner: null,
+		hero_logo: null,
 		products: [
 			{
 				sku_id: '1280621222496964630',
@@ -7748,10 +21558,14 @@ module.exports = [
 			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
 		},
 		logo: '1266108772980625530',
+		hero_ranking: null,
 		mobile_bg: '1271632151112060928',
 		pdp_bg: '1266108773022568529',
 		success_modal_bg: '1266108773035016325',
 		mobile_banner: '1270863589091053721',
+		featured_block: null,
+		hero_banner: null,
+		hero_logo: null,
 		products: [
 			{
 				sku_id: '1274105879238676561',
@@ -9409,988 +23223,6 @@ module.exports = [
 		],
 	},
 	{
-		sku_id: '1262491137386614805',
-		name: 'SpongeBob',
-		summary: 'Celebrate 25 years of nautical nonsense!',
-		store_listing_id: '1262491137386614804',
-		banner: '1262491137386614807',
-		unpublished_at: null,
-		styles: {
-			background_colors: [1118740, 1118740],
-			button_colors: [5793266, 5793266],
-			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
-		},
-		logo: '1265056547986341950',
-		mobile_bg: '1262491137386614810',
-		pdp_bg: '1262491137386614809',
-		success_modal_bg: '1262760748120014868',
-		mobile_banner: '1262491137386614808',
-		products: [
-			{
-				sku_id: '1262491137386614812',
-				name: 'SpongeBob',
-				summary: 'Order up!',
-				store_listing_id: '1262491137386614811',
-				banner: '1262491137386614807',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1262491137386614813',
-						sku_id: '1262491137386614812',
-						asset: 'a_914f20f4984a11b5255f0e42c661fa5b',
-						label: "The avatar wears SpongeBob's signature outfit while twirling a spatula with ease, ready to cook up some Krabby Pattys.",
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1262491137386614805',
-				google_sku_ids: {
-					5: '1262491137386614812_1262866087179976804',
-					7: '1262491137386614812_1262866117538611384',
-				},
-			},
-			{
-				sku_id: '1262491137394868305',
-				name: 'Imagination',
-				summary: 'With imagination, I can be anything I want.',
-				store_listing_id: '1262491137394868304',
-				banner: '1262491137386614807',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1262491137394868306',
-						sku_id: '1262491137394868305',
-						asset: 'a_bba669bfb28f492b64852e00fde4989d',
-						label: 'SpongeBob spreads his hands wide, revealing a glorious rainbow above the avatar. You can practically hear him say "Imagination."',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1262491137386614805',
-				google_sku_ids: {
-					5: '1262491137394868305_1262866106306265139',
-					7: '1262491137394868305_1262866133762179243',
-				},
-			},
-			{
-				sku_id: '1262491137394868308',
-				name: 'Patrick Star',
-				summary: 'He, she, me wumbo.',
-				store_listing_id: '1262491137394868307',
-				banner: '1262491137386614807',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1262491137394868309',
-						sku_id: '1262491137394868308',
-						asset: 'a_0f7fa66bc185c858f92a7918ea4dd47a',
-						label: "Patrick clumsily hammers down a nail into a plank taped to his forehead. No one knows what he's trying to accomplish but he's trying his best.",
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1262491137386614805',
-				google_sku_ids: {
-					5: '1262491137394868308_1262866087179976805',
-					7: '1262491137394868308_1262866115491659836',
-				},
-			},
-			{
-				sku_id: '1262491137394868311',
-				name: 'Flower Clouds',
-				summary: 'Immerse yourself in Bikini Bottom.',
-				store_listing_id: '1262491137394868310',
-				banner: '1262491137386614807',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1262491137394868312',
-						sku_id: '1262491137394868311',
-						asset: 'a_d9ff5ff133ed9176895a4a2b5e58f1b8',
-						label: 'Flower clouds gently sway around the avatar, adding a lovely Bikini Bottom ambiance.',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1262491137386614805',
-				google_sku_ids: {
-					5: '1262491137394868311_1262866101428031641',
-					7: '1262491137394868311_1262866132981780540',
-				},
-			},
-			{
-				sku_id: '1262491690900656258',
-				name: 'Gary The Snail',
-				summary: 'Meow.',
-				store_listing_id: '1262491137394868313',
-				banner: '1262491137386614807',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1262491690900656259',
-						sku_id: '1262491690900656258',
-						asset: 'a_4db5b8518672197225c69fe72f07a945',
-						label: "Gary the Snail stretches his long eyes to take a quick peek outside from SpongeBob's window.",
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1262491137386614805',
-				google_sku_ids: {
-					5: '1262491690900656258_1262866101373632594',
-					7: '1262491690900656258_1262866140820934756',
-				},
-			},
-			{
-				sku_id: '1262491690900656261',
-				name: 'Sandy Cheeks',
-				summary: 'Underwater breathing apparatus.',
-				store_listing_id: '1262491690900656260',
-				banner: '1262491137386614807',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1262491690900656262',
-						sku_id: '1262491690900656261',
-						asset: 'a_96e669a80b3a3e3d57035293750291ed',
-						label: "The avatar dons Sandy Cheek's stylish underwater helmet, with air bubbles rising around it. Don't forget to refill the oxygen tank.",
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1262491137386614805',
-				google_sku_ids: {
-					5: '1262491690900656261_1262866111074930720',
-					7: '1262491690900656261_1262866147078832210',
-				},
-			},
-			{
-				sku_id: '1262491690900656264',
-				name: 'MuscleBob',
-				summary: 'How tough are ya?',
-				store_listing_id: '1262491690900656263',
-				banner: '1262491137386614807',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 0,
-						id: '1262491690900656265',
-						sku_id: '1262491690900656264',
-						asset: 'a_2249f064370a3d5e9f0e7189099d521e',
-						label: 'The avatar, now blessed with the remarkable arms of MuscleBob BuffPants, flexes off its muscles and hard-earned gains.',
-					},
-				],
-				type: 0,
-				premium_type: 0,
-				category_sku_id: '1262491137386614805',
-				google_sku_ids: {
-					5: '1262491690900656264_1262866118066835486',
-					7: '1262491690900656264_1262866152980217898',
-				},
-			},
-			{
-				sku_id: '1262491690900656267',
-				name: 'NiCe pRoFiLE',
-				summary: 'uSE tHis EFfeCt.',
-				store_listing_id: '1262491690900656266',
-				banner: '1262491137386614807',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 1,
-						id: '1262491690971955282',
-						sku_id: '1262491690900656267',
-					},
-				],
-				type: 1,
-				premium_type: 0,
-				category_sku_id: '1262491137386614805',
-				google_sku_ids: {
-					5: '1262491690900656267_1262866100488765461',
-					7: '1262491690900656267_1262873252213293200',
-				},
-			},
-			{
-				sku_id: '1262491690971955284',
-				name: 'Handsome Squidward',
-				summary: 'You’re a HUNK!!!',
-				store_listing_id: '1262491690971955283',
-				banner: '1262491137386614807',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 1,
-						id: '1262491690971955285',
-						sku_id: '1262491690971955284',
-					},
-				],
-				type: 1,
-				premium_type: 0,
-				category_sku_id: '1262491137386614805',
-				google_sku_ids: {
-					5: '1262491690971955284_1262866099649777774',
-					7: '1262491690971955284_1262866116502491296',
-				},
-			},
-			{
-				sku_id: '1262492035558932604',
-				name: 'DoodleBob Takeover',
-				summary: 'Me Hoy Minoy.',
-				store_listing_id: '1262492035558932603',
-				banner: '1262491137386614807',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 1,
-						id: '1262492035558932605',
-						sku_id: '1262492035558932604',
-					},
-				],
-				type: 1,
-				premium_type: 0,
-				category_sku_id: '1262491137386614805',
-				google_sku_ids: {
-					5: '1262492035558932604_1262866108080324618',
-					7: '1262492035558932604_1262866132533121085',
-				},
-			},
-			{
-				sku_id: '1262492035558932607',
-				name: 'Plankton Splat',
-				summary: 'Stealing the Krabby Patty secret formula.',
-				store_listing_id: '1262492035558932606',
-				banner: '1262491137386614807',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 1,
-						id: '1262492035558932608',
-						sku_id: '1262492035558932607',
-					},
-				],
-				type: 1,
-				premium_type: 0,
-				category_sku_id: '1262491137386614805',
-				google_sku_ids: {
-					5: '1262492035558932607_1262866101373632592',
-					7: '1262492035558932607_1262866141613654337',
-				},
-			},
-			{
-				sku_id: '1262492035558932610',
-				name: 'Ocean Flowers',
-				summary: 'Bikini Bottom flower clouds.',
-				store_listing_id: '1262492035558932609',
-				banner: '1262491137386614807',
-				unpublished_at: null,
-				styles: {
-					background_colors: [1118740, 1118740],
-					button_colors: [5793266, 5793266],
-					confetti_colors: [
-						43772, 15774258, 16414587, 3000177, 9739511,
-					],
-				},
-				prices: {
-					0: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					4: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					5: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 146000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-					7: {
-						country_prices: {
-							country_code: 'VN',
-							prices: [
-								{
-									amount: 131000,
-									currency: 'vnd',
-									exponent: 0,
-								},
-							],
-						},
-					},
-				},
-				items: [
-					{
-						type: 1,
-						id: '1262492035558932611',
-						sku_id: '1262492035558932610',
-					},
-				],
-				type: 1,
-				premium_type: 0,
-				category_sku_id: '1262491137386614805',
-				google_sku_ids: {
-					5: '1262492035558932610_1262866115931930705',
-					7: '1262492035558932610_1262866171850526801',
-				},
-			},
-		],
-	},
-	{
 		sku_id: '1256321669388308595',
 		name: 'Dark Fantasy',
 		summary: 'Approach, wanderer... dangerously charming relics await.',
@@ -10403,10 +23235,14 @@ module.exports = [
 			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
 		},
 		logo: '1256321669388308596',
+		hero_ranking: null,
 		mobile_bg: '1256321669388308598',
 		pdp_bg: '1256321669388308599',
 		success_modal_bg: '1260647017265233950',
 		mobile_banner: '1256376187991756820',
+		featured_block: null,
+		hero_banner: null,
+		hero_logo: null,
 		products: [
 			{
 				sku_id: '1265421074514841751',
@@ -11546,9 +24382,14 @@ module.exports = [
 			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
 		},
 		logo: '1232037193464418374',
+		hero_ranking: null,
 		mobile_bg: '1232037338574491658',
 		pdp_bg: '1232037364226985984',
+		success_modal_bg: null,
 		mobile_banner: '1232037387152916591',
+		featured_block: null,
+		hero_banner: null,
+		hero_logo: null,
 		products: [
 			{
 				sku_id: '1243617249974288404',
@@ -12489,9 +25330,14 @@ module.exports = [
 			],
 		},
 		logo: '1212565210682884167',
+		hero_ranking: null,
 		mobile_bg: '1220535728166146098',
 		pdp_bg: '1217929860304076890',
+		success_modal_bg: null,
 		mobile_banner: '1224517355711889439',
+		featured_block: '1294418600781938790',
+		hero_banner: null,
+		hero_logo: null,
 		products: [
 			{
 				sku_id: '1243619479645065287',
@@ -14336,9 +27182,14 @@ module.exports = [
 			],
 		},
 		logo: '1228245117085679668',
+		hero_ranking: null,
 		mobile_bg: '1228245377384190022',
 		pdp_bg: '1228245524658917417',
+		success_modal_bg: null,
 		mobile_banner: '1228245604413476935',
+		featured_block: null,
+		hero_banner: null,
+		hero_logo: null,
 		products: [
 			{
 				sku_id: '1243618816639107223',
@@ -15290,8 +28141,14 @@ module.exports = [
 			],
 		},
 		logo: '1149562562103484467',
+		hero_ranking: null,
 		mobile_bg: '1220535951852572803',
+		pdp_bg: null,
+		success_modal_bg: null,
 		mobile_banner: '1224517389169721434',
+		featured_block: null,
+		hero_banner: null,
+		hero_logo: null,
 		products: [
 			{
 				sku_id: '1243620329331626044',
@@ -16471,9 +29328,14 @@ module.exports = [
 			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
 		},
 		logo: '1197343875023523930',
+		hero_ranking: null,
 		mobile_bg: '1220535830246985828',
 		pdp_bg: '1217990008854679602',
+		success_modal_bg: null,
 		mobile_banner: '1224517328536866909',
+		featured_block: null,
+		hero_banner: null,
+		hero_logo: null,
 		products: [
 			{
 				sku_id: '1243620093431119922',
@@ -17173,9 +30035,14 @@ module.exports = [
 			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
 		},
 		logo: '1207046939544129577',
+		hero_ranking: null,
 		mobile_bg: '1220535765759426700',
 		pdp_bg: '1217989949152821258',
+		success_modal_bg: null,
 		mobile_banner: '1224517292453265439',
+		featured_block: null,
+		hero_banner: null,
+		hero_logo: null,
 		products: [
 			{
 				sku_id: '1243619781362450442',
@@ -18114,9 +30981,14 @@ module.exports = [
 			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
 		},
 		logo: '1237937696991740044',
+		hero_ranking: null,
 		mobile_bg: '1237653828287856671',
 		pdp_bg: '1237653853688827924',
+		success_modal_bg: null,
 		mobile_banner: '1237653899394154536',
+		featured_block: null,
+		hero_banner: null,
+		hero_logo: null,
 		products: [
 			{
 				sku_id: '1243618548673417298',
@@ -19057,9 +31929,14 @@ module.exports = [
 			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
 		},
 		logo: '1245086730785390793',
+		hero_ranking: null,
 		mobile_bg: '1245087580463173734',
 		pdp_bg: '1245087599966683227',
+		success_modal_bg: null,
 		mobile_banner: '1245087618069168150',
+		featured_block: null,
+		hero_banner: null,
+		hero_logo: null,
 		products: [
 			{
 				sku_id: '1245481938202918912',
@@ -20006,9 +32883,14 @@ module.exports = [
 			],
 		},
 		logo: '1217623684777381908',
+		hero_ranking: null,
 		mobile_bg: '1220535657118699540',
 		pdp_bg: '1217989864247529564',
+		success_modal_bg: null,
 		mobile_banner: '1224516882611175475',
+		featured_block: null,
+		hero_banner: null,
+		hero_logo: null,
 		products: [
 			{
 				sku_id: '1243619153688920206',
@@ -20947,9 +33829,14 @@ module.exports = [
 			confetti_colors: [43772, 15774258, 16414587, 3000177, 9739511],
 		},
 		logo: '1237937648727756883',
+		hero_ranking: null,
 		mobile_bg: '1237649712673325056',
 		pdp_bg: '1237649746999378041',
+		success_modal_bg: null,
 		mobile_banner: '1237649774312951828',
+		featured_block: null,
+		hero_banner: null,
+		hero_logo: null,
 		products: [
 			{
 				sku_id: '1243617981435478102',
@@ -21726,8 +34613,14 @@ module.exports = [
 			confetti_colors: [16069235, 9803263, 11008590, 3350191],
 		},
 		logo: '1149562888290320414',
+		hero_ranking: null,
 		mobile_bg: '1220535994281885786',
+		pdp_bg: null,
+		success_modal_bg: null,
 		mobile_banner: '1224517415958745179',
+		featured_block: null,
+		hero_banner: null,
+		hero_logo: null,
 		products: [
 			{
 				sku_id: '1144058522808614923',

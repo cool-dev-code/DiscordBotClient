@@ -1,33 +1,39 @@
 {
 	"name": "discord-bot-client",
-	"version": "3.5.0",
-	"DiscordBuildVersion": 331146,
+	"version": "3.6.0",
 	"description": "Discord Bot Client - login into discord with a bot token",
 	"main": "./AppCore/index.js",
-	"testVencord": false,
-	"cacheAssets": false,
 	"dependencies": {
-		"discord-protos": "^1.0.5",
 		"electron-context-menu": "3.6.1",
 		"electron-log": "^4.4.8",
-		"electron-store": "^8.2.0",
-		"express": "^4.21.0",
+		"express": "^4.21.2",
 		"lambert-server": "^1.2.12",
+		"level": "^9.0.0",
 		"lodash": "^4.17.21",
 		"morgan": "^1.10.0",
 		"multer": "^1.4.5-lts.1",
-		"node-fetch": "^2.6.7",
-		"request": "^2.88.2"
+		"murmurhash": "^2.0.1",
+		"probe-image-size": "^7.2.3",
+		"request": "^2.88.2",
+		"@protobuf-ts/plugin": "<3.0.0",
+		"@protobuf-ts/protoc": "<3.0.0",
+		"@protobuf-ts/runtime": "<3.0.0",
+		"undici": "^7.2.0"
 	},
 	"devDependencies": {
 		"electron": "^32.1.2",
 		"electron-builder": "^25.0.5",
-		"jsdom": "^25.0.1"
+		"jsdom": "^25.0.1",
+		"puppeteer": "^22.13.0",
+		"tsup": "8.1.2",
+		"typescript": "^5.7.2"
 	},
 	"build": {
 		"files": [
 			"!scripts",
-			"!DiscordCore"
+			"!VencordDBC",
+			"!tsconfig.json",
+			"!tsup.config.ts"
 		],
 		"appId": "DiscordBotClient",
 		"productName": "DiscordBotClient",
@@ -39,17 +45,34 @@
 				{
 					"target": "dmg",
 					"arch": [
-						"x64",
-						"arm64"
+						"universal"
 					]
 				}
 			],
-			"icon": "./AppAssets/DiscordBotClient.png"
+			"darkModeSupport": true,
+			"icon": "./AppAssets/DiscordBotClient.png",
+			"extendInfo": {
+				"NSMicrophoneUsageDescription": "This app needs access to the microphone",
+				"com.apple.security.device.audio-input": true
+			}
 		},
 		"linux": {
 			"target": [
-				"AppImage"
+				{
+					"target": "AppImage",
+					"arch": [
+						"x64"
+					]
+				}
 			],
+			"desktop": {
+				"Name": "DiscordBotClient",
+				"GenericName": "Internet Messenger",
+				"Type": "Application",
+				"Categories": "Network;InstantMessaging;Chat;",
+				"Keywords": "discord;bot;vencord;electron;chat;"
+			},
+			"category": "Network",
 			"icon": "./AppAssets/DiscordBotClient.png"
 		},
 		"win": {
@@ -72,11 +95,14 @@
 		"linux": "electron-builder -l",
 		"build": "electron-builder",
 		"requirement": "npm install && npm run npmVencord",
-		"fetchLatestDiscordBuild": "node scripts/patchAll.js",
+		"fetchLatestDiscordBuild": "node scripts/update.js",
 		"npmVencord": "cd VencordDBC && npm i -f && cd ..",
 		"vencord": "cd VencordDBC && node --require=./scripts/suppressExperimentalWarnings.js scripts/build/buildWeb.mjs && cd ..",
 		"cerf": "openssl req -nodes -new -x509 -keyout server.key -out server.cert -days 3650 -subj \"/CN=localhost\"",
-		"test": "npm run vencord & npm run start"
+		"test": "npm run vencord & npm run start",
+		"proto:update": "tsx DiscordProtos/src/load.ts",
+		"proto:build:win": "cd DiscordProtos && npm run js && cd ..",
+		"proto:build:ts": "tsup"
 	},
 	"author": {
 		"name": "aiko-chan-ai",

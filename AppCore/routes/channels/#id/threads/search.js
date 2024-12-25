@@ -1,12 +1,16 @@
 const { Router } = require('express');
-const fetch = require('node-fetch');
-const Util = require('../../../../../AppAssets/Util');
+const { fetch } = require('undici');
+const Constants = require('../../../../Constants');
 
 const app = Router();
 
+const mapCache = new Map();
+
+// channel_id, new Set([Date.now()]);
+
 app.all('/', async (req, res) => {
 	const channelId = req.params.id;
-	const {
+	let {
 		archived,
 		sort_by,
 		sort_order,
@@ -16,7 +20,12 @@ app.all('/', async (req, res) => {
 		name,
 		tag,
 	} = req.query;
-	if (tag) {
+	// Force set
+	sort_by = 'archive_time';
+	sort_order = 'desc';
+	limit = parseInt(limit || '25') || 25;
+	offset = parseInt(offset || '0') || 0;
+	if (tag || name) {
 		return res.send({
 			threads: [],
 			members: [],
@@ -26,40 +35,32 @@ app.all('/', async (req, res) => {
 		}); // Discord API limitation
 	}
 	let threads = [];
-	const members = [];
-	const first_messages = [];
-	const data = await Promise.allSettled([
-		archived
-			? fetch(
-					`https://discord.com/api/v9/channels/${channelId}/threads/archived/public`,
-					{
-						headers: {
-							authorization: req.headers.authorization,
-							'user-agent': Util.UserAgent(),
-						},
-					},
-			  ).then((r) => r.json())
-			: Promise.reject('not archived'),
-		archived
-			? fetch(
-					`https://discord.com/api/v9/channels/${channelId}/threads/archived/private`,
-					{
-						headers: {
-							authorization: req.headers.authorization,
-							'user-agent': Util.UserAgent(),
-						},
-					},
-			  ).then((r) => r.json())
-			: Promise.reject('not archived'),
-	]);
-	data.map((r) => {
-		if (r.status === 'fulfilled' && r.value?.threads) {
-			threads.push(...r.value.threads);
-			if (r.value.members) members.push(...r.value.members);
-			if (r.value.first_messages)
-				first_messages.push(...r.value.first_messages);
-		}
-	});
+	let members = [];
+	let first_messages = [];
+	let public_has_more = false;
+	/**
+	 * @type {Set<number>}
+	 */
+	let set = mapCache.get(channelId) || new Set();
+	let before = Array.from(set)[offset - 1];
+	if (archived == 'true') {
+		const public = await fetch(
+			`https://discord.com/api/v9/channels/${channelId}/threads/archived/public?limit=${limit}${
+				before ? `&before=${new Date(before).toISOString()}` : ''
+			}`,
+			{
+				headers: {
+					authorization: req.headers.authorization,
+					'user-agent': Constants.UserAgentDiscordBot,
+				},
+			},
+		).then((r) => r.json());
+		threads = public.threads || [];
+		members = public.members || [];
+		first_messages = public.first_messages || [];
+		public_has_more = public.has_more || false;
+	}
+	/*
 	function sorting(a = 0, b = 0) {
 		if (sort_order === 'asc') {
 			return a > b ? 1 : a < b ? -1 : 0; // Ascending order
@@ -94,13 +95,21 @@ app.all('/', async (req, res) => {
 			break;
 		}
 	}
-	res.send({
-		threads,
+	*/
+	for (let i = 0; i < threads.length; i++) {
+		set.add(
+			new Date(threads[i].thread_metadata.archive_timestamp)?.getTime(),
+		);
+	}
+	const finalData = {
+		threads: threads,
 		members,
-		has_more: false,
-		total_results: threads.length,
+		has_more: public_has_more,
+		total_results: set.size,
 		first_messages,
-	});
+	};
+	mapCache.set(channelId, set);
+	res.send(finalData);
 });
 
 module.exports = app;

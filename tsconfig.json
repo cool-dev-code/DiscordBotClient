@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "nodenext",
+    "module": "NodeNext"
+  },
+  "exclude": [
+    "node_modules",
+    "VencordDBC"
+  ]
+}

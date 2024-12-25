@@ -1,11 +1,11 @@
 const { Router } = require('express');
 const Util = require('../../../../AppAssets/Util');
-const UserPatch = require('../../../../AppAssets/UserPatch');
+const Constants = require('../../../Constants');
 
 const app = Router();
 
 app.get('/', (req, res) => {
-	res.send(Util.ProfilePatch(UserPatch['1056491867375673424']));
+	res.send(Util.ProfilePatch(Constants.UserDefaultPatch));
 });
 
 module.exports = app;

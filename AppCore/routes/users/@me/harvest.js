@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 
 app.post('/', (req, res) => {
     res.status(403).send({
-		message: 'Bots cannot use this endpoint (blocked)',
+		message: 'Bots cannot use this endpoint (blocked by blacklist)',
 		code: 20001,
 	});
 })

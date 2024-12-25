@@ -1,0 +1,34 @@
+{
+    "name": "discord-protos",
+    "version": "1.1.21",
+    "description": "A parser for Discord's protobufs",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "contributors": [
+        {
+            "name": "dolfies",
+            "email": "jeyalfie47@gmail.com",
+            "url": "https://github.com/dolfies"
+        },
+        {
+            "name": "Samuel Scheit",
+            "email": "github@samuelscheit.com",
+            "url": "https://samuelscheit.com"
+        }
+    ],
+    "license": "MIT",
+    "scripts": {
+        "js": "protoc --proto_path=./discord_protos/ --ts_out src/proto PremiumMarketingComponentProperties.proto FrecencyUserSettings.proto PreloadedUserSettings.proto",
+        "load": "tsx src/load.ts"
+    },
+    "devDependencies": {
+        "@protobuf-ts/plugin": "<3.0.0",
+        "@protobuf-ts/protoc": "<3.0.0",
+        "puppeteer": "^22.13.0",
+        "typescript": "<6.0.0",
+        "@protobuf-ts/runtime": "<3.0.0"
+    },
+    "dependencies": {
+        "@protobuf-ts/runtime": "<3.0.0"
+    }
+}

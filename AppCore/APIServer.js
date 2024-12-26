@@ -5,9 +5,19 @@ const { Server } = require('lambert-server');
 const path = require('path');
 const { readFileSync } = require('fs');
 const request = require('request');
+const { Writable } = require('stream');
+
+class CustomLogStream extends Writable {
+	write(str) {
+		console.log('[APIServer]', str.replace(/\n/g, ''));
+	}
+}
+
 const Constants = require('./Constants');
 const app = express();
-app.use(morgan('dev'));
+app.use(morgan('dev', {
+	stream: new CustomLogStream(),
+}));
 const server = https.createServer(Constants.HttpsOptions, app);
 const route = express.Router();
 const lambertServer = new Server({
@@ -81,7 +91,7 @@ async function start(port = 50000 + Math.floor(Math.random() * 5000)) {
 			const address = server.address();
 			resolve(address.port);
 			console.log(
-				`Server listening on https://localhost:${address.port}`,
+				`[APIServer] Server listening on https://localhost:${address.port}`,
 			);
 		};
 		server

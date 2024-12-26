@@ -16,6 +16,36 @@ const { fetch } = require('undici');
 const os = require('os');
 const contextMenu = require('electron-context-menu');
 
+// Setup logger
+Object.assign(console, log.functions);
+log.initialize();
+log.errorHandler.startCatching();
+log.eventLogger.startLogging();
+
+// https://github.com/chalk/ansi-regex/blob/main/index.js
+/*
+export default function ansiRegex({onlyFirst = false} = {}) {
+	// Valid string terminator sequences are BEL, ESC\, and 0x9c
+	const ST = '(?:\\u0007|\\u001B\\u005C|\\u009C)';
+	const pattern = [
+		`[\\u001B\\u009B][[\\]()#;?]*(?:(?:(?:(?:;[-a-zA-Z\\d\\/#&.:=?%@~_]+)*|[a-zA-Z\\d]+(?:;[-a-zA-Z\\d\\/#&.:=?%@~_]*)*)?${ST})`,
+		'(?:(?:\\d{1,4}(?:;\\d{0,4})*)?[\\dA-PR-TZcf-nq-uy=><~]))',
+	].join('|');
+
+	return new RegExp(pattern, onlyFirst ? undefined : 'g');
+}
+*/
+const RegexANSIEscape =
+	/[\u001B\u009B][[\]()#;?]*(?:(?:(?:(?:;[-a-zA-Z\d\/#&.:=?%@~_]+)*|[a-zA-Z\d]+(?:;[-a-zA-Z\d\/#&.:=?%@~_]*)*)?(?:\u0007|\u001B\u005C|\u009C))|(?:(?:\d{1,4}(?:;\d{0,4})*)?[\dA-PR-TZcf-nq-uy=><~]))/g;
+
+log.hooks.push((message, transport) => {
+	if (transport !== log.transports.file) {
+		return message;
+	}
+	message.data = message.data.map(l => l.replace(RegexANSIEscape, ''));
+	return message;
+});
+
 const {
 	version: VencordVersion,
 } = require('../VencordExtension/manifest.json');
@@ -164,6 +194,7 @@ class DiscordBotClient {
 
 		app.on('before-quit', (event) => {
 			this.logger.info('App closing...');
+			this.logger.info('='.repeat(50));
 		});
 
 		app.on(
@@ -340,8 +371,8 @@ class DiscordBotClient {
 			.on('did-stop-loading', () => {
 				this.win.setTitle(Constants.APP_NAME);
 				this.win.setProgressBar(-1);
-			})
-			/*
+			});
+		/*
 			.on('console-message', (ev, level, message, line, file) => {
 				if (
 					level == 3 &&
@@ -567,7 +598,9 @@ class DiscordBotClient {
 								);
 							},
 						);
-					} else if (this.#isNewerVersion(app.getVersion(), res.tag_name)) {
+					} else if (
+						this.#isNewerVersion(app.getVersion(), res.tag_name)
+					) {
 						this.showNotification(
 							{
 								title: `New version available: ${res.name}`,

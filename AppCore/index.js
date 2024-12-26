@@ -215,7 +215,7 @@ class DiscordBotClient {
 		} else {
 			app.whenReady().then(async () => {
 				await database.promiseReady;
-				await this.checkingForUpdates();
+				this.checkingForUpdates();
 				this.createWindow();
 			});
 		}

@@ -44,7 +44,7 @@ hooks.push((message, transport) => {
 	if (transport !== transports.file) {
 		return message;
 	}
-	message.data = message.data.map((l) => l.replace(RegexANSIEscape, ''));
+	message.data = message.data.map((l) => l?.toString()?.replace(RegexANSIEscape, ''));
 	return message;
 });
 

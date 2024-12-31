@@ -93,6 +93,7 @@ out
 /dist
 /VencordDBC
 test.js
+/AppAssets/assets
 
 # Gatsby files
 .cache/

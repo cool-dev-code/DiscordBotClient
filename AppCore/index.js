@@ -10,17 +10,19 @@ const {
 	ipcMain,
 	Notification,
 } = require('electron');
-const log = require('electron-log');
+const { scope, errorHandler, eventLogger, hooks, transports } = require('electron-log');
 const path = require('path');
 const { fetch } = require('undici');
 const os = require('os');
 const contextMenu = require('electron-context-menu');
 
+const Constants = require('./Constants.js');
+
 // Setup logger
-Object.assign(console, log.functions);
-log.initialize();
-log.errorHandler.startCatching();
-log.eventLogger.startLogging();
+const log = scope(Constants.APP_NAME);
+Object.assign(console, scope('ConsoleProxy'));
+errorHandler.startCatching();
+eventLogger.startLogging();
 
 // https://github.com/chalk/ansi-regex/blob/main/index.js
 /*
@@ -38,11 +40,11 @@ export default function ansiRegex({onlyFirst = false} = {}) {
 const RegexANSIEscape =
 	/[\u001B\u009B][[\]()#;?]*(?:(?:(?:(?:;[-a-zA-Z\d\/#&.:=?%@~_]+)*|[a-zA-Z\d]+(?:;[-a-zA-Z\d\/#&.:=?%@~_]*)*)?(?:\u0007|\u001B\u005C|\u009C))|(?:(?:\d{1,4}(?:;\d{0,4})*)?[\dA-PR-TZcf-nq-uy=><~]))/g;
 
-log.hooks.push((message, transport) => {
-	if (transport !== log.transports.file) {
+hooks.push((message, transport) => {
+	if (transport !== transports.file) {
 		return message;
 	}
-	message.data = message.data.map(l => l.replace(RegexANSIEscape, ''));
+	message.data = message.data.map((l) => l.replace(RegexANSIEscape, ''));
 	return message;
 });
 
@@ -52,10 +54,13 @@ const {
 
 const server = require('./APIServer.js');
 const ApplicationFlags = require('../AppAssets/ApplicationFlags.js');
-const database = require('./Database.js');
+const {
+	DirectMessagesDB,
+	PreloadedUserSettingsDB,
+	FrecencyUserSettingsDB,
+} = require('./database/index.js');
 const { PreloadedUserSettings } = require('../DiscordProtos');
 const Experiments = require('../AppAssets/Experiments.js');
-const Constants = require('./Constants.js');
 const Intents = require('../AppAssets/Intents.js');
 const IPCEvent = require('./IPCEvent.js');
 
@@ -110,7 +115,7 @@ class DiscordBotClient {
 				label: 'Check for Updates...',
 				type: 'normal',
 				click: () => {
-					this.checkingForUpdates();
+					this.checkingForUpdates(true);
 				},
 			},
 			{
@@ -123,6 +128,12 @@ class DiscordBotClient {
 			},
 			{
 				type: 'separator',
+			},
+			{
+				label: 'Reload',
+				click: () => {
+					this.win.reload();
+				},
 			},
 			{
 				label: 'Relaunch',
@@ -149,15 +160,46 @@ class DiscordBotClient {
 			},
 			{
 				label: 'Clear local database',
-				click: () => {
-					database.deleteAll().then(() => {
-						this.showNotification({
-							title: 'Database has been cleared',
-							body: 'The deleted data includes: PreloadedUserSettings, FrecencyUserSettings, and opened Private Channels.',
-							silent: false,
-						});
-					});
-				},
+				submenu: [
+					{
+						label: 'Clear PreloadedUserSettings',
+						click: () => {
+							PreloadedUserSettingsDB.deleteAll().then(() => {
+								this.showNotification({
+									title: 'PreloadedUserSettings has been cleared',
+									body: 'This will reset all user settings.',
+									silent: false,
+								});
+							});
+						},
+					},
+					{
+						label: 'Clear FrecencyUserSettings',
+						click: () => {
+							FrecencyUserSettingsDB.deleteAll().then(() => {
+								this.showNotification({
+									title: 'FrecencyUserSettings has been cleared',
+									body: 'This will reset all user settings.',
+									silent: false,
+								});
+							});
+						},
+					},
+					{
+						label: 'Clear opened Private Channels',
+						click: () => {
+							DirectMessagesDB.deleteAll().then(
+								() => {
+									this.showNotification({
+										title: 'Opened Private Channels has been cleared',
+										body: 'This will reset all opened Private Channels.',
+										silent: false,
+									});
+								},
+							);
+						},
+					},
+				],
 			},
 			{
 				label: 'Toggle DevTools',
@@ -214,8 +256,13 @@ class DiscordBotClient {
 			app.quit();
 		} else {
 			app.whenReady().then(async () => {
-				await database.promiseReady;
-				this.checkingForUpdates();
+				this.logger.info('Checking Database...');
+				await Promise.all([
+					DirectMessagesDB.promiseReady,
+					PreloadedUserSettingsDB.promiseReady,
+					FrecencyUserSettingsDB.promiseReady,
+				]);
+				this.checkingForUpdates(false);
 				this.createWindow();
 			});
 		}
@@ -372,20 +419,6 @@ class DiscordBotClient {
 				this.win.setTitle(Constants.APP_NAME);
 				this.win.setProgressBar(-1);
 			});
-		/*
-			.on('console-message', (ev, level, message, line, file) => {
-				if (
-					level == 3 &&
-					message.includes(
-						"Cannot set properties of undefined (setting 'Vencord_settingsDirty')",
-					) &&
-					app.isPackaged
-				) {
-					this.logger.error('Vencord error, reload...');
-					setTimeout(() => this.win.reload(), 2000).unref();
-				}
-			});
-			*/
 	}
 	setupIpcEvents() {
 		ipcMain
@@ -466,9 +499,9 @@ class DiscordBotClient {
 				return (event.returnValue = app.getVersion());
 			})
 			.on(IPCEvent.GetPreloadedUserSettings, async (event, uid) => {
-				const userData = await database.get(uid);
+				const userData = await PreloadedUserSettingsDB.get(uid);
 				event.returnValue = PreloadedUserSettings.toBase64(
-					PreloadedUserSettings.create(userData.settingProto.data1),
+					PreloadedUserSettings.create(userData),
 				);
 			})
 			.on(IPCEvent.GetExperiment, (event, type, allData, botId) => {
@@ -481,16 +514,16 @@ class DiscordBotClient {
 			.on(
 				IPCEvent.HandlePrivateChannel,
 				async (event, type, botId, channelId, userId) => {
-					log.log(
+					this.logger.log(
 						'handlePrivateChannel',
 						type,
 						botId,
 						channelId,
 						userId,
 					);
-					const userData = await database.get(botId);
+					const userData = await DirectMessagesDB.get(botId);
 					if (type == 'add') {
-						userData.privateChannel[channelId] = {
+						userData[channelId] = {
 							type: 1,
 							recipients: [
 								{
@@ -502,26 +535,20 @@ class DiscordBotClient {
 							id: channelId,
 							flags: 0,
 						};
-						await database.set(botId, userData, {
-							force: true,
-						});
+						await DirectMessagesDB.set(botId, userData);
 					} else if (type == 'remove') {
-						delete userData.privateChannel[channelId];
-						await database.set(botId, userData, {
-							force: true,
-						});
+						delete userData[channelId];
+						await DirectMessagesDB.set(botId, userData);
 					} else if (type == 'clear') {
-						userData.privateChannel = {};
-						await database.set(botId, userData, {
-							force: true,
-						});
+						userData = {};
+						await DirectMessagesDB.set(botId, userData);
 					}
 					event.returnValue = true;
 				},
 			)
 			.on(IPCEvent.GetPrivateChannel, async (event, uid) => {
-				const userData = await database.get(uid);
-				event.returnValue = userData.privateChannel;
+				const userData = await DirectMessagesDB.get(uid);
+				event.returnValue = userData;
 			})
 			.on(IPCEvent.GetDefaultUserPatch, (event) => {
 				event.returnValue = Constants.UserDefaultPatch;
@@ -577,7 +604,7 @@ class DiscordBotClient {
 
 		return false; // Versions are equal
 	}
-	checkingForUpdates() {
+	checkingForUpdates(forceEmitted = false) {
 		this.logger.info('Checking for updates...');
 		return new Promise((resolve) => {
 			fetch(
@@ -614,18 +641,19 @@ class DiscordBotClient {
 							},
 						);
 					} else {
-						this.showNotification(
-							{
-								title: 'Update Manager',
-								body: `You are using the latest version (v${app.getVersion()})`,
-								silent: true,
-							},
-							() => {
-								shell.openExternal(
-									'https://github.com/aiko-chan-ai/DiscordBotClient/releases',
-								);
-							},
-						);
+						if (forceEmitted)
+							this.showNotification(
+								{
+									title: 'Update Manager',
+									body: `You are using the latest version (v${app.getVersion()})`,
+									silent: true,
+								},
+								() => {
+									shell.openExternal(
+										'https://github.com/aiko-chan-ai/DiscordBotClient/releases',
+									);
+								},
+							);
 					}
 				})
 				.catch((e) => {

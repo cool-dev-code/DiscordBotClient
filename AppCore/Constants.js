@@ -115,4 +115,17 @@ aDVY0gxKUZfmbyKs2IBvXIZuKpKjhJHAXw8bxyHjS1qe2ycBGZAh9CskhacKdvkf
 	static PortDefault = 50000;
 	static TestVencordMode = false;
 	static CacheAssetsMode = false;
+	// Database
+	static DirectMessages = {
+		name: 'DMsData',
+		path: 'DirectMessages',
+	};
+	static PreloadedUserSettings = {
+		name: 'UserSettingsProto1',
+		path: 'PreloadedUserSettings',
+	};
+	static FrecencyUserSettings = {
+		name: 'UserSettingsProto2',
+		path: 'FrecencyUserSettings',
+	};
 };

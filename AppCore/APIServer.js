@@ -6,10 +6,12 @@ const path = require('path');
 const { readFileSync } = require('fs');
 const request = require('request');
 const { Writable } = require('stream');
+const { scope } = require('electron-log');
 
 class CustomLogStream extends Writable {
+	logger = scope('APIServer');
 	write(str) {
-		console.log('[APIServer]', str.replace(/\n/g, ''));
+		this.logger.info(str.replace(/\n/g, ''));
 	}
 }
 

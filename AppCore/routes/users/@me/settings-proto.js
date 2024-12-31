@@ -3,7 +3,7 @@ const {
 	PreloadedUserSettings,
 	FrecencyUserSettings,
 } = require('../../../../DiscordProtos');
-const database = require('../../../Database');
+const { PreloadedUserSettingsDB, FrecencyUserSettingsDB } = require('../../../database/index.js');
 const Util = require('../../../../AppAssets/Util');
 
 const app = Router();
@@ -14,11 +14,11 @@ app.all('/1', async (req, res) => {
 		return res.send({
 			settings: '',
 		});
-	const userData = await database.get(uid);
+	let userSettings = await PreloadedUserSettingsDB.get(uid);
 	if (req.method.toUpperCase() == 'GET') {
 		return res.send({
 			settings: PreloadedUserSettings.toBase64(
-				PreloadedUserSettings.create(userData.settingProto.data1),
+				PreloadedUserSettings.create(userSettings),
 			),
 		});
 	}
@@ -30,14 +30,12 @@ app.all('/1', async (req, res) => {
 			req.body?.settings || '',
 		);
 		for (const key in decoded) {
-			userData.settingProto.data1[key] = decoded[key];
+			userSettings[key] = decoded[key];
 		}
-		await database.set(uid, userData, {
-			force: true,
-		});
+		await PreloadedUserSettingsDB.set(uid, userSettings);
 		return res.send({
 			settings: PreloadedUserSettings.toBase64(
-				PreloadedUserSettings.create(userData.settingProto.data1),
+				PreloadedUserSettings.create(userSettings),
 			),
 		});
 	};
@@ -50,11 +48,11 @@ app.all('/2', async (req, res) => {
 		return res.send({
 			settings: '',
 		});
-	const userData = await database.get(uid);
+	let userSettings = await FrecencyUserSettingsDB.get(uid);
 	if (req.method.toUpperCase() == 'GET') {
 		return res.send({
 			settings: FrecencyUserSettings.toBase64(
-				FrecencyUserSettings.create(userData.settingProto.data2),
+				FrecencyUserSettings.create(userSettings),
 			),
 		});
 	}
@@ -66,14 +64,12 @@ app.all('/2', async (req, res) => {
 			req.body?.settings || '',
 		);
 		for (const key in decoded) {
-			userData.settingProto.data2[key] = decoded[key];
+			userSettings[key] = decoded[key];
 		}
-		await database.set(uid, userData, {
-			force: true,
-		});
+		await FrecencyUserSettingsDB.set(uid, userSettings);
 		return res.send({
-			settings: PreloadedUserSettings.toBase64(
-				PreloadedUserSettings.create(userData.settingProto.data2),
+			settings: FrecencyUserSettings.toBase64(
+				FrecencyUserSettings.create(userSettings),
 			),
 		});
 	};

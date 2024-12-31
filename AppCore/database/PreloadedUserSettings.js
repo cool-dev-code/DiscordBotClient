@@ -19,11 +19,9 @@ module.exports = class PreloadedUserSettings extends BaseDatabase {
 				} else {
 					data = this.deepConvertToBuffer(data);
 				}
-                /*
                 // Force override
 				data.userContent.dismissedContents =
 					SettingProto.PreloadedUserSettings.userContent.dismissedContents;
-                    */
 				resolve(data);
 			} catch (error) {
 				reject(error);

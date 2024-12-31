@@ -21,7 +21,8 @@ module.exports = async function GetSystemMessage() {
 			channel_id: Constants.ChannelIdDefault,
 			author: Constants.UserDefaultPatch,
 			attachments: [],
-			content: null,
+			content: `## Make sure to download this application from the official GitHub!  
+### Downloading it from untrusted sources could pose a risk to your computer and expose your private data.`,
 			embeds: [
 				{
 					type: 'rich',
